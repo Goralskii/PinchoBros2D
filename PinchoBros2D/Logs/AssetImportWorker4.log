@@ -1,0 +1,522 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 15742 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/GitHub/PinchoBros2D/PinchoBros2D
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50461
+Successfully changed project path to: D:/GitHub/PinchoBros2D/PinchoBros2D
+D:/GitHub/PinchoBros2D/PinchoBros2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23924] Host "[IP] 172.17.17.156 [Port] 0 [Flags] 2 [Guid] 2161980340 [EditorId] 2161980340 [Version] 1048832 [Id] WindowsEditor(7,PC-Impre3D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23924] Host "[IP] 172.17.17.156 [Port] 0 [Flags] 2 [Guid] 2161980340 [EditorId] 2161980340 [Version] 1048832 [Id] WindowsEditor(7,PC-Impre3D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 12.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/PinchoBros2D/PinchoBros2D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015091 seconds.
+- Loaded All Assemblies, in  0.394 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 285 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (396ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 1351ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.8 KB). Loaded Objects now: 4492.
+Memory consumption went from 150.4 MB to 150.2 MB.
+Total: 4.386100 ms (FindLiveObjects: 0.673800 ms CreateObjectMapping: 0.137500 ms MarkObjects: 3.271400 ms  DeleteObjects: 0.301900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BackgroundControl_0.cs: 12456443bd5e7e7d443418b85ed6311a -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ParallaxBackground_0.cs: dc6aa8fa75b49932f0d9e31140b20c35 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12105.228166 seconds.
+  path: Assets/TESTS/Nature_pixel_art_assets/Nature_tiles_01/nature_environment_01_125.asset
+  artifactKey: Guid(d639f97f19c00604ea494a0401b35582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Nature_pixel_art_assets/Nature_tiles_01/nature_environment_01_125.asset using Guid(d639f97f19c00604ea494a0401b35582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1893a1683fd1bfd9a7fb9a92c735d01') in 0.057558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 38.183006 seconds.
+  path: Assets/TESTS/Nature_pixel_art_assets/textures/nature_environment_01.png
+  artifactKey: Guid(962e67ff7370f0c4492dca70b64f89e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Nature_pixel_art_assets/textures/nature_environment_01.png using Guid(962e67ff7370f0c4492dca70b64f89e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5b194265a6b3d1263838ea7bae1920') in 0.403919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 55.608127 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_27.asset
+  artifactKey: Guid(c78ea8e617ea4994489ad3dd7813eda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_27.asset using Guid(c78ea8e617ea4994489ad3dd7813eda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4835ffc87a1fad22206b5a358efe30d') in 0.012811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_32.asset
+  artifactKey: Guid(d817ecb57405f0f4f9c4ef52e5c75f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_32.asset using Guid(d817ecb57405f0f4f9c4ef52e5c75f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6891574fd865f7e7432b4c5e5d95458') in 0.013126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_39.asset
+  artifactKey: Guid(247c0dddafd623948af5a54366d70c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_39.asset using Guid(247c0dddafd623948af5a54366d70c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0704fef2343e16ceaad6eb278aca265b') in 0.012362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_34.asset
+  artifactKey: Guid(ebf754f4e158b714b8f16f0f97c4fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_34.asset using Guid(ebf754f4e158b714b8f16f0f97c4fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d117959d83781b15188846e6eef0dfc') in 0.016783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_37.asset
+  artifactKey: Guid(0807d9bab08bd4346b4fa19f5200d283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_37.asset using Guid(0807d9bab08bd4346b4fa19f5200d283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b0ca13266cdb9e611093bada4bae21') in 0.012525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_30.asset
+  artifactKey: Guid(ba1c935446070124a9c673e06b77b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_30.asset using Guid(ba1c935446070124a9c673e06b77b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5118d44ae026236aaab3c0ad4aacb25b') in 0.013858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.605361 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_0.asset
+  artifactKey: Guid(178c70cc6b82f0c4a8e4a784a17913b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_0.asset using Guid(178c70cc6b82f0c4a8e4a784a17913b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1911b18d464e0bb612fd1b57858a368f') in 0.010564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_17.asset
+  artifactKey: Guid(4bc165b4324984f4f82e75ff30769987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_17.asset using Guid(4bc165b4324984f4f82e75ff30769987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcf68a7d67ac41402254e9178b024f6') in 0.011277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_2.asset
+  artifactKey: Guid(6804a2791e23eee489ff8c45307959db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_2.asset using Guid(6804a2791e23eee489ff8c45307959db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48528ce29027e302f82b66828472ddea') in 0.010743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_8.asset
+  artifactKey: Guid(fe11e4621245333459f13c962eaf7c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_8.asset using Guid(fe11e4621245333459f13c962eaf7c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebeb467682ec057e30530d8ccbb15609') in 0.011227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_7.asset
+  artifactKey: Guid(8dc7befb3fa66a3419a77ff62b0668f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_7.asset using Guid(8dc7befb3fa66a3419a77ff62b0668f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8f3c4b236f854f029176e6c54efd46') in 0.011267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_18.asset
+  artifactKey: Guid(72562c1d4dcd4184c86465423ddcbb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_18.asset using Guid(72562c1d4dcd4184c86465423ddcbb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbef2f3b222087d74bafc87fbd50764') in 0.010260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_19.asset
+  artifactKey: Guid(7791e9f274d6b3442bc518ef9f336a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_19.asset using Guid(7791e9f274d6b3442bc518ef9f336a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f061a4a021d8de86610153683bc79ec1') in 0.011485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_5.asset
+  artifactKey: Guid(726cea0782baca140a5539d8dd667167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_5.asset using Guid(726cea0782baca140a5539d8dd667167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f434f2adbdfa061fcdf8339f6cfcff62') in 0.010824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_25.asset
+  artifactKey: Guid(2dee4e45fd9161c4889937d7e1cfe4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_25.asset using Guid(2dee4e45fd9161c4889937d7e1cfe4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4b3b162d6ddcbcae0439b99eed17e2') in 0.011281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_6.asset
+  artifactKey: Guid(efb22d5bd62ea164594cc5d39340ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_6.asset using Guid(efb22d5bd62ea164594cc5d39340ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd58d5bd15ee8dcfe0f48c5502994b1') in 0.009788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_16.asset
+  artifactKey: Guid(60d429437fa15c043a5d8be3498367d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_16.asset using Guid(60d429437fa15c043a5d8be3498367d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14b1736f6548c6628016292236a1bf7') in 0.010990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_24.asset
+  artifactKey: Guid(91e74cbf4b49d5e4ea99df2732e2c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_24.asset using Guid(91e74cbf4b49d5e4ea99df2732e2c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2707241b054e5982e11deb76c48263') in 0.010254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imagenes/Paletas/Nature_props_01_10.asset
+  artifactKey: Guid(15aac0caf0838534492faba597e7dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/Nature_props_01_10.asset using Guid(15aac0caf0838534492faba597e7dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05031fea0eb6df4318631d00cc7f9fee') in 0.011372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 55.101071 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets
+  artifactKey: Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets using Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8da56d8e8000609e1b7ffb3be4c3820') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 145.089842 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Terrain/Terreno pixel adventure.prefab
+  artifactKey: Guid(2988a30fd94542448b539ab891c9d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Terrain/Terreno pixel adventure.prefab using Guid(2988a30fd94542448b539ab891c9d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc376019d21a73a5354c9d1b8711074') in 0.031579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 12.196546 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Terrain/Terreno pixel adventure.prefab
+  artifactKey: Guid(2988a30fd94542448b539ab891c9d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Terrain/Terreno pixel adventure.prefab using Guid(2988a30fd94542448b539ab891c9d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c5807e5a59b3a7f22bde0794f16873') in 0.057340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 299
+========================================================================
+Received Import Request.
+  Time since last request: 53.957015 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Terrain/Terreno pixel adventure.prefab
+  artifactKey: Guid(2988a30fd94542448b539ab891c9d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Terrain/Terreno pixel adventure.prefab using Guid(2988a30fd94542448b539ab891c9d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123e9c259c0bba9a589138dba659496a') in 0.048507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 299
+========================================================================
+Received Import Request.
+  Time since last request: 193.168517 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Other/Confetti (16x16).png
+  artifactKey: Guid(84e73c5fcbc3d324a9bebf3715abc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Other/Confetti (16x16).png using Guid(84e73c5fcbc3d324a9bebf3715abc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbcc2bb6ed9f6e0b2867564dcce60de') in 0.044481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Other/Transition.png
+  artifactKey: Guid(af34cad9a50a94c42b0907fd58d6f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Other/Transition.png using Guid(af34cad9a50a94c42b0907fd58d6f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7c2549d979285348b7bfd0faef8d89') in 0.023404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 51.715613 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png
+  artifactKey: Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png using Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f669b3f8dfe92bb6f030347dec0b107a') in 0.067655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.890967 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes
+  artifactKey: Guid(648ed3ed826419f4c96791acd0d924a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes using Guid(648ed3ed826419f4c96791acd0d924a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937a71b47e4c3b70f303629e4978222e') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.095387 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes/Box1
+  artifactKey: Guid(7a12092f6ff79404e9e7c4977fd075b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes/Box1 using Guid(7a12092f6ff79404e9e7c4977fd075b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebafe774a859e727079d02701bc9bc67') in 0.000385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058696 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png
+  artifactKey: Guid(79022f0c1a1c5ce42bcba2ca880ef7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes/Box1/Break (28x24).png using Guid(79022f0c1a1c5ce42bcba2ca880ef7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec51a12e9e93dfb73d66941b493efbdf') in 0.025703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 7.939095 seconds.
+  path: Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes/Box2/Break (28x24).png
+  artifactKey: Guid(a766483fddea6b64f827838e089d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TESTS/Pixel Adventure 1/Assets/Items/Boxes/Box2/Break (28x24).png using Guid(a766483fddea6b64f827838e089d1970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3af65cac4d7190cd8e37e0766af61e6') in 0.026242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 355.115046 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_0.asset
+  artifactKey: Guid(946a6164846fef24aac08d1757304f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_0.asset using Guid(946a6164846fef24aac08d1757304f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4966a1081e2d40106c69fe680cec9796') in 0.012561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_4.asset
+  artifactKey: Guid(a041ef249a3461c478f86dd24d15f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_4.asset using Guid(a041ef249a3461c478f86dd24d15f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bef3c52c9c8dba36acc186761bcc3b9') in 0.013418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_11.asset
+  artifactKey: Guid(540bdd1e36b5ede46bb389073e3b4baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_11.asset using Guid(540bdd1e36b5ede46bb389073e3b4baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dc1d67bb601797a5a594632ea44e4e') in 0.017148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_14.asset
+  artifactKey: Guid(d006bd76e00a3ef4187e80448219666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_14.asset using Guid(d006bd76e00a3ef4187e80448219666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f471f0f39d6dbdb64f1271817f4642d2') in 0.015021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_10.asset
+  artifactKey: Guid(bc43a0492f049284cbfe45fb3921e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_10.asset using Guid(bc43a0492f049284cbfe45fb3921e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da58ef93429c5c2b860a4d326141055') in 0.012085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_8.asset
+  artifactKey: Guid(88c8c51a4dc6d3c479118961b817e67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_8.asset using Guid(88c8c51a4dc6d3c479118961b817e67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e3d41c85dfc3d296760f6904c7686e') in 0.011847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_5.asset
+  artifactKey: Guid(412beff43aa8bee419643214c3838d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_5.asset using Guid(412beff43aa8bee419643214c3838d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd14039a78a097954cc1ebc0b05a212a') in 0.012080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_7.asset
+  artifactKey: Guid(6f764a05dd3078f48ba34f6756fcfe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_7.asset using Guid(6f764a05dd3078f48ba34f6756fcfe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca26a046fc880c8bc121d15961886aee') in 0.016094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imagenes/Paletas/nature_environment_01_6.asset
+  artifactKey: Guid(abc6303267ec2064592a53924a1b224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Paletas/nature_environment_01_6.asset using Guid(abc6303267ec2064592a53924a1b224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475239d5e397625238601f7ac45c52f9') in 0.013495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
