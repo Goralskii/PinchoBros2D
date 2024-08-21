@@ -47,20 +47,37 @@ public class ControlDeJugador : MonoBehaviour
             rb2D.velocity = new Vector2(0,rb2D.velocity.y);
         }
 
-        if (Input.GetKey("w") && _comprobarSuelo.enSuelo)
+        if (_comprobarSuelo.enSuelo)
         {
-            rb2D.velocity= new Vector2(rb2D.velocity.x,JumpSpeed);
+            animator.SetBool("enSuelo", true);
+            if (Input.GetKey("w") || Input.GetKey("up"))
+            {
+                rb2D.velocity = new Vector2(rb2D.velocity.x, JumpSpeed);
+                animator.SetBool("saltando", true);
+                animator.SetBool("levantarse", true) ;
+            }
         }
 
-        if(rb2D.velocity.x == 0)
+        if (rb2D.velocity.x == 0)
         {
             animator.SetBool("reposo", true);
+
+            if (Input.GetKey("s") || Input.GetKey("down"))
+            {
+                animator.SetBool("sentarse", true);
+            }
         }
-        /*float velocidadX = Input.GetAxis("Horizontal")*Time.deltaTime*velocidad;
-
-        Vector3 posicion = transform.position;
-
-        transform.position = new Vector3(velocidadX + posicion.x, posicion.y, posicion.z);*/
-
+        //if(rb2D.velocity.x == 0)
+        //{
+        //    animator.SetBool("reposo", true);
+        //    if (Input.GetKey("s") || Input.GetKey("down"))
+        //    {
+        //        animator.SetBool("sentarse", true) ;
+        //    }
+        //    else if (Input.GetKey("space"))
+        //    {
+        //        animator.SetBool("levantarse", true);
+        //    }
+        //}
     }
 }
