@@ -12,7 +12,7 @@ public class MovimientoDelJugador : MonoBehaviour
 
     public Rigidbody2D rb2D;
 
-    public ComprobarSuelo _comprobarSuelo;
+    public ControlJugador _controlJugador;
 
 
     public Animator animator;
@@ -46,7 +46,7 @@ public class MovimientoDelJugador : MonoBehaviour
             rb2D.velocity = new Vector2(0, rb2D.velocity.y);
         }
 
-        if (_comprobarSuelo.enSuelo)
+        if (_controlJugador.enSuelo)
         {
             animator.SetBool("enSuelo", true);
 
