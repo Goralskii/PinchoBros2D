@@ -7354,7 +7354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 6
-  JumpSpeed: 5
+  JumpSpeed: 5.5
   rb2D: {fileID: 804349730}
   _controlJugador: {fileID: 804349737}
   animator: {fileID: 804349731}
