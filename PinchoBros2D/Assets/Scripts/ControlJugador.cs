@@ -13,11 +13,17 @@ public class ControlJugador : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        enSuelo = true;
+        
+        if (collision.CompareTag("Suelo"))
+        {
+            enSuelo = true;
+        }
+
         if (collision.CompareTag("Limite"))
         {
             Debug.Log("Derrota");
             FueraDeMapa = true;
+            enSuelo = false;
         }
     }
 

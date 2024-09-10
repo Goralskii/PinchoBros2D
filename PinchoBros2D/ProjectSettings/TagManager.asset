@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Limite
+  - Suelo
   layers:
   - Default
   - TransparentFX
