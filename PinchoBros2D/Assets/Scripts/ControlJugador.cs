@@ -10,10 +10,8 @@ public class ControlJugador : MonoBehaviour
     public int puntaje;
     public int Vidas;
 
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        
         if (collision.CompareTag("Suelo"))
         {
             enSuelo = true;
@@ -24,6 +22,8 @@ public class ControlJugador : MonoBehaviour
             Debug.Log("Derrota");
             FueraDeMapa = true;
             enSuelo = false;
+            Vidas = Vidas - 1;
+            Debug.Log("vidas restantes: "+ Vidas);
         }
     }
 

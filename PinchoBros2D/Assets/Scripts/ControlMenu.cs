@@ -9,6 +9,9 @@ public class ControlMenu : MonoBehaviour
     public bool enPausa = true;
     public MovimientoDelJugador MovimientoDelJugador;
     public GameObject juegoTerminado;
+    public GameObject HUD;
+
+    public bool inGame = false;
     void Start()
     {
         
@@ -29,8 +32,10 @@ public class ControlMenu : MonoBehaviour
     public void BotonJugar()
     {
         MenuPrincipal.SetActive(false);
+        HUD.SetActive(true);
         enPausa = false;
         MovimientoDelJugador.enabled = true;
+        inGame = true;
     }
 
     public void FinDelJuego()

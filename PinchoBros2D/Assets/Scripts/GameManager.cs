@@ -21,6 +21,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        ActivarPanelFinJuego();
+    }
+
+    private void ActivarPanelFinJuego()
+    {
         if (controlJugador.FueraDeMapa == true)
         {
             controlMenu.FinDelJuego();
