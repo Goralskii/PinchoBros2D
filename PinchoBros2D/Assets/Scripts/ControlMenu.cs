@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ControlMenu : MonoBehaviour
 {
@@ -41,5 +43,14 @@ public class ControlMenu : MonoBehaviour
     public void FinDelJuego()
     {
         juegoTerminado.SetActive(true);
+    }
+
+    public void ReloadScene()
+    {
+        // Obtener el índice de la escena actual
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // Recargar la escena actual
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }

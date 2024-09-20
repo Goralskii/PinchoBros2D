@@ -18,21 +18,6 @@ public class HUDManager : MonoBehaviour
 
     void Update()
     {
-        if (_controlJugador.FueraDeMapa == true)
-        {
-            ControlarVidas();
-        }
-    }
-
-            
-
-    private void ControlarVidas()
-    {
-
-        if (_controlJugador.Vidas >= 0)
-        {
-            PanelVidas1[_controlJugador.Vidas + 1].GetComponent<Image>().enabled = false;
-
-        }
+        
     }
 }

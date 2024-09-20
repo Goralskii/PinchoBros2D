@@ -22,7 +22,7 @@ public class ControlJugador : MonoBehaviour
             Debug.Log("Derrota");
             FueraDeMapa = true;
             enSuelo = false;
-            Vidas = Vidas - 1;
+            Vidas -= 1;
             Debug.Log("vidas restantes: "+ Vidas);
         }
     }
