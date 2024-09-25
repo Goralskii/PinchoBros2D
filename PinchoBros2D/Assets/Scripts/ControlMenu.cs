@@ -45,12 +45,4 @@ public class ControlMenu : MonoBehaviour
         juegoTerminado.SetActive(true);
     }
 
-    public void ReloadScene()
-    {
-        // Obtener el índice de la escena actual
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
-        // Recargar la escena actual
-        SceneManager.LoadScene(currentSceneIndex);
-    }
 }
