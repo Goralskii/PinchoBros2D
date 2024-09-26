@@ -43,6 +43,16 @@ public class ControlMenu : MonoBehaviour
     public void FinDelJuego()
     {
         juegoTerminado.SetActive(true);
+        MovimientoDelJugador.enabled = false;
+        enPausa = true;
+        StartCoroutine(DelayAntesDeRecargar());
+    }
+
+
+    private IEnumerator DelayAntesDeRecargar()
+    {
+        // Espera de 5 segundos
+        yield return new WaitForSeconds(5f);
     }
 
 }

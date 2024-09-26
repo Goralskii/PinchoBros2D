@@ -17,12 +17,12 @@ public class ControlJugador : MonoBehaviour
             enSuelo = true;
         }
 
-        if (collision.CompareTag("Limite"))
+        if (collision.CompareTag("Limite"))//estará colisionando dos veces?
         {
             Debug.Log("Derrota");
             FueraDeMapa = true;
-            enSuelo = false;
             Vidas -= 1;
+            enSuelo = false;
             Debug.Log("vidas restantes: "+ Vidas);
         }
     }

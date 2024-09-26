@@ -45,22 +45,10 @@ public class GameManager : MonoBehaviour
         if (_controlJugador.FueraDeMapa == true && _controlJugador.Vidas < 0)
         {
             _controlMenu.FinDelJuego();
-            Debug.Log("activar panel game over");
-            _controlMenu.enPausa = true;
-
-            // Iniciar la corrutina para agregar el delay
-            StartCoroutine(DelayAntesDeRecargar());
+            ReloadScene();  
         }
     }
 
-    private IEnumerator DelayAntesDeRecargar()
-    {
-        // Espera de 5 segundos
-        yield return new WaitForSeconds(5f);
-
-        // Llamar a la función ReloadScene
-        ReloadScene();
-    }
 
 
     public void Respawn()
@@ -72,24 +60,13 @@ public class GameManager : MonoBehaviour
 
     private void ControlarVidas()
     {
-        int indice = _controlJugador.Vidas + 1;
-
-        // Verificar que el índice esté dentro de los límites del array
-        if (indice >= 0 && indice < _hudManager.PanelVidas1.Length)
+        int indice = _controlJugador.Vidas;
+        if (indice >= 0)
         {
             _hudManager.PanelVidas1[indice].GetComponent<Image>().enabled = false;
         }
-        else
-        {
-            Debug.LogWarning("El índice está fuera de rango: " + indice);
-        }
+       
     }
-
-
-    //private void ControlarVidas()
-    //{
-    //   _hudManager.PanelVidas1[_controlJugador.Vidas + 1].GetComponent<Image>().enabled = false;
-    //}
 
     public void ReloadScene()
     {
@@ -100,14 +77,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
     }
 
-    public void Pausa()
-    {
-        if (_controlMenu.enPausa == true)
-        {
-            _controlMenu.enPausa = false;
-        }else if (_controlMenu.enPausa == false)
-        {
-            _controlMenu.enPausa = true;
-        }
-    }
+    //public void Pausa()
+    //{
+    //    if (_controlMenu.enPausa == true)
+    //    {
+    //        _controlMenu.enPausa = false;
+    //    }else if (_controlMenu.enPausa == false)
+    //    {
+    //        _controlMenu.enPausa = true;
+    //    }
+    //}
 }
