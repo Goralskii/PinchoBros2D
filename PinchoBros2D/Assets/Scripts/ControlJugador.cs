@@ -10,6 +10,7 @@ public class ControlJugador : MonoBehaviour
     [Header("Stats")]
     public int puntaje;
     public int Vidas;
+    public int Gotas;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {

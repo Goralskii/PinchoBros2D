@@ -5023,6 +5023,7 @@ MonoBehaviour:
   - {fileID: 1462856969}
   - {fileID: 1377744605}
   - {fileID: 223996717}
+  gotasRecolectadas: {fileID: 1304300676}
 --- !u!4 &192361259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 613921184268407708, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
@@ -7163,7 +7164,7 @@ Transform:
   m_GameObject: {fileID: 633027089}
   serializedVersion: 2
   m_LocalRotation: {x: -2.1175824e-22, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5132265, y: -0.98, z: -5}
+  m_LocalPosition: {x: -6.5132265, y: -0.9450002, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7721,7 +7722,7 @@ Transform:
   m_GameObject: {fileID: 804349729}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.9, y: -4.48, z: 0}
+  m_LocalPosition: {x: -11.9, y: -4.445, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7800,6 +7801,7 @@ MonoBehaviour:
   FueraDeMapa: 0
   puntaje: 0
   Vidas: 3
+  Gotas: 0
 --- !u!4 &878770852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 613921184268407708, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
@@ -7899,7 +7901,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -2.1175824e-22, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3751755, y: -0.9519448, z: -5}
+  m_LocalPosition: {x: -1.3753662, y: -0.9169464, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8172,10 +8174,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 152999373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.324, y: 0.89500004}
-  m_AnchorMax: {x: 0.35000002, y: 0.94500005}
-  m_AnchoredPosition: {x: -0.3999939, y: 0.32702637}
-  m_SizeDelta: {x: -2.5562, y: -1.7330017}
+  m_AnchorMin: {x: 0.31570837, y: 0.878}
+  m_AnchorMax: {x: 0.358, y: 0.961}
+  m_AnchoredPosition: {x: -0.3999939, y: 0.82702637}
+  m_SizeDelta: {x: -2.0648003, y: -1.6905994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1084612714
 MonoBehaviour:
@@ -8197,7 +8199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 837517196756356485, guid: 131e485692e27e84c86170dad18cda85, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8655,8 +8657,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.36900002, y: 0.89500004}
   m_AnchorMax: {x: 0.39800003, y: 0.943}
-  m_AnchoredPosition: {x: -0.5, y: 0}
-  m_SizeDelta: {x: -0.808197, y: 0.07450104}
+  m_AnchoredPosition: {x: 4.0997, y: 0}
+  m_SizeDelta: {x: 8.3913, y: 0.0745}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304300676
 MonoBehaviour:
@@ -8931,6 +8933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1577084930}
+  - component: {fileID: 1577084931}
   m_Layer: 0
   m_Name: Frutas
   m_TagString: Untagged
@@ -8971,6 +8974,20 @@ Transform:
   - {fileID: 2142537115}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1577084931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577084929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95cb9e9e3e2b4354b9e7cee6d72257e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hudManager: {fileID: 152999376}
+  _jugador: {fileID: 804349737}
 --- !u!1 &1579057954
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Limite
   - Suelo
+  - Gota
   layers:
   - Default
   - TransparentFX
