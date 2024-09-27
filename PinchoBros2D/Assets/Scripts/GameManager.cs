@@ -37,15 +37,20 @@ public class GameManager : MonoBehaviour
         {
             // Reinicia la posición del personaje a la posición inicial
             Respawn();
-        }
+        }  
     }
-
     private void ActivarPanelFinJuego()
     {
-        if (_controlJugador.FueraDeMapa == true && _controlJugador.Vidas < 0)
+        // Comprobamos si se cumple la condición de vidas y si el jugador está fuera del mapa
+        if (_controlJugador.FueraDeMapa == true  && _controlJugador.Vidas < 0)
         {
+            Debug.Log("Fin del juego. Vidas agotadas.");
             _controlMenu.FinDelJuego();
-            ReloadScene();  
+            StartCoroutine(DelayAntesDeRecargar()); // Inicia el retraso antes de recargar
+        }
+        else
+        {
+            Debug.Log("El juego aún continúa.");
         }
     }
 
@@ -77,14 +82,12 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
     }
 
-    //public void Pausa()
-    //{
-    //    if (_controlMenu.enPausa == true)
-    //    {
-    //        _controlMenu.enPausa = false;
-    //    }else if (_controlMenu.enPausa == false)
-    //    {
-    //        _controlMenu.enPausa = true;
-    //    }
-    //}
+    private IEnumerator DelayAntesDeRecargar()
+    {
+        Debug.Log("Iniciando cuenta regresiva de 5 segundos...");
+        yield return new WaitForSeconds(5f);
+
+        Debug.Log("Recargando escena...");
+        ReloadScene();
+    }
 }

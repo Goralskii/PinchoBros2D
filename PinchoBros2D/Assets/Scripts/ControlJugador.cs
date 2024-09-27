@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ControlJugador : MonoBehaviour
@@ -17,14 +18,23 @@ public class ControlJugador : MonoBehaviour
             enSuelo = true;
         }
 
-        if (collision.CompareTag("Limite"))//estará colisionando dos veces?
+        if (collision.CompareTag("Limite") && !FueraDeMapa) // Solo se ejecuta si aún no está fuera del mapa
         {
             Debug.Log("Derrota");
             FueraDeMapa = true;
-            Vidas -= 1;
+            RestarVida();
             enSuelo = false;
-            Debug.Log("vidas restantes: "+ Vidas);
+            Debug.Log("vidas restantes: " + Vidas);
         }
+    }
+
+
+    public void RestarVida()
+    {
+       if (FueraDeMapa)
+        {
+            Vidas -= 1;
+        } 
     }
 
     public void OnTriggerExit2D(Collider2D collision)
