@@ -27,6 +27,10 @@ public class ControlJugador : MonoBehaviour
             Debug.Log("vidas restantes: " + Vidas);
         }
     }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        enSuelo = false;
+    }
 
 
     public void RestarVida()
@@ -37,9 +41,6 @@ public class ControlJugador : MonoBehaviour
         } 
     }
 
-    public void OnTriggerExit2D(Collider2D collision)
-    {
-        enSuelo = false;
-    }
+
 
 }
