@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
+    public int tiempo = 300;
+
     void Start()
     {
 
@@ -31,27 +33,31 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        ActivarPanelFinJuego();
         // Verifica si el personaje está fuera del mapa
         if (_controlJugador.FueraDeMapa)
         {
+            //Si se quedo sin vidas
+            ActivarPanelFinJuego();
             // Reinicia la posición del personaje a la posición inicial
             Respawn();
+            
         }  
     }
     private void ActivarPanelFinJuego()
     {
         // Comprobamos si se cumple la condición de vidas y si el jugador está fuera del mapa
-        if (_controlJugador.FueraDeMapa == true  && _controlJugador.Vidas < 0)
+        if (_controlJugador.Vidas < 0)
         {
             Debug.Log("Fin del juego. Vidas agotadas.");
             _controlMenu.FinDelJuego();
-            StartCoroutine(DelayAntesDeRecargar()); // Inicia el retraso antes de recargar
+            StartCoroutine(DelayAntesDeRecargar());            
         }
-        else
+        else if (tiempo == 0)
         {
-            Debug.Log("El juego aún continúa.");
+            StartCoroutine(DecrementarTiempo());
         }
+
+
     }
 
 
@@ -84,10 +90,21 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator DelayAntesDeRecargar()
     {
-        Debug.Log("Iniciando cuenta regresiva de 5 segundos...");
-        yield return new WaitForSeconds(5f);
+        Debug.Log("Iniciando cuenta regresiva de 3 segundos...");
+        yield return new WaitForSeconds(3f);
 
-        Debug.Log("Recargando escena...");
         ReloadScene();
     }
+
+    public IEnumerator DecrementarTiempo()
+    {
+        for (tiempo = 300;  tiempo > 0; tiempo--)
+        {
+            Debug.Log("decrementando tiempo " + tiempo);
+            yield return new WaitForSeconds(1f);
+        }
+
+        Debug.Log("¡Tiempo finalizado!");
+    }
+
 }

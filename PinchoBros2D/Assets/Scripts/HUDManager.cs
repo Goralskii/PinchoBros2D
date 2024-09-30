@@ -7,10 +7,17 @@ public class HUDManager : MonoBehaviour
 {
 
     public ControlJugador _controlJugador;
+    public GameManager gameManager;
+
     public GameObject[] PanelVidas0;
     public GameObject[] PanelVidas1;
 
     public Text gotasRecolectadas;
+
+    public Text puntajeDeNivel;
+
+    public Text Tiempo;
+
 
     void Start()
     {
@@ -20,12 +27,9 @@ public class HUDManager : MonoBehaviour
 
     void Update()
     {
-        PuntajeGotas();
-    }
-
-    public void PuntajeGotas()
-    {
         gotasRecolectadas.text = _controlJugador.Gotas.ToString();
-    }
+        puntajeDeNivel.text = _controlJugador.puntaje.ToString();
+        Tiempo.text = gameManager.tiempo.ToString();
 
+    }
 }

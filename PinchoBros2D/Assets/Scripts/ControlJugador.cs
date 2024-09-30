@@ -27,6 +27,12 @@ public class ControlJugador : MonoBehaviour
             enSuelo = false;
             Debug.Log("vidas restantes: " + Vidas);
         }
+
+        if (collision.CompareTag("Gota"))
+        {
+            Gotas += 1;
+            SumarPuntaje();
+        }
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
@@ -42,6 +48,8 @@ public class ControlJugador : MonoBehaviour
         } 
     }
 
-
-
+    public void SumarPuntaje()
+    {
+        puntaje = Gotas * 100;
+    }
 }

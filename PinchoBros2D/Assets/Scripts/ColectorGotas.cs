@@ -13,7 +13,6 @@ public class ColectorGotas : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            _jugador.Gotas += 1;//esto no va aca
             Destroy(gameObject,0.5f);
         }
     }

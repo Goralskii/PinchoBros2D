@@ -44,7 +44,6 @@ public class ControlMenu : MonoBehaviour
     {
         juegoTerminado.SetActive(true);
         MovimientoDelJugador.enabled = false;
-        enPausa = true;
     }
 
     public void Pausa()

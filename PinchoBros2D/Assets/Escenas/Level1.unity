@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 88493872}
   - component: {fileID: 88493874}
   m_Layer: 0
-  m_Name: Tilemap (0)
+  m_Name: Suelo
   m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5015,6 +5015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _controlJugador: {fileID: 804349737}
+  gameManager: {fileID: 453983638}
   PanelVidas0:
   - {fileID: 2121668752}
   - {fileID: 586379490}
@@ -5024,6 +5025,8 @@ MonoBehaviour:
   - {fileID: 1377744605}
   - {fileID: 223996717}
   gotasRecolectadas: {fileID: 1304300676}
+  puntajeDeNivel: {fileID: 762432695}
+  Tiempo: {fileID: 2009711529}
 --- !u!4 &192361259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 613921184268407708, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
@@ -5155,6 +5158,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5435,6 +5442,8 @@ MonoBehaviour:
   _controlCamara: {fileID: 963194231}
   _controlMenu: {fileID: 254951395}
   _hudManager: {fileID: 152999376}
+  tiempo: 300
+  Delay: 0
 --- !u!1 &278269829
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,6 +5707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5754,6 +5767,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5812,6 +5829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5852,6 +5873,8 @@ MonoBehaviour:
   _controlCamara: {fileID: 963194231}
   _controlMenu: {fileID: 254951395}
   _hudManager: {fileID: 152999376}
+  tiempo: 300
+  Delay: 3
 --- !u!4 &453983639
 Transform:
   m_ObjectHideFlags: 0
@@ -5884,7 +5907,7 @@ GameObject:
   - component: {fileID: 492276329}
   - component: {fileID: 492276328}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: ObjetosVisuales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6879,6 +6902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6953,7 +6980,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.027596474, y: -0.06322974}
+  m_Offset: {x: 0.026702464, y: -0.06323701}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6964,7 +6991,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0846653, y: 0.0064578056}
+  m_Size: {x: 0.09352386, y: 0.006678939}
   m_EdgeRadius: 0
 --- !u!1 &586379490
 GameObject:
@@ -7092,6 +7119,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7407,6 +7438,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7782,8 +7817,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.009331532, y: -0.011453646}
-  m_Size: {x: 0.11609501, y: 0.09410283}
+  m_Offset: {x: 0.0160328, y: -0.016234588}
+  m_Size: {x: 0.12949786, y: 0.0868345}
   m_Direction: 1
 --- !u!114 &804349737
 MonoBehaviour:
@@ -8080,6 +8115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8136,6 +8175,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8484,6 +8527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8540,6 +8587,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8833,6 +8884,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9420,6 +9475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9976,6 +10035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10195,6 +10258,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10554,6 +10621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10727,6 +10798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pineapple (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10788,6 +10863,10 @@ PrefabInstance:
     - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
       propertyPath: m_Name
       value: Pineapple
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033273915315174750, guid: 6ec0523875fe79e448f6dd82eb866aca, type: 3}
+      propertyPath: m_TagString
+      value: Gota
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
