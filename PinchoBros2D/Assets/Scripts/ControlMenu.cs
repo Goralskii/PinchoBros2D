@@ -7,13 +7,19 @@ using UnityEngine.SceneManagement;
 public class ControlMenu : MonoBehaviour
 {
     public static ControlMenu instance;
-    public GameObject MenuPrincipal;
+    [Header("Referencias")]
+    public MovimientoDelJugador _movimientoDelJugador;
+    public GameManager _gameManager;
+    [Header("Booleanos")]
     public bool enPausa = true;
-    public MovimientoDelJugador MovimientoDelJugador;
+    [Header("Paneles")]
     public GameObject juegoTerminado;
     public GameObject HUD;
+    public GameObject MenuPrincipal;
+    public GameObject PanelPausa;
 
-    public bool inGame = false;
+
+
     void Start()
     {
         
@@ -36,14 +42,14 @@ public class ControlMenu : MonoBehaviour
         MenuPrincipal.SetActive(false);
         HUD.SetActive(true);
         enPausa = false;
-        MovimientoDelJugador.enabled = true;
-        inGame = true;
+        _movimientoDelJugador.enabled = true;
+        _gameManager.inGame = true;
+        
     }
 
     public void FinDelJuego()
     {
         juegoTerminado.SetActive(true);
-        MovimientoDelJugador.enabled = false;
     }
 
     public void Pausa()
@@ -51,13 +57,12 @@ public class ControlMenu : MonoBehaviour
         if (enPausa == true)
         {
             enPausa = false;
+            PanelPausa.SetActive(false);
         }
         else if (enPausa == false)
         {
             enPausa = true;
+            PanelPausa.SetActive(true);
         }
     }
-
-
-
 }

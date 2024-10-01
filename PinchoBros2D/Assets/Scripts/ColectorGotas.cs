@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColectorGotas : MonoBehaviour
 {
-
+    [Header("Referencias")]
     public HUDManager _hudManager;
     public ControlJugador _jugador;
     private void OnTriggerEnter2D(Collider2D collision)

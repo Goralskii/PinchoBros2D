@@ -22,9 +22,13 @@ public class GameManager : MonoBehaviour
     public ControlMenu _controlMenu;
     public HUDManager _hudManager;
 
+    [Header("Variables Publicas")]
+    public bool inGame = false;
+    public float tiempo = 300f; // El valor inicial de la cuenta regresiva (300 segundos o cualquier valor deseado)
+
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
-    public int tiempo = 300;
+  
 
     void Start()
     {
@@ -33,6 +37,17 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        //verifica si ya comenzo el juego y empieza a correr el tiempo
+        if (inGame)
+        {
+            tiempo -= Time.deltaTime;
+            if (tiempo <= 0)
+            {
+                ActivarPanelFinJuego();
+            }
+            _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
+        }
+
         // Verifica si el personaje está fuera del mapa
         if (_controlJugador.FueraDeMapa)
         {
@@ -50,14 +65,10 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Fin del juego. Vidas agotadas.");
             _controlMenu.FinDelJuego();
-            StartCoroutine(DelayAntesDeRecargar());            
+            Destroy(pinchoObj,0.5f);
+            StartCoroutine(DelayAntesDeRecargar());
+            
         }
-        else if (tiempo == 0)
-        {
-            StartCoroutine(DecrementarTiempo());
-        }
-
-
     }
 
 
@@ -90,21 +101,11 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator DelayAntesDeRecargar()
     {
-        Debug.Log("Iniciando cuenta regresiva de 3 segundos...");
-        yield return new WaitForSeconds(3f);
+        Debug.Log("Iniciando cuenta regresiva de 5 segundos...");
+        yield return new WaitForSeconds(5f);
 
         ReloadScene();
     }
 
-    public IEnumerator DecrementarTiempo()
-    {
-        for (tiempo = 300;  tiempo > 0; tiempo--)
-        {
-            Debug.Log("decrementando tiempo " + tiempo);
-            yield return new WaitForSeconds(1f);
-        }
-
-        Debug.Log("¡Tiempo finalizado!");
-    }
 
 }
