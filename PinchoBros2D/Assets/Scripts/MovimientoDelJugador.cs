@@ -12,15 +12,14 @@ public class MovimientoDelJugador : MonoBehaviour
 
     public Rigidbody2D rb2D;
 
+    [Header("Referencias")]
     public ControlJugador _controlJugador;
-
-
+    [Header("Animaciones")]
     public Animator animator;
     public SpriteRenderer pinchoSprite;
-
+    [Header("Variables")]
     public float maxJumpTime = 0.35f;  // El tiempo máximo que puede durar el salto
     private float jumpTimeCounter;
-
     public float acceleration = 0.1f;
     public float deceleration = 0.1f;
     private float currentSpeed = 0f;

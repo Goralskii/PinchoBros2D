@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class ControlJugador : MonoBehaviour
 {
-    public bool enSuelo;
+    [Header("Estados")]
     public bool FueraDeMapa;
+    public bool enSuelo;
     [Header("Stats")]
     public int puntaje;
     public int Vidas;
@@ -14,31 +15,43 @@ public class ControlJugador : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Suelo"))
-        {
-            enSuelo = true;
-        }
-
         if (collision.CompareTag("Limite") && !FueraDeMapa) // Solo se ejecuta si aún no está fuera del mapa
         {
             Debug.Log("Derrota");
             FueraDeMapa = true;
             RestarVida();
-            enSuelo = false;
             Debug.Log("vidas restantes: " + Vidas);
         }
 
         if (collision.CompareTag("Gota"))
         {
             Gotas += 1;
-            SumarPuntaje();
+            puntaje += Gotas * 100;
+        }
+
+        //if (collision.CompareTag("Suelo"))
+        //{
+        //    enSuelo = true;
+        //}
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Suelo")
+        {
+            enSuelo = true;
         }
     }
-    public void OnTriggerExit2D(Collider2D collision)
+
+    private void OnCollisionExit2D(Collision2D collision)
     {
         enSuelo = false;
     }
 
+    void Update()
+    {
+        
+    }
 
     public void RestarVida()
     {
@@ -46,10 +59,5 @@ public class ControlJugador : MonoBehaviour
         {
             Vidas -= 1;
         } 
-    }
-
-    public void SumarPuntaje()
-    {
-        puntaje = Gotas * 100;
     }
 }

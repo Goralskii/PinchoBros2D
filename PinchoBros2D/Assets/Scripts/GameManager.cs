@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Fin del juego. Vidas agotadas.");
             _controlMenu.FinDelJuego();
-            Destroy(pinchoObj,0.5f);
+            Destroy(pinchoObj,0.1f);
             StartCoroutine(DelayAntesDeRecargar());
             
         }
