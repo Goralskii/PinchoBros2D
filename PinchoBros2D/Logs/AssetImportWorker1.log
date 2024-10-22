@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 15742 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16164 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65393
+65301
 Successfully changed project path to: D:/GitHub/PinchoBros2D/PinchoBros2D
 D:/GitHub/PinchoBros2D/PinchoBros2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2568] Host "[IP] 172.17.17.156 [Port] 0 [Flags] 2 [Guid] 689983658 [EditorId] 689983658 [Version] 1048832 [Id] WindowsEditor(7,PC-Impre3D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16636] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 808299244 [EditorId] 808299244 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2568] Host "[IP] 172.17.17.156 [Port] 0 [Flags] 2 [Guid] 689983658 [EditorId] 689983658 [Version] 1048832 [Id] WindowsEditor(7,PC-Impre3D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16636] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 808299244 [EditorId] 808299244 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 11.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -62,57 +62,59 @@ Initialize engine version: 2022.3.19f1 (244b723c30a6)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   NVIDIA
-    VRAM:     10053 MB
-    Driver:   32.0.15.6109
+    VRAM:     8024 MB
+    Driver:   32.0.15.6070
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015298 seconds.
-- Loaded All Assemblies, in  0.362 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013508 seconds.
+- Loaded All Assemblies, in  0.416 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 241 ms
+Android Extension - Scanning For ADB Devices 714 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.548 seconds
-Domain Reload Profiling: 908ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  1.070 seconds
+Domain Reload Profiling: 1485ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (107ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (548ms)
+	FinalizeReload (1071ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (495ms)
+		SetupLoadedEditorAssemblies (1011ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (341ms)
+			InitializePlatformSupportModulesInManaged (833ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +122,9 @@ Domain Reload Profiling: 908ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.867 seconds
-Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +133,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.648 seconds
-Domain Reload Profiling: 1513ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1468ms
+	BeginReloadAssembly (175ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (600ms)
-		LoadAssemblies (514ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (328ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (138ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (649ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (738ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (550ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (330ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.77 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (316.6 KB). Loaded Objects now: 4664.
-Memory consumption went from 154.3 MB to 154.0 MB.
-Total: 3.848700 ms (FindLiveObjects: 0.409400 ms CreateObjectMapping: 0.139700 ms MarkObjects: 3.046000 ms  DeleteObjects: 0.252600 ms)
+Unloading 4206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (135.5 KB). Loaded Objects now: 4669.
+Memory consumption went from 154.1 MB to 153.9 MB.
+Total: 3.663100 ms (FindLiveObjects: 0.347600 ms CreateObjectMapping: 0.301300 ms MarkObjects: 2.866700 ms  DeleteObjects: 0.146800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,258 +190,434 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 264944.587129 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00000.png
-  artifactKey: Guid(2914adabde7d91c4c97efa3654c4623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00000.png using Guid(2914adabde7d91c4c97efa3654c4623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24555a07d01085a1b694901b411eb883') in 0.085295 seconds
+  Time since last request: 9351.251454 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00093.png
+  artifactKey: Guid(ff4148ffea11e8e43a62922ac173d57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00093.png using Guid(ff4148ffea11e8e43a62922ac173d57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990b27f4a01097870145332ed46cecf3') in 0.387107 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00005.png
-  artifactKey: Guid(03332734ddc3a3449ba7028e0cd7f746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00005.png using Guid(03332734ddc3a3449ba7028e0cd7f746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ad72067a649e64c27d09b8156da907') in 0.029263 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00088.png
+  artifactKey: Guid(5af5f28ac0564944481cdf98ee9c84e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00088.png using Guid(5af5f28ac0564944481cdf98ee9c84e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f777792c65632f1ea292c1d1888ca9af') in 0.018240 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00016.png
-  artifactKey: Guid(491d45134f0841c4aa248f5f2c6cc659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00016.png using Guid(491d45134f0841c4aa248f5f2c6cc659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e82c82f2d9752d0de5cf249f4a25e1') in 0.025360 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00098.png
+  artifactKey: Guid(d1abbd92b1148794e90e918721d40c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00098.png using Guid(d1abbd92b1148794e90e918721d40c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7acd743808c73f1d63b829c085e057') in 0.016395 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00008.png
-  artifactKey: Guid(a233b1582b6738f42a55a03c7c0c0b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00008.png using Guid(a233b1582b6738f42a55a03c7c0c0b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956d714c55e4b29028cbb2be3173d9c3') in 0.024264 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00089.png
+  artifactKey: Guid(e626b974899abfa4c89c40d3da310045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00089.png using Guid(e626b974899abfa4c89c40d3da310045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2acffe2be61a49725d666bcaf19173') in 0.014731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 980.428811 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00001.png
+  artifactKey: Guid(b8e362bea5c368946803e8ebdf49172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00001.png using Guid(b8e362bea5c368946803e8ebdf49172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5ed5809a1c17ec082e575312b6d78d') in 0.018499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00010.png
+  artifactKey: Guid(1c5eaa3a76ab1a7468feeef3fdc5cb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00010.png using Guid(1c5eaa3a76ab1a7468feeef3fdc5cb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919b91ef13653ec610c3e271d1a6aa4f') in 0.019099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00039.png
+  artifactKey: Guid(bf1bf7f3d7d193743847db454f390e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00039.png using Guid(bf1bf7f3d7d193743847db454f390e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b89f4897328d699b089dd9deffbb436') in 0.024007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00094.png
+  artifactKey: Guid(b1e7c55e8b0815543b11f0a12c211daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00094.png using Guid(b1e7c55e8b0815543b11f0a12c211daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f159e6d6183122c6dacd8d4be265eceb') in 0.057777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00041.png
+  artifactKey: Guid(764bbcde6d1afe34d8b33c996e5275c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00041.png using Guid(764bbcde6d1afe34d8b33c996e5275c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14d4796dd1040c36e56d698c413b67c') in 0.029763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00062.png
+  artifactKey: Guid(782c017e9b06c2e46bbb7016a5cf2034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00062.png using Guid(782c017e9b06c2e46bbb7016a5cf2034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719d4929019274e2bfebb377d2748ca8') in 0.019325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00054.png
+  artifactKey: Guid(2514df81d27cbb14894d97d06979100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00054.png using Guid(2514df81d27cbb14894d97d06979100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e239a9fc82b52108527bf4efa39063') in 0.018814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00045.png
+  artifactKey: Guid(2566860b253ccdf4380665b50520c755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00045.png using Guid(2566860b253ccdf4380665b50520c755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf01e4ab5229d1ecb15ef6a246c76b1') in 0.023059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00002.png
+  artifactKey: Guid(f85b0deb528fea942b87b780c3cb2e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00002.png using Guid(f85b0deb528fea942b87b780c3cb2e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b15192fc4ef58d82640fe8c1a6626e') in 0.021694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00037.png
+  artifactKey: Guid(c43a27d2b2d1340489b4af7b006bf9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00037.png using Guid(c43a27d2b2d1340489b4af7b006bf9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fb863055e575f8d175ccab50c8219d') in 0.020991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00086.png
+  artifactKey: Guid(4353bb55f72e6a042b5a4436fb9f9433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00086.png using Guid(4353bb55f72e6a042b5a4436fb9f9433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd7ffe20c35e5bd41273bec83cd2c6f') in 0.028172 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00012.png
-  artifactKey: Guid(c9b540fb88bde234fa1ca7522330e60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00012.png using Guid(c9b540fb88bde234fa1ca7522330e60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72bfd18cb9415703b2d57ae3596616c') in 0.024576 seconds
+  path: Assets/Imagenes/Gota de agua/gota pixel_00074.png
+  artifactKey: Guid(f4460d7227b237b4787ce1ab06bbcf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00074.png using Guid(f4460d7227b237b4787ce1ab06bbcf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413ddd7360c8b99d57bd191b04aa7544') in 0.020319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00073.png
+  artifactKey: Guid(bae7d228f9c811b49b3959ae574a3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00073.png using Guid(bae7d228f9c811b49b3959ae574a3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3294fc303515fd26ed7f5c50cbcc3f') in 0.025861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00025.png
+  artifactKey: Guid(fb39e36861bc38e4ea60fadbfd0dd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00025.png using Guid(fb39e36861bc38e4ea60fadbfd0dd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28fabcde3adf813478a9875daa80a03') in 0.025249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00083.png
+  artifactKey: Guid(3f6219079fabeed47b1848d5cccb5276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00083.png using Guid(3f6219079fabeed47b1848d5cccb5276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fd18e054f90285902747c641516724') in 0.023206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00034.png
+  artifactKey: Guid(6fdfe407f5c3b064faf864dbfb3d3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00034.png using Guid(6fdfe407f5c3b064faf864dbfb3d3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab95f337400193c9e06da97b6293921b') in 0.016944 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00006.png
-  artifactKey: Guid(437dcf9d31c18c448b2d197396e11f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00006.png using Guid(437dcf9d31c18c448b2d197396e11f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02760d0dbc1ce340545ee374d284fa76') in 0.022509 seconds
+  path: Assets/Imagenes/Gota de agua/gota pixel_00012.png
+  artifactKey: Guid(4210fd7cd4292114c8ae66db4ae7c230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00012.png using Guid(4210fd7cd4292114c8ae66db4ae7c230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ea5c4253dd28c8a4a952f27bc217e0') in 0.017065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00015.png
+  artifactKey: Guid(208648aa8c99d664d923c4632119277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00015.png using Guid(208648aa8c99d664d923c4632119277f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797089e9a86cd8c3e9a5d1f7b09ddfb5') in 0.017278 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00013.png
-  artifactKey: Guid(e5af947b06a3b6345ac58df9009f99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00013.png using Guid(e5af947b06a3b6345ac58df9009f99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984f4b5963a277bdde63d4cbff5c887d') in 0.023662 seconds
+  path: Assets/Imagenes/Gota de agua/gota pixel_00095.png
+  artifactKey: Guid(480e52f5554e25f44b9c576ccca5685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00095.png using Guid(480e52f5554e25f44b9c576ccca5685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f77893bf8e3990691773664d5f7e177') in 0.016713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00020.png
+  artifactKey: Guid(cd3077920b408ae4ea29b43068609d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00020.png using Guid(cd3077920b408ae4ea29b43068609d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1fb819148f8475217ae2d05178c4b9') in 0.023597 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00002.png
-  artifactKey: Guid(f7f37cfaaab7b5042b018124a99719d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00002.png using Guid(f7f37cfaaab7b5042b018124a99719d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1125825f240e0a5e996565fb91472a7') in 0.022595 seconds
+  path: Assets/Imagenes/Gota de agua/gota pixel_00076.png
+  artifactKey: Guid(255f73c4337acd94eb5285c26371acae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00076.png using Guid(255f73c4337acd94eb5285c26371acae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3177c427e7637432ea9774881cacc3') in 0.017110 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00020.png
-  artifactKey: Guid(bf58e7615f4c9434fb0051892ff2e1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00020.png using Guid(bf58e7615f4c9434fb0051892ff2e1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f0e6fb515eaa89997f5e1a4cb4f6a9') in 0.021738 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00016.png
+  artifactKey: Guid(3fc6eaf8c32b7504aa3c6c11e73cea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00016.png using Guid(3fc6eaf8c32b7504aa3c6c11e73cea44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4568f0f786fac0c6f3418c22aecb7') in 0.015721 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00004.png
-  artifactKey: Guid(7b6f6c5c804d3ea4cb6d23eec8761789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00004.png using Guid(7b6f6c5c804d3ea4cb6d23eec8761789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b674fe38ff51e743a4b5e97f3dd1be') in 0.022986 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00049.png
+  artifactKey: Guid(ba4f4ab5be8abf843a2e5e32941dd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00049.png using Guid(ba4f4ab5be8abf843a2e5e32941dd0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32766417fc788a2245157e4ad1fb2f42') in 0.019434 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 2.551633 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00023.png
-  artifactKey: Guid(56a0a365af01c354883e4ccc9acaf0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00023.png using Guid(56a0a365af01c354883e4ccc9acaf0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe554657da85e20202e5e2250eda67ef') in 0.021050 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00071.png
+  artifactKey: Guid(c053e6cdb020ba24b9698c32dd83e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00071.png using Guid(c053e6cdb020ba24b9698c32dd83e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d30fb2a696b02c3e54793344800593') in 0.018001 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.046134 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00027.png
-  artifactKey: Guid(0b1823dcf0bd48441a72d72911062630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00027.png using Guid(0b1823dcf0bd48441a72d72911062630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9e0e526d6ef82c83394e342b4851b4') in 0.020654 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00014.png
+  artifactKey: Guid(490bab08b36136b4faee3fd7c7c705c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00014.png using Guid(490bab08b36136b4faee3fd7c7c705c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b754984c8033a54177b48d16035b50e') in 0.018764 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00028.png
-  artifactKey: Guid(ef6df9c944a349641bf97956436cafbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00028.png using Guid(ef6df9c944a349641bf97956436cafbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb38c185de85ecc56424ee40b1a78ba0') in 0.020464 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00098.png
+  artifactKey: Guid(6550251501ad4da46bc1fa22c6d610f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00098.png using Guid(6550251501ad4da46bc1fa22c6d610f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a5795961d623aea04e4977122081f5') in 0.020134 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024942 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00034.png
-  artifactKey: Guid(22e20330db0359a42aa83773e36168e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00034.png using Guid(22e20330db0359a42aa83773e36168e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60bbdaef55bdec304ee4698e3d1c9fe') in 0.019926 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00008.png
+  artifactKey: Guid(29930d988e981b4469fed33cfab1000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00008.png using Guid(29930d988e981b4469fed33cfab1000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f785f97fafcc0ebec61f2010811381c1') in 0.017809 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.354801 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00038.png
-  artifactKey: Guid(92cbd8d20fc1377449ef914f8adcfeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00038.png using Guid(92cbd8d20fc1377449ef914f8adcfeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fbcd6e4cb4af8b59297991920b62e0') in 0.022053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.064465 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00042.png
-  artifactKey: Guid(2f5d2841992179b429d40a7ce3726477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00042.png using Guid(2f5d2841992179b429d40a7ce3726477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd08b56f50fceaf23c992313a2141eb') in 0.020765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.051601 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00046.png
-  artifactKey: Guid(bd5600439603132459c5b782366dd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00046.png using Guid(bd5600439603132459c5b782366dd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94c62593e63b2f2fdaaccd0dde75f1f') in 0.029747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.359203 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00050.png
-  artifactKey: Guid(239e53b24a931b24493365146d0ba6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00050.png using Guid(239e53b24a931b24493365146d0ba6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2e1307339e58eda57e9c24c86d642c') in 0.032108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00052.png
-  artifactKey: Guid(1616ab1a89e622448888765a16138bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00052.png using Guid(1616ab1a89e622448888765a16138bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7cd065b941d965623f2dbe3b90865a') in 0.024211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.019946 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00058.png
-  artifactKey: Guid(9fc7d0a77ccfc2742a4133e4af53f3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00058.png using Guid(9fc7d0a77ccfc2742a4133e4af53f3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fd1d0b0eda78cf28e8e6ff1fb866db') in 0.021234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.051978 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00062.png
-  artifactKey: Guid(746a96951a0702642a49613fc9c77620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00062.png using Guid(746a96951a0702642a49613fc9c77620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c5c39c0abc9fd684092738323e5fac') in 0.025076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00064.png
-  artifactKey: Guid(661b1f4a14c841442a9561b026f1fa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00064.png using Guid(661b1f4a14c841442a9561b026f1fa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd7aa9fe5c3df08c7b6104ee8dc90d0') in 0.022872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00066.png
-  artifactKey: Guid(066635785ac030f49b71740d1388f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00066.png using Guid(066635785ac030f49b71740d1388f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafb9d1edfed2ac299f7202808e1823d') in 0.024658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.274365 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00070.png
-  artifactKey: Guid(5a04eac9ca223334089c707b3e85c33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00070.png using Guid(5a04eac9ca223334089c707b3e85c33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf28a527a721aca32c4d08d0ae3c108') in 0.031781 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00007.png
+  artifactKey: Guid(71dabba600f46f94fbbcfc173b5ecce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00007.png using Guid(71dabba600f46f94fbbcfc173b5ecce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02f13cfa674bc720251323ece877bb6') in 0.017937 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00072.png
-  artifactKey: Guid(df2413ca73478394683eeaf3f73b470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00072.png using Guid(df2413ca73478394683eeaf3f73b470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea262f2bb326bf7abc9fdfaa41e6c21') in 0.021467 seconds
+  path: Assets/Imagenes/Gota de agua/gota pixel_00035.png
+  artifactKey: Guid(afdb929028c919a4b95804d218f53956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00035.png using Guid(afdb929028c919a4b95804d218f53956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee05d3fdd5c887b5d9ce9401dc72e719') in 0.017975 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.081999 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00078.png
-  artifactKey: Guid(334a8de69697c9b468469c5891afc003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00078.png using Guid(334a8de69697c9b468469c5891afc003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0127773b4c805cf612bb3d3b79512dc') in 0.026231 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00019.png
+  artifactKey: Guid(679663b00c9ed4a4da09404a36e69ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00019.png using Guid(679663b00c9ed4a4da09404a36e69ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd20018111e1ea6bba1b264d26595bac') in 0.016560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00063.png
+  artifactKey: Guid(44d7493f76486f14bab7f70a597c7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00063.png using Guid(44d7493f76486f14bab7f70a597c7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8897d4f38130cc2f95f5393f419e08f6') in 0.023424 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00079.png
-  artifactKey: Guid(14ee7b8d0e6ff8040b278c400ab62dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00079.png using Guid(14ee7b8d0e6ff8040b278c400ab62dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5b78bb0e120f1b82f217a12893864c') in 0.022186 seconds
+  path: Assets/Imagenes/Gota de agua/gota pixel_00091.png
+  artifactKey: Guid(8453e6d0d3907fd40a08ebd860a46f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00091.png using Guid(8453e6d0d3907fd40a08ebd860a46f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6b788e890a1abeaccc2163c0f90c80') in 0.020071 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.261595 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00082.png
-  artifactKey: Guid(4249755a7a0fc4b45bf92fc7dae47bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00082.png using Guid(4249755a7a0fc4b45bf92fc7dae47bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1873c29d4506adcf29581cf7d2d1977c') in 0.029223 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00069.png
+  artifactKey: Guid(ec42e1793891f5f4db8c004d79958f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00069.png using Guid(ec42e1793891f5f4db8c004d79958f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0b323ba091263a7e45cca3f2e8c629') in 0.018395 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.474041 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00086.png
-  artifactKey: Guid(e163f5cb6ea21cf4b98a99604cd3daa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00086.png using Guid(e163f5cb6ea21cf4b98a99604cd3daa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57b8292f3bd07ec4e781ae70dbe5ee8') in 0.026346 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00006.png
+  artifactKey: Guid(6e6c5bc9d43256042a32a65d91529a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00006.png using Guid(6e6c5bc9d43256042a32a65d91529a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb644ab5d02112f3668b150bf78afb92') in 0.018177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00092.png
+  artifactKey: Guid(125c151be06588c4287e25999397127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00092.png using Guid(125c151be06588c4287e25999397127b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c04a2f4bf15dd1f35e9a9b063ed906f') in 0.017222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00065.png
+  artifactKey: Guid(5dc40718774d54146bed7bac83702dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00065.png using Guid(5dc40718774d54146bed7bac83702dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8505d7402f928d921d0a2fb3704a7056') in 0.017535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00009.png
+  artifactKey: Guid(89907aa088642cc4c984a7c62f6d5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00009.png using Guid(89907aa088642cc4c984a7c62f6d5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea0e0788dbf687ade890e9d9870b3a8') in 0.016463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00046.png
+  artifactKey: Guid(1c134796adb617a4283119882f7fbf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00046.png using Guid(1c134796adb617a4283119882f7fbf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8504d28cdf6b6db9d158551ad5d82cc7') in 0.019983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00099.png
+  artifactKey: Guid(9449d76ac7f78c7419ede4eed1ce6a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00099.png using Guid(9449d76ac7f78c7419ede4eed1ce6a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b2ae33a104ccfc5691868bdb969cae') in 0.019398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00066.png
+  artifactKey: Guid(31e27d4a9b912d84fb2c79a8435e751f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00066.png using Guid(31e27d4a9b912d84fb2c79a8435e751f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ae4f02e27c50af2501ab55d676e28f') in 0.019380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00053.png
+  artifactKey: Guid(9f1c51c7b449ec1429c445db113da41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00053.png using Guid(9f1c51c7b449ec1429c445db113da41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29840d56825c5e6ef1d0f4ee5ec102ab') in 0.020817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00040.png
+  artifactKey: Guid(dd95818ce36995f47a757871c5a03e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00040.png using Guid(dd95818ce36995f47a757871c5a03e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323feb6ed60e2cbd8c9f332782930382') in 0.018375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00017.png
+  artifactKey: Guid(7341d8afbae133845865e1dda1568566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00017.png using Guid(7341d8afbae133845865e1dda1568566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89d0951844dc8ed39c0220493b66554') in 0.017473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00052.png
+  artifactKey: Guid(4a36200f0389c65408b4307663a3f501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00052.png using Guid(4a36200f0389c65408b4307663a3f501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22fdbb094752b9dcbf7bf053451f05f') in 0.019218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00036.png
+  artifactKey: Guid(9a3b0ad0a26573a4f84c57f22410ffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00036.png using Guid(9a3b0ad0a26573a4f84c57f22410ffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94f70d9d9074af36c6bf068e8b786bb') in 0.020952 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00088.png
-  artifactKey: Guid(ed1cd11f86be09f4c85ca7dafd498923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00088.png using Guid(ed1cd11f86be09f4c85ca7dafd498923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be08e63145ea421f3ff6fb68833369ef') in 0.022455 seconds
+  path: Assets/Imagenes/Gota de agua/gota pixel_00030.png
+  artifactKey: Guid(96736ecdcf744d940a85efaf67ef45cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00030.png using Guid(96736ecdcf744d940a85efaf67ef45cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f61a7c8ffde66b2a9e8c9a7f161102') in 0.018047 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.030769 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00094.png
-  artifactKey: Guid(9ad51865717b868449cc53dc3dbb2b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00094.png using Guid(9ad51865717b868449cc53dc3dbb2b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a17105650536dd03f782a0590e0ffff') in 0.021170 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00058.png
+  artifactKey: Guid(352e1fefd538fec4a9798517b2a973d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00058.png using Guid(352e1fefd538fec4a9798517b2a973d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716fc391ed3af62f9ad544babb05d742') in 0.017786 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003740 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00097.png
-  artifactKey: Guid(097edf89dcbac4346b9c2a46a2159712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00097.png using Guid(097edf89dcbac4346b9c2a46a2159712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec258e8fabfdd06123154a0d7d2b566d') in 0.024015 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00042.png
+  artifactKey: Guid(5908527428347dc4aa2c9df54917fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00042.png using Guid(5908527428347dc4aa2c9df54917fbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771f03bc05776fe4fe19e08fd76d9242') in 0.017698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00027.png
+  artifactKey: Guid(c1398debfd23db9449fcfa0ca5d775fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00027.png using Guid(c1398debfd23db9449fcfa0ca5d775fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bb2d445aefd23ce56e667ceae8b7eb') in 0.019452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/Gota de agua/gota pixel_00018.png
+  artifactKey: Guid(3cfa833dd78086145887430cc89ed2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Gota de agua/gota pixel_00018.png using Guid(3cfa833dd78086145887430cc89ed2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cae7231700d3003c239c76868880263') in 0.021608 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

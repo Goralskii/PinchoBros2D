@@ -26,7 +26,7 @@ public class ControlJugador : MonoBehaviour
         if (collision.CompareTag("Gota"))
         {
             Gotas += 1;
-            puntaje += Gotas * 100;
+            puntaje += 100;
         }
 
         //if (collision.CompareTag("Suelo"))
