@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 15742 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16164 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65393
+65301
 Successfully changed project path to: D:/GitHub/PinchoBros2D/PinchoBros2D
 D:/GitHub/PinchoBros2D/PinchoBros2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18936] Host "[IP] 172.17.17.156 [Port] 0 [Flags] 2 [Guid] 4137701983 [EditorId] 4137701983 [Version] 1048832 [Id] WindowsEditor(7,PC-Impre3D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18152] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 1832111999 [EditorId] 1832111999 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18936] Host "[IP] 172.17.17.156 [Port] 0 [Flags] 2 [Guid] 4137701983 [EditorId] 4137701983 [Version] 1048832 [Id] WindowsEditor(7,PC-Impre3D2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18152] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 1832111999 [EditorId] 1832111999 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 9.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -62,57 +62,59 @@ Initialize engine version: 2022.3.19f1 (244b723c30a6)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   NVIDIA
-    VRAM:     10053 MB
-    Driver:   32.0.15.6109
+    VRAM:     8024 MB
+    Driver:   32.0.15.6070
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015252 seconds.
-- Loaded All Assemblies, in  0.355 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.014440 seconds.
+- Loaded All Assemblies, in  0.427 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 246 ms
+Android Extension - Scanning For ADB Devices 713 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.560 seconds
-Domain Reload Profiling: 913ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  1.073 seconds
+Domain Reload Profiling: 1498ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (102ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (125ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (162ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (561ms)
+	FinalizeReload (1074ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (506ms)
+		SetupLoadedEditorAssemblies (1014ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (349ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (838ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +122,9 @@ Domain Reload Profiling: 913ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.863 seconds
-Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.745 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +133,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.668 seconds
-Domain Reload Profiling: 1526ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1458ms
+	BeginReloadAssembly (185ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (614ms)
-		LoadAssemblies (531ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (341ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (131ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (669ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (716ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (506ms)
+		SetupLoadedEditorAssemblies (532ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (359ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.26 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (316.5 KB). Loaded Objects now: 4664.
-Memory consumption went from 154.3 MB to 154.0 MB.
-Total: 3.714100 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.112600 ms MarkObjects: 3.025400 ms  DeleteObjects: 0.253000 ms)
+Unloading 4206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (135.5 KB). Loaded Objects now: 4669.
+Memory consumption went from 154.0 MB to 153.9 MB.
+Total: 3.756200 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.323900 ms MarkObjects: 2.905200 ms  DeleteObjects: 0.169400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,880 +190,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 264944.586613 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00010.png
-  artifactKey: Guid(2b8223d561921134da4bfa3da631779d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00010.png using Guid(2b8223d561921134da4bfa3da631779d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e245fce0cc540058420d2f1988108339') in 0.085745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00017.png
-  artifactKey: Guid(824c5ad67435e634487398d64858b2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00017.png using Guid(824c5ad67435e634487398d64858b2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b595962ee85e6841836d21b36fdc3638') in 0.028521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imagenes/fuegos
-  artifactKey: Guid(8e6bd5ba2ab146a4d967f2c15f05a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos using Guid(8e6bd5ba2ab146a4d967f2c15f05a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2298d7d8edeb39f282f16adbf735adac') in 0.000371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00018.png
-  artifactKey: Guid(3b2451f4026e36144adf38949b8ca91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00018.png using Guid(3b2451f4026e36144adf38949b8ca91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbe719ee8a59a6219a21626662137f4') in 0.026456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00009.png
-  artifactKey: Guid(61993c2e5ffe9f946aaa106a73bb5047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00009.png using Guid(61993c2e5ffe9f946aaa106a73bb5047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a6388a19a2fae9916cfe8795b924b4') in 0.022741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00014.png
-  artifactKey: Guid(e24bde05d72721648b49bb072a14e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00014.png using Guid(e24bde05d72721648b49bb072a14e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66994ac3991452e89716990af6175368') in 0.024162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00007.png
-  artifactKey: Guid(16b16fdc9de100245994dc0c28e6cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00007.png using Guid(16b16fdc9de100245994dc0c28e6cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51762a622024217302e29f8f9594a2ee') in 0.023521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite
-  artifactKey: Guid(83b4ba60a6b9efa40a4c71c6f24a189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite using Guid(83b4ba60a6b9efa40a4c71c6f24a189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70967f1498bf32af00a77cf9f4d474a0') in 0.000541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00003.png
-  artifactKey: Guid(fa1ac317cddc7b1439765bd4f8f049bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00003.png using Guid(fa1ac317cddc7b1439765bd4f8f049bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb71a49ac68be28a46443e4bcdbf1f2b') in 0.023272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00015.png
-  artifactKey: Guid(445bec876e47eb14286a889ea68b27f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00015.png using Guid(445bec876e47eb14286a889ea68b27f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542041679728fae9ba155bbfcea0abe4') in 0.021123 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00019.png
-  artifactKey: Guid(6437635f2137dac46a9d60cd91ae2752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00019.png using Guid(6437635f2137dac46a9d60cd91ae2752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407d4c703f3eb6a2e73379bdb9ba6894') in 0.022131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00001.png
-  artifactKey: Guid(7626ba9985538184eb916e34fef175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00001.png using Guid(7626ba9985538184eb916e34fef175a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b852bb86a057ba0c03645d5f584960') in 0.021792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.549059 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00022.png
-  artifactKey: Guid(1afea0b5af173b84488059a6569dd117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00022.png using Guid(1afea0b5af173b84488059a6569dd117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed81772e97c8ff37e8fe33f8b1268e9a') in 0.021353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00024.png
-  artifactKey: Guid(820649ea086a449499ff745cfbf76547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00024.png using Guid(820649ea086a449499ff745cfbf76547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0d656d30ed7993f019e8a3a0017b79') in 0.020394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.024866 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00026.png
-  artifactKey: Guid(178e3ba97cbe651438a82df2b1c67247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00026.png using Guid(178e3ba97cbe651438a82df2b1c67247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ba4fc671b13d680a3ec1ee5a8268b9') in 0.020661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00029.png
-  artifactKey: Guid(be4bab3e6daddae408d4fdf887c23a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00029.png using Guid(be4bab3e6daddae408d4fdf887c23a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ae08b09f1a9b285b80f54563e67163') in 0.021709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00030.png
-  artifactKey: Guid(2202d0170a45a52469fad121b1277acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00030.png using Guid(2202d0170a45a52469fad121b1277acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f21245f146ff25c971b799a788b9a5') in 0.018945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.006540 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00033.png
-  artifactKey: Guid(9f82a32364335854e8572c393697becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00033.png using Guid(9f82a32364335854e8572c393697becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95530265539cc27d3ec9383816d4e0c7') in 0.020416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00035.png
-  artifactKey: Guid(4c94fbda6d9ee4249a80034fc46ba4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00035.png using Guid(4c94fbda6d9ee4249a80034fc46ba4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2d11d1f9fe78bbd06bacfab2632739') in 0.018935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.336549 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00037.png
-  artifactKey: Guid(c59ee37b133cac6419c37dd1aa223b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00037.png using Guid(c59ee37b133cac6419c37dd1aa223b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18410e2090baaf8f0b72ffbf349e97a7') in 0.022418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00039.png
-  artifactKey: Guid(63cec6df26668fa4ca917d214919d23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00039.png using Guid(63cec6df26668fa4ca917d214919d23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b822c1888d4461325cb092686b33b1') in 0.020734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.043243 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00041.png
-  artifactKey: Guid(46920026a0e76ca4d88084e871f3947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00041.png using Guid(46920026a0e76ca4d88084e871f3947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62be44d790b1e7a840574948a6845df0') in 0.021544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.050131 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00045.png
-  artifactKey: Guid(a6b6d38ee58b6df4285f5b53a4899a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00045.png using Guid(a6b6d38ee58b6df4285f5b53a4899a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf8c0cc60c5fe57ad4d3613c4a13e84') in 0.022093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.366713 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00049.png
-  artifactKey: Guid(ec9a80b473fb9eb4ca2dee0fa55d2b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00049.png using Guid(ec9a80b473fb9eb4ca2dee0fa55d2b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a58207a1b701e2539df51bcd671cf6c') in 0.025719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00054.png
-  artifactKey: Guid(73cc382055e25324b87a6eae13806b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00054.png using Guid(73cc382055e25324b87a6eae13806b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8809e1b6a634e7993b1686118d10085f') in 0.021677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00053.png
-  artifactKey: Guid(3e1d82e321a87ab489362564d6d724e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00053.png using Guid(3e1d82e321a87ab489362564d6d724e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9b48894dd7706300c5d6f457065bc2') in 0.023176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.004669 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00057.png
-  artifactKey: Guid(a006430836e70ff4d980c84be3f87806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00057.png using Guid(a006430836e70ff4d980c84be3f87806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11af4ae0ac382848f7cc982c30de0350') in 0.021703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00059.png
-  artifactKey: Guid(ebd14be4511d89b43a50d3918014e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00059.png using Guid(ebd14be4511d89b43a50d3918014e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a28c8081c07334da30e79b5714ea7') in 0.022825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.028968 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00061.png
-  artifactKey: Guid(9372278f93822724fa670d4c33143b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00061.png using Guid(9372278f93822724fa670d4c33143b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa3a25880c5825ecc4eb8cced9347e1') in 0.029386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00065.png
-  artifactKey: Guid(0c4450ac9ade23d4093434859403d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00065.png using Guid(0c4450ac9ade23d4093434859403d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd922997139b5942a65543bbad936faf') in 0.020201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00067.png
-  artifactKey: Guid(58d97954a474a1c4c927065145d7565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00067.png using Guid(58d97954a474a1c4c927065145d7565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fad4989508dd46c86f6dcff394da6b') in 0.023218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.274721 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00069.png
-  artifactKey: Guid(e88053f7a51618d469e584e833c676ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00069.png using Guid(e88053f7a51618d469e584e833c676ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f68dd8cc108604130480e0e7163f05a') in 0.025081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00075.png
-  artifactKey: Guid(6f05271216aa2a34f9fbec7d5046eba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00075.png using Guid(6f05271216aa2a34f9fbec7d5046eba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6744e8747fc5f57db5ff4433b4893b65') in 0.021658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00074.png
-  artifactKey: Guid(b653c05768af53e46889dfbe529bf671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00074.png using Guid(b653c05768af53e46889dfbe529bf671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560e7cc6aaaca00872a17f4c3b8916b') in 0.026453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.059245 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00077.png
-  artifactKey: Guid(84f0f2bb91b1a004ba3732af3c588bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00077.png using Guid(84f0f2bb91b1a004ba3732af3c588bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db31dde986a008be564332e6846f00cf') in 0.035063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.276083 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00081.png
-  artifactKey: Guid(7e7312b0c32bf674d8a66a3f00be7bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00081.png using Guid(7e7312b0c32bf674d8a66a3f00be7bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1984c5404cda3ca1200e2448de708565') in 0.032739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.470534 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00085.png
-  artifactKey: Guid(420aec78c07eb544487fb77d6b2b19ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00085.png using Guid(420aec78c07eb544487fb77d6b2b19ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9365587f3ba506d5bcf82a3530d6bbc') in 0.026847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00091.png
-  artifactKey: Guid(c4b9025263323f648bb9aa61c1aa8787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00091.png using Guid(c4b9025263323f648bb9aa61c1aa8787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb5fe60a5273a04160827af6649f4db') in 0.020780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00089.png
-  artifactKey: Guid(4b196da00a36e914ebb1069abb0639ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00089.png using Guid(4b196da00a36e914ebb1069abb0639ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e82d19d20fb38c471256630119dcd') in 0.022036 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.007466 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00093.png
-  artifactKey: Guid(fba53b24b603baf4bbbc444e63b1f1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00093.png using Guid(fba53b24b603baf4bbbc444e63b1f1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f28634a3f8e8207cb5f3dc59a7ab8f') in 0.021788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003109 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00096.png
-  artifactKey: Guid(1691c2a80258a1c418308dd54da938ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00096.png using Guid(1691c2a80258a1c418308dd54da938ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c119307f2ae33d4e25e32cd1b826c1') in 0.021833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00098.png
-  artifactKey: Guid(e6cceaaf722c2534696eb67cf598adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00098.png using Guid(e6cceaaf722c2534696eb67cf598adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ee2ff44513accf053626da0d21a4dc') in 0.023523 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.450 seconds
-Refreshing native plugins compatible for Editor in 3.98 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.043 seconds
-Domain Reload Profiling: 1490ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (291ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1044ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 4.52 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (287.7 KB). Loaded Objects now: 4687.
-Memory consumption went from 153.7 MB to 153.4 MB.
-Total: 3.653300 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.150800 ms MarkObjects: 2.989600 ms  DeleteObjects: 0.192900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1421.883878 seconds.
-  path: Assets/Scripts/ControladorFuegos.cs
-  artifactKey: Guid(5d1bf035873087340aaf59745ee18614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ControladorFuegos.cs using Guid(5d1bf035873087340aaf59745ee18614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1468f36b9b5aa1e31d76eb356d316eb') in 0.001775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.441 seconds
-Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.044 seconds
-Domain Reload Profiling: 1483ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (224ms)
-		LoadAssemblies (292ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1045ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 4.88 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (288.1 KB). Loaded Objects now: 4703.
-Memory consumption went from 155.6 MB to 155.4 MB.
-Total: 3.110100 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.116200 ms MarkObjects: 2.455400 ms  DeleteObjects: 0.228700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1077.547062 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00001.png
-  artifactKey: Guid(e059c2dfad5dfb34081699f3f8777417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00001.png using Guid(e059c2dfad5dfb34081699f3f8777417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b6339b729fa696fd21d7e1bbd22003') in 0.065293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00002.png
-  artifactKey: Guid(55cdabda164c52049adef55eb00c81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00002.png using Guid(55cdabda164c52049adef55eb00c81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae62d527c9827bfdeec22826e2b32ce') in 0.022009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00013.png
-  artifactKey: Guid(d7d1fcf68c9b54e4886c26a4a91d413d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00013.png using Guid(d7d1fcf68c9b54e4886c26a4a91d413d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d35701f0986a7c4f72e35fd53bb497') in 0.022042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00016.png
-  artifactKey: Guid(b8f5a99fd17aea44bb348db66162834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00016.png using Guid(b8f5a99fd17aea44bb348db66162834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee7a4106279ce95af24f046ba90864a') in 0.021803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00010.png
-  artifactKey: Guid(b8de5aba470b9de4c808c580ac5e0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00010.png using Guid(b8de5aba470b9de4c808c580ac5e0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2027415d534ad38135b5f34d898c9f') in 0.023508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00008.png
-  artifactKey: Guid(ba6d64442c567dd448fdb5815a572364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00008.png using Guid(ba6d64442c567dd448fdb5815a572364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abb4cbb1df9cf130d1259efab3012da') in 0.022572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00007.png
-  artifactKey: Guid(5e977e42ccd803e428c7be81f4261d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00007.png using Guid(5e977e42ccd803e428c7be81f4261d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7424ccd0331deb737baaabcc6e2db817') in 0.023007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00012.png
-  artifactKey: Guid(19d6d2435405beb47a3b72c845c10b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00012.png using Guid(19d6d2435405beb47a3b72c845c10b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f979bc70697da1e54d1289389e266f5') in 0.020727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00018.png
-  artifactKey: Guid(084a9164a0e63454299403686d5aa408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00018.png using Guid(084a9164a0e63454299403686d5aa408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285eb8b6b9c23e18ecd43c54f947283f') in 0.023653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00015.png
-  artifactKey: Guid(17839e2ced1f92f429302db0af048b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00015.png using Guid(17839e2ced1f92f429302db0af048b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8abfa869b4a747a1b38aecfe6fbc06') in 0.022865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.911255 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00001.png
-  artifactKey: Guid(9afe53d100cb26544be5ca90799bfaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00001.png using Guid(9afe53d100cb26544be5ca90799bfaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb87628b8747b436e1e8e82afe33703') in 0.022431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00005.png
-  artifactKey: Guid(a0f286d5c9e60a14da0d9ffbff1d70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00005.png using Guid(a0f286d5c9e60a14da0d9ffbff1d70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a030fc254d4de20bf4b764befc5b09') in 0.021633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00007.png
-  artifactKey: Guid(6a55bf93f4a3f184eae71a6a28f6fb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00007.png using Guid(6a55bf93f4a3f184eae71a6a28f6fb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4c308da6e6aa8d5b059f86638e8b53') in 0.025572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00015.png
-  artifactKey: Guid(2627ed4cf745b774491d10a2617d53ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00015.png using Guid(2627ed4cf745b774491d10a2617d53ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074987a3630bfcbe38b2c2beb8232e8c') in 0.023352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00013.png
-  artifactKey: Guid(567555bba36271c4280cfdb477561a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00013.png using Guid(567555bba36271c4280cfdb477561a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab101efb7e82dd8856ac14e8a6407427') in 0.026546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00006.png
-  artifactKey: Guid(c681203a272b81548982ec51bcae0c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00006.png using Guid(c681203a272b81548982ec51bcae0c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d913f6c9a9431016b1220dc3733b5c') in 0.025667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00014.png
-  artifactKey: Guid(54cfce9e39558ad448fadb9b8fb0dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00014.png using Guid(54cfce9e39558ad448fadb9b8fb0dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf25b945357e212f336851c426a7e2a') in 0.026338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00009.png
-  artifactKey: Guid(c9649c43d9a8c9742b62b734d307e1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00009.png using Guid(c9649c43d9a8c9742b62b734d307e1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b61ef3c4322a84c24399613a721030') in 0.025004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.293499 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00001.png
-  artifactKey: Guid(67762e6eaf347c549bd21d2f1e72e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00001.png using Guid(67762e6eaf347c549bd21d2f1e72e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb0e3be15c9fad0eec9e169a49db180') in 0.021542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00012.png
-  artifactKey: Guid(b3f788ecd6fbf0b4b832ca1178c7517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00012.png using Guid(b3f788ecd6fbf0b4b832ca1178c7517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33527fc81ad5f8864fd2240aa090718') in 0.021274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00007.png
-  artifactKey: Guid(c6c202eeac3beb54cbb67bdc67118e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00007.png using Guid(c6c202eeac3beb54cbb67bdc67118e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c0596f8455feac75c16c3d47a47b2d') in 0.023280 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00010.png
-  artifactKey: Guid(8e31551b8985aea4eb258d54c8ce6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00010.png using Guid(8e31551b8985aea4eb258d54c8ce6880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f83346d222440049de85b4bf6cd5b7f') in 0.024587 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00008.png
-  artifactKey: Guid(cae92f49ac3f15644a7509becea7ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00008.png using Guid(cae92f49ac3f15644a7509becea7ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111863f92f847fc9a745baa79a650470') in 0.024004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00013.png
-  artifactKey: Guid(542675c207a24cf438ea462b7031d196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00013.png using Guid(542675c207a24cf438ea462b7031d196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a1bca490f155c482bb421e3633698a') in 0.024713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00006.png
-  artifactKey: Guid(29e3b85f8e42dcf4f9115987e0a28047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00006.png using Guid(29e3b85f8e42dcf4f9115987e0a28047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a11a0fe2245e4a5275ff1a4a57caf5f') in 0.024907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.429316 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00022.png
-  artifactKey: Guid(b7028eb4caae38345aa4f3347cc59fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00022.png using Guid(b7028eb4caae38345aa4f3347cc59fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c56cf795542c049238c9a27ce4ae747') in 0.028586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.053921 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00026.png
-  artifactKey: Guid(459bfa2fbb65bbe429673f97ebc245e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00026.png using Guid(459bfa2fbb65bbe429673f97ebc245e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3908d3ca2df0c3a99ca321cd6776bf9') in 0.024472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00028.png
-  artifactKey: Guid(5a53f43b4f5d84344821f9abe30be816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00028.png using Guid(5a53f43b4f5d84344821f9abe30be816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad40237e6e5ec0928bbd000e6f3cac6') in 0.026637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00032.png
-  artifactKey: Guid(f4e4ecb43db6fde448d308d4bc533bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00032.png using Guid(f4e4ecb43db6fde448d308d4bc533bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c41d1fb48c1b1454dad79882c73fa7') in 0.023286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.224085 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00034.png
-  artifactKey: Guid(9e5ec1a20e01d394998964966f603ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00034.png using Guid(9e5ec1a20e01d394998964966f603ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f168cc49b40771bcf06af8bd90c8a4c5') in 0.032480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00040.png
-  artifactKey: Guid(b0b117f96ea082c4a9cf4bf6a501b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00040.png using Guid(b0b117f96ea082c4a9cf4bf6a501b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d17f962016183ae42029b245871fc2f') in 0.023773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00039.png
-  artifactKey: Guid(daa0df23f151d2b4f8cdb29b034e2237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00039.png using Guid(daa0df23f151d2b4f8cdb29b034e2237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3837cf3848f015ef04fad27bc015797') in 0.023977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00044.png
-  artifactKey: Guid(b9c3d14effb50d84794696dae79d618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00044.png using Guid(b9c3d14effb50d84794696dae79d618d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ad713d7601a73501643f9c98cc8719') in 0.022011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00047.png
-  artifactKey: Guid(08eb0a749b67ba54ab74d9ee260c72be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00047.png using Guid(08eb0a749b67ba54ab74d9ee260c72be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ca6170906a57fdb19bc0b458fb31f2') in 0.027386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00046.png
-  artifactKey: Guid(89806f8e4f262ea45ba99947d2078736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00046.png using Guid(89806f8e4f262ea45ba99947d2078736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea23c46e0169cdc0e333e903f439aa6') in 0.028081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.124894 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00050.png
-  artifactKey: Guid(a891c79ddb0edba48b7f3099ecff5449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00050.png using Guid(a891c79ddb0edba48b7f3099ecff5449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be11104ba538ab11530b2339b87f2b82') in 0.040258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00055.png
-  artifactKey: Guid(7d766e5755aa8b94ab29061e4e9b19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00055.png using Guid(7d766e5755aa8b94ab29061e4e9b19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2affdde0bdec7f64bafcd991928e60d6') in 0.023974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.269973 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00058.png
-  artifactKey: Guid(9e18c258fcfcb3b44b504b0cf08ac102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00058.png using Guid(9e18c258fcfcb3b44b504b0cf08ac102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d325f0be070b7a931609ab8a7e169b') in 0.049937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00067.png
-  artifactKey: Guid(25df11f961431284eab20dcf8a156879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00067.png using Guid(25df11f961431284eab20dcf8a156879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57940cbc85aae68eb363a0c57e534ced') in 0.022150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00065.png
-  artifactKey: Guid(0d7add9cdc4b73e40b0f4a796204c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00065.png using Guid(0d7add9cdc4b73e40b0f4a796204c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba23bd9c4c02120d9accefe6faca06f5') in 0.025329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00062.png
-  artifactKey: Guid(a2e112e801ebacb4697183e2d421fb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00062.png using Guid(a2e112e801ebacb4697183e2d421fb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdd5537e9745f54137663971a68f347') in 0.028405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00071.png
-  artifactKey: Guid(ae090fbd0d7e05a4f81db592be15c8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00071.png using Guid(ae090fbd0d7e05a4f81db592be15c8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d70dc27b93f6659761bee2d86551aac') in 0.029552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00070.png
-  artifactKey: Guid(abc8dddb75bb389479f9de26da6ceab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00070.png using Guid(abc8dddb75bb389479f9de26da6ceab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37f42f4f52876ecbc44029ca8f90286') in 0.030964 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.135533 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00078.png
-  artifactKey: Guid(858ea419109d0904ebc28b9b7c6d97cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00078.png using Guid(858ea419109d0904ebc28b9b7c6d97cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975a98c0b9c69ba5641cd9664dbe0ece') in 0.026330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00082.png
-  artifactKey: Guid(48b171899a989f04bbc446310cbab7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00082.png using Guid(48b171899a989f04bbc446310cbab7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7ddcec049f57b2499153a62465ec0a') in 0.026479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00083.png
-  artifactKey: Guid(e5090215327d4f940a16ff99add6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00083.png using Guid(e5090215327d4f940a16ff99add6bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c161b1829c6799c30b33e0ba37ad848f') in 0.028146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00090.png
-  artifactKey: Guid(4580b1eb465de814296e5dfc0ed56638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00090.png using Guid(4580b1eb465de814296e5dfc0ed56638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94973b3b3497b08e2f5b66342a6b2154') in 0.031304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00081.png
-  artifactKey: Guid(6e4738d8987e5e34cbf6f71f7fc41b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00081.png using Guid(6e4738d8987e5e34cbf6f71f7fc41b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fd6225d558c747af2ea567801a8b75') in 0.029891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.157386 seconds.
-  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00094.png
-  artifactKey: Guid(5105ab92e90563e49af8358263892858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00094.png using Guid(5105ab92e90563e49af8358263892858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff322736432308544552b40c9d1fe97c') in 0.026038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
+  Time since last request: 9351.287655 seconds.
   path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00099.png
   artifactKey: Guid(35c66ee62b5f18b43a6f96d374c00474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00099.png using Guid(35c66ee62b5f18b43a6f96d374c00474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442b0152230474328e4f4bc9d6decad1') in 0.023624 seconds
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00099.png using Guid(35c66ee62b5f18b43a6f96d374c00474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08fd1638480dd309ff866b07cf8824a') in 0.253858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00090.png
+  artifactKey: Guid(4580b1eb465de814296e5dfc0ed56638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00090.png using Guid(4580b1eb465de814296e5dfc0ed56638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ade471367412a63850cb086a3a4b28a') in 0.049960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00084.png
+  artifactKey: Guid(14f11d4d966d36a40a7a1af53de59f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00084.png using Guid(14f11d4d966d36a40a7a1af53de59f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c8c6e4bfc5094eab967922dc1439a8') in 0.017457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00095.png
+  artifactKey: Guid(19ba18a90423be2469346d3fc2817c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00095.png using Guid(19ba18a90423be2469346d3fc2817c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547fbc3428cd2c1485cb77766905a6b4') in 0.029096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00094.png
+  artifactKey: Guid(5105ab92e90563e49af8358263892858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00094.png using Guid(5105ab92e90563e49af8358263892858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c3b8f62dc29af2d330e61dd7bf32d5') in 0.017194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00092.png
+  artifactKey: Guid(d098f1c282eb14740bca450612afd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00092.png using Guid(d098f1c282eb14740bca450612afd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74d239e32cbd7e4c7b1e777230e6b99') in 0.016810 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
