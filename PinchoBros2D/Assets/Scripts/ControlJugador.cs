@@ -28,11 +28,6 @@ public class ControlJugador : MonoBehaviour
             Gotas += 1;
             puntaje += 100;
         }
-
-        //if (collision.CompareTag("Suelo"))
-        //{
-        //    enSuelo = true;
-        //}
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -40,6 +35,14 @@ public class ControlJugador : MonoBehaviour
         if (collision.transform.tag == "Suelo")
         {
             enSuelo = true;
+        }
+
+        if (collision.transform.tag == "Enemigo")
+        {
+            Debug.Log("Dañado por enemigo");
+            FueraDeMapa = true;
+            RestarVida();
+            Debug.Log("vidas restantes: " + Vidas);
         }
     }
 

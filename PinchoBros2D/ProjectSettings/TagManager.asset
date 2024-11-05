@@ -7,6 +7,7 @@ TagManager:
   - Limite
   - Suelo
   - Gota
+  - Enemigo
   layers:
   - Default
   - TransparentFX

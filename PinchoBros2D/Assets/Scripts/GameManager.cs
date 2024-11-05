@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Variables Publicas")]
     public bool inGame = false;
-    public float tiempo = 300f; // El valor inicial de la cuenta regresiva (300 segundos o cualquier valor deseado)
+    public float tiempo = 100f; // El valor inicial de la cuenta regresiva (300 segundos o cualquier valor deseado)
 
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
@@ -56,12 +56,14 @@ public class GameManager : MonoBehaviour
             // Reinicia la posición del personaje a la posición inicial
             Respawn();
             
-        }  
+        }
     }
+
+
     private void ActivarPanelFinJuego()
     {
         // Comprobamos si se cumple la condición de vidas y si el jugador está fuera del mapa
-        if (_controlJugador.Vidas < 0)
+        if (_controlJugador.Vidas == 0)
         {
             Debug.Log("Fin del juego. Vidas agotadas.");
             _controlMenu.FinDelJuego();

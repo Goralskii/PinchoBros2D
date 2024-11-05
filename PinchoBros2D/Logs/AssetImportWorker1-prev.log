@@ -15,7 +15,7 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58737
+50428
 Successfully changed project path to: D:/GitHub/PinchoBros2D/PinchoBros2D
 D:/GitHub/PinchoBros2D/PinchoBros2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5972] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 3769240418 [EditorId] 3769240418 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9668] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 3586106719 [EditorId] 3586106719 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5972] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 3769240418 [EditorId] 3769240418 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9668] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 3586106719 [EditorId] 3586106719 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 6.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,50 +70,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013446 seconds.
-- Loaded All Assemblies, in  0.461 seconds
+Registered in 0.014388 seconds.
+- Loaded All Assemblies, in  0.414 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 162 ms
+Android Extension - Scanning For ADB Devices 177 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.515 seconds
-Domain Reload Profiling: 974ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  0.523 seconds
+Domain Reload Profiling: 935ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (159ms)
-		LoadAssemblies (169ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (112ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (141ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (516ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (523ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (444ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (277ms)
+			InitializePlatformSupportModulesInManaged (290ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadAttributes (123ms)
 			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -122,8 +122,8 @@ Domain Reload Profiling: 974ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.768 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -133,47 +133,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.705 seconds
-Domain Reload Profiling: 1468ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 1457ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (443ms)
-		LoadAssemblies (359ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (146ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (706ms)
+	FinalizeReload (768ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (522ms)
+		SetupLoadedEditorAssemblies (582ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (361ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (135.6 KB). Loaded Objects now: 4671.
-Memory consumption went from 154.1 MB to 154.0 MB.
-Total: 3.536900 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.219300 ms MarkObjects: 2.853600 ms  DeleteObjects: 0.151400 ms)
+Unloading 77 unused Assets / (135.5 KB). Loaded Objects now: 4671.
+Memory consumption went from 154.2 MB to 154.0 MB.
+Total: 3.385600 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.303100 ms MarkObjects: 2.592500 ms  DeleteObjects: 0.138300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,70 +189,399 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.445 seconds
-Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.039 seconds
-Domain Reload Profiling: 1482ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (207ms)
-		LoadAssemblies (270ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1040ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (583ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (406ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.4 KB). Loaded Objects now: 4688.
-Memory consumption went from 152.3 MB to 152.2 MB.
-Total: 6.897900 ms (FindLiveObjects: 0.994200 ms CreateObjectMapping: 1.982000 ms MarkObjects: 3.764900 ms  DeleteObjects: 0.155700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1423.380140 seconds.
+  path: Assets/Imagenes/ObjHouse.png
+  artifactKey: Guid(bd42ed3d1e56eee418a52e3aa24b033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/ObjHouse.png using Guid(bd42ed3d1e56eee418a52e3aa24b033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8880c3551f436b52a3ec72ced53520') in 0.100957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imagenes/ObjTree.png
+  artifactKey: Guid(4ef6ac3f7955df045a77fbfd758f31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/ObjTree.png using Guid(4ef6ac3f7955df045a77fbfd758f31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4c7779d0271ab8e0c920a6053134e4') in 0.024516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/Obj_chest.png
+  artifactKey: Guid(01d638d8b62b04f449d497327902cce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Obj_chest.png using Guid(01d638d8b62b04f449d497327902cce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439e6e152be466ac7da71e0065fc4fb9') in 0.050055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 642.762252 seconds.
+  path: Assets/Imagenes/Backgrounds/Background1.png
+  artifactKey: Guid(322ebbc279bb9344ab8ab83efb58ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Backgrounds/Background1.png using Guid(322ebbc279bb9344ab8ab83efb58ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ee5e95392d9a74d77d1304bc142960') in 0.020694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005382 seconds.
+  path: Assets/Imagenes/Backgrounds/Mobile - Flappy Bird - Version 12 Sprites.png
+  artifactKey: Guid(90880990485332b438211dd57ba1ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Backgrounds/Mobile - Flappy Bird - Version 12 Sprites.png using Guid(90880990485332b438211dd57ba1ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04ab5b2c28fa878cfb68d3cb7421a18') in 0.268552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 227.281635 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00001.png
+  artifactKey: Guid(e8a102b6adcb17b4983f7ad68153f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00001.png using Guid(e8a102b6adcb17b4983f7ad68153f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62752f72d4c3c756b6f60c2482ba3fd4') in 0.020506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00011.png
+  artifactKey: Guid(7563d65e63bd56a4294c0ff97c2b66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00011.png using Guid(7563d65e63bd56a4294c0ff97c2b66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e889dade595bdae953b02cc46ea4ce00') in 0.020969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00010.png
+  artifactKey: Guid(553bb331343921b4385532d113d2fd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00010.png using Guid(553bb331343921b4385532d113d2fd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40f9af7b9f1f64071abb534a499b82f') in 0.017565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00020.png
+  artifactKey: Guid(2afd0b214df67164bb69f398640a6b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00020.png using Guid(2afd0b214df67164bb69f398640a6b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3773b0cd0a56247f316bb93adf5346') in 0.017667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00034.png
+  artifactKey: Guid(400851a5c09d9dd4c80d9421466c63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00034.png using Guid(400851a5c09d9dd4c80d9421466c63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdad3e8ddf97b93e6fac3f1a48fa9c8f') in 0.019252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00036.png
+  artifactKey: Guid(1126e07c4edb3284d991f1f9e9dfd090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00036.png using Guid(1126e07c4edb3284d991f1f9e9dfd090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c05badf7819c5f3e5a1a95d797605a') in 0.015452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00030.png
+  artifactKey: Guid(1426b8010a9d3634d8b3ecf0e653181b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00030.png using Guid(1426b8010a9d3634d8b3ecf0e653181b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ef8a831ffc13ca590644f487f49490') in 0.015316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00002.png
+  artifactKey: Guid(c0ef743277f17044288e975beb9d7e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00002.png using Guid(c0ef743277f17044288e975beb9d7e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37999bcd7a1684f5e84776196db2ef70') in 0.016932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00003.png
+  artifactKey: Guid(6b4f87415d069c2429f3421c4337c29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00003.png using Guid(6b4f87415d069c2429f3421c4337c29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3487175b8a85c6748dde8bc0303f034') in 0.017396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00019.png
+  artifactKey: Guid(7485cf975b050914db6ee3f33e72ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00019.png using Guid(7485cf975b050914db6ee3f33e72ca59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9b08e2b6269ebe48f6b5bf7c222ca0') in 0.022641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00008.png
+  artifactKey: Guid(09d8ef42531bb5d449316b49c6830768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00008.png using Guid(09d8ef42531bb5d449316b49c6830768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3757914873e25ef9ef59994ecc24adb2') in 0.021571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00016.png
+  artifactKey: Guid(3613ea031425f7349bb9969cd7680196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00016.png using Guid(3613ea031425f7349bb9969cd7680196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e957997cbb4d28941b130ea50aa3a84') in 0.016119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00038.png
+  artifactKey: Guid(1b1dedd4bd1e17341b1c8d7f556616d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00038.png using Guid(1b1dedd4bd1e17341b1c8d7f556616d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7959f5f4c0666f35bdb9e2294cc254') in 0.020517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00018.png
+  artifactKey: Guid(f392ca402d3d9ec4bae84c6c30d2f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00018.png using Guid(f392ca402d3d9ec4bae84c6c30d2f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dda864d977a5a627a341a63319a51e') in 0.019108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00006.png
+  artifactKey: Guid(a1190332937ef234fbc804006932829f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00006.png using Guid(a1190332937ef234fbc804006932829f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8bd25a8adf2c6be4cefbf2229900be') in 0.019305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00005.png
+  artifactKey: Guid(f0bb1d4b9fc230b4088b1172400bdbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00005.png using Guid(f0bb1d4b9fc230b4088b1172400bdbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d892a6b2abf78785e5be6779984730') in 0.022853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00024.png
+  artifactKey: Guid(9897571df1b56eb41b26be6ce5bc514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00024.png using Guid(9897571df1b56eb41b26be6ce5bc514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0707b42133772a425eed9ae32d3537e1') in 0.017736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00035.png
+  artifactKey: Guid(f25331bc8749b7845bc6a4b9c0ac4848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00035.png using Guid(f25331bc8749b7845bc6a4b9c0ac4848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400848d5e1dc089410dafc3ad1571903') in 0.016769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00015.png
+  artifactKey: Guid(c3e5ba11cfb5f2e44883db3eb188771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00015.png using Guid(c3e5ba11cfb5f2e44883db3eb188771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca0790f4d65e7c1f302103b44993cb3') in 0.018982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00027.png
+  artifactKey: Guid(c5e439ac0b8b15642a140964561c96a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00027.png using Guid(c5e439ac0b8b15642a140964561c96a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3ffbbed7256352f2071ac59265951a') in 0.032293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.980043 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00042.png
+  artifactKey: Guid(3f4520ee8e7dabf4fa03940122ca8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00042.png using Guid(3f4520ee8e7dabf4fa03940122ca8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb000ab1430aa4ad10100c87d6080dcd') in 0.017941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00044.png
+  artifactKey: Guid(b484742f802f1864f9545ce7ff90f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00044.png using Guid(b484742f802f1864f9545ce7ff90f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ddbc982b85f89017dca1340a25d7e2') in 0.016405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.032520 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00046.png
+  artifactKey: Guid(08591d9fd87d94e4b817db63cd57561c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00046.png using Guid(08591d9fd87d94e4b817db63cd57561c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33338012516bfd600fa316fab7dd8bd') in 0.017003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00048.png
+  artifactKey: Guid(668b9adf845a6d2499f169f0b02f20c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00048.png using Guid(668b9adf845a6d2499f169f0b02f20c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7e7319c7b778ed1725adb806f2ad35') in 0.018765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00051.png
+  artifactKey: Guid(ed5d6b0de4e3f324093a69ced9166710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00051.png using Guid(ed5d6b0de4e3f324093a69ced9166710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a1671527ebb9cef4b6df6044aaba7f') in 0.015994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00050.png
+  artifactKey: Guid(90fc67e5d7c423340b4a414ac4f54281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00050.png using Guid(90fc67e5d7c423340b4a414ac4f54281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650756b5c585c83706c7a828ebc00229') in 0.016446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00054.png
+  artifactKey: Guid(d418827b5d1cdca4db4493e7cd474c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00054.png using Guid(d418827b5d1cdca4db4493e7cd474c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ecfe1f580a8c5db363ba2ac927cf61') in 0.015955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00055.png
+  artifactKey: Guid(cf3a00ce89ea0264497222d9e537ad79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00055.png using Guid(cf3a00ce89ea0264497222d9e537ad79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2327bb5a33e0079d1c10f97f186a84a') in 0.017112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019830 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00058.png
+  artifactKey: Guid(f81638c766e63d445a28598130db619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00058.png using Guid(f81638c766e63d445a28598130db619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec83e8e9f96906d60e9f7a63e3e69412') in 0.016069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00060.png
+  artifactKey: Guid(972b926cc365a3f408c2fc17a7447c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00060.png using Guid(972b926cc365a3f408c2fc17a7447c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e348e62118c0e3d1ce5d62bc0d809619') in 0.017063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.204266 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00062.png
+  artifactKey: Guid(5fd9cfe67a5b666468b1548c5575f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00062.png using Guid(5fd9cfe67a5b666468b1548c5575f666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18209e1005737744aa3fac5870e53e3f') in 0.018128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00064.png
+  artifactKey: Guid(c678bab8166ab82478361587bc51cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00064.png using Guid(c678bab8166ab82478361587bc51cdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21606ab204358bec9ac56b21dc0868bf') in 0.016484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00068.png
+  artifactKey: Guid(b5e065e9dbc80dc459ef94758658c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00068.png using Guid(b5e065e9dbc80dc459ef94758658c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854b49ecf909fcdc0035b00f7dca520c') in 0.016394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00066.png
+  artifactKey: Guid(7b05a3b0721ace04b84495a9d4239707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00066.png using Guid(7b05a3b0721ace04b84495a9d4239707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd044d0bdb1faa75f14d678d3604f5ad') in 0.016573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013736 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00070.png
+  artifactKey: Guid(1e327d00c1e0ec7438b867402c8996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00070.png using Guid(1e327d00c1e0ec7438b867402c8996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2ed274299e855cfffbaacc4867f5e1') in 0.017930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009098 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00073.png
+  artifactKey: Guid(715129b25e71a0f4c88951bf753e8b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00073.png using Guid(715129b25e71a0f4c88951bf753e8b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c272a7552945750e9b27e8ed7bd3776a') in 0.019171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.261152 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00077.png
+  artifactKey: Guid(b33fb58d24de837498b9760cf41b46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00077.png using Guid(b33fb58d24de837498b9760cf41b46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7749b89adeae2e8ce0cc2b2a5250a06f') in 0.016969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00079.png
+  artifactKey: Guid(0dc427f4e3947e84f98992d2fe77d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00079.png using Guid(0dc427f4e3947e84f98992d2fe77d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cd8bb58c43e8b9c1ecad7d27438dce') in 0.016524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031740 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00081.png
+  artifactKey: Guid(bafd99971d489ae459eb73179ddc24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00081.png using Guid(bafd99971d489ae459eb73179ddc24ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dacdafc9487a44314b94adf8da26738') in 0.025166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00088.png
+  artifactKey: Guid(085e44a1ab3fbab4ba8e0e02285e9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00088.png using Guid(085e44a1ab3fbab4ba8e0e02285e9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764f5648b9f647600a6ccc13020a0a2a') in 0.019705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00091.png
+  artifactKey: Guid(fc271cc66e47cb14cb6f2dd9ebb0055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00091.png using Guid(fc271cc66e47cb14cb6f2dd9ebb0055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9ac3e22df71719d80db7e43b1a8af4') in 0.019686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00089.png
+  artifactKey: Guid(4c5c8d0bc822a3c498c0b6008f072306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00089.png using Guid(4c5c8d0bc822a3c498c0b6008f072306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3e347c9c7697236747ed837ef80d16') in 0.017211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00095.png
+  artifactKey: Guid(efe477ff171ee4743a93acfd9d761dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00095.png using Guid(efe477ff171ee4743a93acfd9d761dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b6d5f483c3b03826db9415f000e875') in 0.017164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.247024 seconds.
+  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00097.png
+  artifactKey: Guid(64d572d17014972429e5527acc0870a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00097.png using Guid(64d572d17014972429e5527acc0870a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eedb56d108c45e01c713514d02f068') in 0.019629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
