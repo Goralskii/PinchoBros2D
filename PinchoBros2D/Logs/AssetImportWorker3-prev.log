@@ -15,7 +15,7 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50428
+50169
 Successfully changed project path to: D:/GitHub/PinchoBros2D/PinchoBros2D
 D:/GitHub/PinchoBros2D/PinchoBros2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/GitHub/PinchoBros2D/PinchoBros2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16592] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 3048824720 [EditorId] 3048824720 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27788] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 4042381907 [EditorId] 4042381907 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16592] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 3048824720 [EditorId] 3048824720 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27788] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 4042381907 [EditorId] 4042381907 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 7.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 42.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,51 +70,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013407 seconds.
-- Loaded All Assemblies, in  0.360 seconds
+Registered in 0.013378 seconds.
+- Loaded All Assemblies, in  0.381 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 188 ms
+Android Extension - Scanning For ADB Devices 193 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.507 seconds
-Domain Reload Profiling: 865ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.542 seconds
+Domain Reload Profiling: 921ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
 		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (152ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (507ms)
+	FinalizeReload (542ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (449ms)
+		SetupLoadedEditorAssemblies (485ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (292ms)
+			InitializePlatformSupportModulesInManaged (322ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (110ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,8 +122,8 @@ Domain Reload Profiling: 865ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.650 seconds
-Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -133,47 +133,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.655 seconds
-Domain Reload Profiling: 1303ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1239ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (425ms)
-		LoadAssemblies (317ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (280ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (141ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (655ms)
+	FinalizeReload (618ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (483ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (26ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (135.6 KB). Loaded Objects now: 4671.
+Unloading 4207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (135.8 KB). Loaded Objects now: 4672.
 Memory consumption went from 154.2 MB to 154.1 MB.
-Total: 3.370000 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.227600 ms MarkObjects: 2.709300 ms  DeleteObjects: 0.128200 ms)
+Total: 3.317800 ms (FindLiveObjects: 0.334600 ms CreateObjectMapping: 0.274700 ms MarkObjects: 2.575000 ms  DeleteObjects: 0.132800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,105 +190,929 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2297.944100 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00063.png
-  artifactKey: Guid(c654289d79905754baf36780d6e1b365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00063.png using Guid(c654289d79905754baf36780d6e1b365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145bb20ec6d8252c64c03c419f800508') in 0.075896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.002911 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00071.png
-  artifactKey: Guid(9b861a1ccc70bc6419ea5ce92a0ef238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00071.png using Guid(9b861a1ccc70bc6419ea5ce92a0ef238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266d1dcaf30df4253a17a46e6fdf62c2') in 0.017993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.008534 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00074.png
-  artifactKey: Guid(3c19a845bc011704b8f159d6262f4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00074.png using Guid(3c19a845bc011704b8f159d6262f4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fda411a84c3250ec8c46aec542653e') in 0.017121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.261859 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00078.png
-  artifactKey: Guid(9096b57c1076f5e469efba0c24977483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00078.png using Guid(9096b57c1076f5e469efba0c24977483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0d198b3eab4f6a8fdd3ef4e60cf5bd') in 0.019255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.046167 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00082.png
-  artifactKey: Guid(1979399dd993f51468be251eb71cc40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00082.png using Guid(1979399dd993f51468be251eb71cc40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59abfb72c754857e0e1af676379c5413') in 0.019900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00085.png
-  artifactKey: Guid(93d013fb1dc5696489e609b039700c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00085.png using Guid(93d013fb1dc5696489e609b039700c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af61014dc2f8b492fd8b57963494913d') in 0.023151 seconds
+  Time since last request: 11952.533863 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00002.png
+  artifactKey: Guid(8a20241a9f148bd4289a63c770ff32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00002.png using Guid(8a20241a9f148bd4289a63c770ff32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d2a46a047fc2e21606f87ed5a17cf') in 0.095721 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00090.png
-  artifactKey: Guid(e48f2d952824e234aa23f82cbf683182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00090.png using Guid(e48f2d952824e234aa23f82cbf683182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6319afd73d5157491e2fa4a9ac9ced') in 0.016964 seconds
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00008.png
+  artifactKey: Guid(f83c9425c2b1eee42bb81287cdf50655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00008.png using Guid(f83c9425c2b1eee42bb81287cdf50655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96050e8fbb9ba76ef1bb22575732df5') in 0.060771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00014.png
+  artifactKey: Guid(e66a7002064531e4e9d3f062c5bde13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00014.png using Guid(e66a7002064531e4e9d3f062c5bde13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414b19074abb775026a3621dbfa09817') in 0.029945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00017.png
+  artifactKey: Guid(c4c69cdf62073b949870ad1c66221765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00017.png using Guid(c4c69cdf62073b949870ad1c66221765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03b827c47c2e06fe0ddb7a107646a48') in 0.024958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00019.png
+  artifactKey: Guid(c0b04a8dd91028145b23683383babb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00019.png using Guid(c0b04a8dd91028145b23683383babb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923a8b5535727a1660e34e80236333c1') in 0.045902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00021.png
+  artifactKey: Guid(de6382e376fe28d45ba0e3d081fdb29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00021.png using Guid(de6382e376fe28d45ba0e3d081fdb29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a82b27d0fa6ee750d8fabe3fa769949') in 0.069381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00016.png
+  artifactKey: Guid(cdea4b8a65c1d7743ba8be39a864e8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00016.png using Guid(cdea4b8a65c1d7743ba8be39a864e8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d3e7ee162db52555fd64f4679738d3') in 0.028260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.113912 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00002.png
+  artifactKey: Guid(1477c728804813f489cb691d274da074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00002.png using Guid(1477c728804813f489cb691d274da074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c89727f5716efffcd94f2a2bae98a19') in 0.053152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00005.png
+  artifactKey: Guid(19a9b87b169c84641bd18356b29c814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00005.png using Guid(19a9b87b169c84641bd18356b29c814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e15edc9a9f3e6bfe1e1e0116629e9fa') in 0.042337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007586 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00008.png
+  artifactKey: Guid(826644b10cec37247accd66dfb3299a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00008.png using Guid(826644b10cec37247accd66dfb3299a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b869058a0141ff756869745ee5f09626') in 0.029929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00010.png
+  artifactKey: Guid(e4c21f8b62422cf4291fcad7f0efbbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00010.png using Guid(e4c21f8b62422cf4291fcad7f0efbbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1418f76faee9ebf582416c85ed1a63') in 0.043690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007396 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00012.png
+  artifactKey: Guid(02c2246380a42324d9083303d59ead9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00012.png using Guid(02c2246380a42324d9083303d59ead9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405f43a7382770905bf1648318f91ab5') in 0.023773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004270 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00015.png
+  artifactKey: Guid(b4c971abb993b3a4b89b877ccbd35658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00015.png using Guid(b4c971abb993b3a4b89b877ccbd35658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acafb7e2815709625d9284479f45f444') in 0.056968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00017.png
+  artifactKey: Guid(0b3341fbb042cf74eb6e037f3672dfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00017.png using Guid(0b3341fbb042cf74eb6e037f3672dfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1213b639fe5a365690d16652120e6148') in 0.032864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007437 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00020.png
+  artifactKey: Guid(1399ff6688c496549bf66f0792b3e547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00020.png using Guid(1399ff6688c496549bf66f0792b3e547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfda13f21f4a23ade0cf795037795d5f') in 0.092157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.386793 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00028.png
+  artifactKey: Guid(b9a1d61b55fd64645a331e3719d29dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00028.png using Guid(b9a1d61b55fd64645a331e3719d29dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e164910caf9a98813c7ece09cfa7999') in 0.034166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017694 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00031.png
+  artifactKey: Guid(c980cb8997bb0d14daca9ac116371c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00031.png using Guid(c980cb8997bb0d14daca9ac116371c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb4350d1f4129a645b633263670d52c') in 0.048426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00034.png
+  artifactKey: Guid(21880522e704dea4db284ffdc42be282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00034.png using Guid(21880522e704dea4db284ffdc42be282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07710e27a46659f47a99358a734f396c') in 0.037853 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00094.png
-  artifactKey: Guid(5e9c7012d123e22479becb26181b238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00094.png using Guid(5e9c7012d123e22479becb26181b238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b2b602ab1e4d9aae35b73c4d2911cd') in 0.018255 seconds
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00037.png
+  artifactKey: Guid(71cb519afc745bb479274dcded9cccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00037.png using Guid(71cb519afc745bb479274dcded9cccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c3bfb5561955b42897bef0e6f1c52') in 0.037256 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00092.png
-  artifactKey: Guid(71c35e89c479fc8418095921c4294e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00092.png using Guid(71c35e89c479fc8418095921c4294e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3902a446e18e2b871e5168614d51bd') in 0.016769 seconds
+  Time since last request: 0.008969 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00040.png
+  artifactKey: Guid(2a72463c9c944e84794bd60a9a75231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00040.png using Guid(2a72463c9c944e84794bd60a9a75231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d826c59758fee1e6a2ab5c5c1fb569') in 0.035010 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00093.png
-  artifactKey: Guid(babbaabae1b54c54aae63b919896a0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00093.png using Guid(babbaabae1b54c54aae63b919896a0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6679255dcde96fe2a897815152dfb90f') in 0.015694 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00042.png
+  artifactKey: Guid(20c822ab5a4e7d9498a9744437fe107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00042.png using Guid(20c822ab5a4e7d9498a9744437fe107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fd2a749354fafa344dfeb0ed7eb0e6') in 0.034808 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.234741 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00098.png
-  artifactKey: Guid(b829940d0832b5b4c91e8d24ef8cd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00098.png using Guid(b829940d0832b5b4c91e8d24ef8cd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abbaab0a7926db2a42284bfd86df6b4') in 0.017941 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00044.png
+  artifactKey: Guid(d2ee305bda3ba6042839f8704c336834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00044.png using Guid(d2ee305bda3ba6042839f8704c336834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74d7a171f761ae5b8397e58cb5da0a1') in 0.040743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.043430 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00047.png
+  artifactKey: Guid(099bc05c625579e4a96c162b43f03763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00047.png using Guid(099bc05c625579e4a96c162b43f03763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b15aebee835aabf2baf1454a1cc516') in 0.037398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008802 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00050.png
+  artifactKey: Guid(2fc4c6f93bda8814b97e0aadf28e8204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00050.png using Guid(2fc4c6f93bda8814b97e0aadf28e8204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137bdbae53fbc79e3aec47a2b28e4c81') in 0.046205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017732 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00053.png
+  artifactKey: Guid(60349e7853ddc484d963cd04756f5806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00053.png using Guid(60349e7853ddc484d963cd04756f5806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddceb62ae1f860edd31404c04c9980be') in 0.060844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00056.png
+  artifactKey: Guid(f498036d8ed158d42bf005b63796f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00056.png using Guid(f498036d8ed158d42bf005b63796f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a786d72f65f316e4769241dca0a4efb8') in 0.028377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017679 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00059.png
+  artifactKey: Guid(1342690a0cbe99446acc9c18c2befaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00059.png using Guid(1342690a0cbe99446acc9c18c2befaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cf3695d4af171975e641a7f5ea7038') in 0.039287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016241 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00062.png
+  artifactKey: Guid(9a14ac0a7e7556f45a1b5b5286cec620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00062.png using Guid(9a14ac0a7e7556f45a1b5b5286cec620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e51a7cbcc9291b2213c3aa31b64427f') in 0.058234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.566752 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00067.png
+  artifactKey: Guid(f6fc5b87bc983404facbf56155af3bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00067.png using Guid(f6fc5b87bc983404facbf56155af3bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5d4e0548ca7c7fb5de3a5508089c67') in 0.064032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028732 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00071.png
+  artifactKey: Guid(6e333554943168e488b97129085007f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00071.png using Guid(6e333554943168e488b97129085007f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4590fbd243a65a944f4f0c8eabb2714') in 0.046910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016574 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00074.png
+  artifactKey: Guid(15aa8a27df84cb84aae83c5a44b22abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00074.png using Guid(15aa8a27df84cb84aae83c5a44b22abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7f52943f921bf045631916c993d3ad') in 0.044248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00078.png
+  artifactKey: Guid(ab720522d76b8a649aa1691e92138f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00078.png using Guid(ab720522d76b8a649aa1691e92138f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4431bc0affe67767c22e2a6aa3218fe9') in 0.044398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00076.png
+  artifactKey: Guid(2efa6157c3b70584a9b052381ef531ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00076.png using Guid(2efa6157c3b70584a9b052381ef531ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8ff66641900671c48bb713cf7a0f5e') in 0.030268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.246174 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00083.png
+  artifactKey: Guid(3e03c707816872f428bcf9e5a186e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00083.png using Guid(3e03c707816872f428bcf9e5a186e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ec87ba8ef059f1e1145c9dee32eff7') in 0.039526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033377 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00088.png
+  artifactKey: Guid(efa466c1576dc0c4f8830b386d960d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00088.png using Guid(efa466c1576dc0c4f8830b386d960d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c319b9289c9e18821a6ecbcb56a223') in 0.046769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029698 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00092.png
+  artifactKey: Guid(bb4b02c93666d5e47a6793f7a0bfb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00092.png using Guid(bb4b02c93666d5e47a6793f7a0bfb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191ad8d6da0d45c1cef04215bda01421') in 0.046862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00095.png
+  artifactKey: Guid(4e5d6dbb9b941e14d96c1ea222480863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00095.png using Guid(4e5d6dbb9b941e14d96c1ea222480863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c0eb6cc5f1823c44ee611fb2017503') in 0.054917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.242758 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00099.png
+  artifactKey: Guid(87915e18b9e492c4f99c2f0713dffd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 3/fuego sprite 3_00099.png using Guid(87915e18b9e492c4f99c2f0713dffd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355494de90d6689daba31b4f6896522d') in 0.070663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 145.516699 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00026.png
+  artifactKey: Guid(7005307c7e714694b9481f30479f0b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00026.png using Guid(7005307c7e714694b9481f30479f0b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8f97e4437b061adf53f2c8b1f16850') in 0.026037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00029.png
+  artifactKey: Guid(f0690edecccc6ae4e83399fa64193ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00029.png using Guid(f0690edecccc6ae4e83399fa64193ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7118a6cbd86c1e5ef9c1f16fd5832b2a') in 0.037174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00033.png
+  artifactKey: Guid(16c4c67aae0231d428b25c7f21abad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00033.png using Guid(16c4c67aae0231d428b25c7f21abad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36023daa2d31da7071c188ccbe0d1f1') in 0.022262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00036.png
+  artifactKey: Guid(f2d7883aae039e54995ec608874f586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00036.png using Guid(f2d7883aae039e54995ec608874f586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9faa4e733765a1086ec32d4b6281f9') in 0.025337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00035.png
+  artifactKey: Guid(defe640676d370b4e8ad62a95607917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00035.png using Guid(defe640676d370b4e8ad62a95607917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941032db308eaa4c485559742767cc5b') in 0.052427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00039.png
+  artifactKey: Guid(f8e94899f1279ac4f823379cad0ebe3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00039.png using Guid(f8e94899f1279ac4f823379cad0ebe3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70286664be3db777e46f8bcecaab3323') in 0.041501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00043.png
+  artifactKey: Guid(4036c477606429b429f9d923e88737ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00043.png using Guid(4036c477606429b429f9d923e88737ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8a05cd3660c2e5af8c4ba709635090') in 0.033544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00044.png
+  artifactKey: Guid(56c2a830010aa894fb6edb945db4dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00044.png using Guid(56c2a830010aa894fb6edb945db4dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfacf9b85de4d0fb329c47ad5e65445b') in 0.024479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00042.png
+  artifactKey: Guid(0a72bcc9d9d5df4468918bd381947d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00042.png using Guid(0a72bcc9d9d5df4468918bd381947d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bb875885cf2f61608369c44cc34cd0') in 0.032716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00045.png
+  artifactKey: Guid(e5fef0d9732089d439348c821476d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00045.png using Guid(e5fef0d9732089d439348c821476d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78fc81541fe2736c0098b343c956dcc') in 0.036355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00047.png
+  artifactKey: Guid(b0fe161aabf7c4049a3e6c4845d2da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00047.png using Guid(b0fe161aabf7c4049a3e6c4845d2da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ae67aab32bd84f1ee62c9cd7de0992') in 0.044482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00048.png
+  artifactKey: Guid(0188011ce40a1b84bb87f087bf026d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00048.png using Guid(0188011ce40a1b84bb87f087bf026d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fdb70092732d2adb735dd83577875a') in 0.043608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00051.png
+  artifactKey: Guid(78aef0cd0b1fb21498c3cd415aef2d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00051.png using Guid(78aef0cd0b1fb21498c3cd415aef2d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f24d91f2de7a3bd4f0862b5cd313f9d') in 0.043179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00053.png
+  artifactKey: Guid(aa9da66f1ee47af41be457e7a18cfe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00053.png using Guid(aa9da66f1ee47af41be457e7a18cfe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1015e1cd948205d4da824dbd31c73969') in 0.022388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00054.png
+  artifactKey: Guid(d29345d902b9a144e9445cde297dda15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00054.png using Guid(d29345d902b9a144e9445cde297dda15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fab203c3adddd461f4b7565a1f7924e') in 0.037015 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00099.png
-  artifactKey: Guid(e44e2ccc632e40b4fb4e1c3e38172929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/gota sin sombra/gota pixel sin sombra_00099.png using Guid(e44e2ccc632e40b4fb4e1c3e38172929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7e9864822d31361ab289e040000e9a') in 0.016796 seconds
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00049.png
+  artifactKey: Guid(c3711f7b11ee4b949a3765ffe94d8c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00049.png using Guid(c3711f7b11ee4b949a3765ffe94d8c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63d096042d1c666d90b4f5a4b411ac3') in 0.039637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00058.png
+  artifactKey: Guid(58ac36fb10784a2489f44cc2044745ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00058.png using Guid(58ac36fb10784a2489f44cc2044745ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332c22f13ae2a72c4a65cd59caba731c') in 0.037188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00060.png
+  artifactKey: Guid(ce67d84686f63d44cbd316e57030b140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00060.png using Guid(ce67d84686f63d44cbd316e57030b140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211a4d54e4098bee5c923a5b012c273b') in 0.049173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00062.png
+  artifactKey: Guid(f58fab3b4d0885042984bae471d33c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00062.png using Guid(f58fab3b4d0885042984bae471d33c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb792994f0255c38b71ea20ce054c7c') in 0.021994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00057.png
+  artifactKey: Guid(0fc43e9e97bea3443bda0326fb2aa468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00057.png using Guid(0fc43e9e97bea3443bda0326fb2aa468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbafc6a654e5ce049018b56dad599527') in 0.043904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00061.png
+  artifactKey: Guid(6af52c8ec5b560d4e9579749579039c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00061.png using Guid(6af52c8ec5b560d4e9579749579039c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa874c5c5ee139d8757638a99b9900e') in 0.039336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00066.png
+  artifactKey: Guid(715c88b7273b83d49b11cbada31a21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00066.png using Guid(715c88b7273b83d49b11cbada31a21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51ffbf8d2c7552a75009a0b97b6a1ce') in 0.029968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00071.png
+  artifactKey: Guid(cfa1004230e8a3543b40bc1d292391fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00071.png using Guid(cfa1004230e8a3543b40bc1d292391fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e61046cbcfa3d8710f0059eee32fd9c') in 0.033948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00073.png
+  artifactKey: Guid(8341c8c50785e62479a62f66c78c8e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00073.png using Guid(8341c8c50785e62479a62f66c78c8e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecd092819ff51c4a408c75238cf93db') in 0.038057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00075.png
+  artifactKey: Guid(d74af290ee2189c40b85f1f1ec19d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00075.png using Guid(d74af290ee2189c40b85f1f1ec19d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8b771ac953f9465619225d36ca734e') in 0.039267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00076.png
+  artifactKey: Guid(b42de0efd87ae6844a2307dd5fd63961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00076.png using Guid(b42de0efd87ae6844a2307dd5fd63961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c0472e904bb0484ce567cf73ef584b') in 0.046499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00082.png
+  artifactKey: Guid(b4527b5927d88ff4e87b095ae9618882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00082.png using Guid(b4527b5927d88ff4e87b095ae9618882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b20652598ac65232ce7452ab7394b76') in 0.032796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00078.png
+  artifactKey: Guid(1efcb93c8e1d60e47837b3dc2f93b12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00078.png using Guid(1efcb93c8e1d60e47837b3dc2f93b12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d282c2d9a66bedd39aa4f066f92f67') in 0.031334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00084.png
+  artifactKey: Guid(34dd53e40cb31df43837796da8a7cece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00084.png using Guid(34dd53e40cb31df43837796da8a7cece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b43833aeef1f8deb40715a038206a97') in 0.025419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00086.png
+  artifactKey: Guid(445f7c56040812549a4ae5838e5719a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00086.png using Guid(445f7c56040812549a4ae5838e5719a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed324c2abdd20e11ae95e1d41e771d6') in 0.048367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00080.png
+  artifactKey: Guid(f183ebf867e29314799325c2bafac97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00080.png using Guid(f183ebf867e29314799325c2bafac97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405de6b7cca5acdf889ec58a94edc020') in 0.035418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00088.png
+  artifactKey: Guid(51d3b70a111ab1a45b9f49cd9260fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00088.png using Guid(51d3b70a111ab1a45b9f49cd9260fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14347314428068cfdf361e0915bcc425') in 0.034387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00089.png
+  artifactKey: Guid(f83be25148d634b43a01487d53e81368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00089.png using Guid(f83be25148d634b43a01487d53e81368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b584cba283571cdc88cbd127bc52b5c7') in 0.020501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00090.png
+  artifactKey: Guid(20a4449f37d4cbf408044243ebaad791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00090.png using Guid(20a4449f37d4cbf408044243ebaad791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbc4796ca7538727512a2059cfbbbde') in 0.041853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00095.png
+  artifactKey: Guid(0f525cabf40172f448d14f586c3bbce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00095.png using Guid(0f525cabf40172f448d14f586c3bbce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84048c859159919a5cc7d7cfcdea3232') in 0.029135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00094.png
+  artifactKey: Guid(8222d62d37889aa4bb3122f367b18d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00094.png using Guid(8222d62d37889aa4bb3122f367b18d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370d4b6793efaaa85b2362570f8c4c71') in 0.043844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00096.png
+  artifactKey: Guid(4015af95da4dec046b179a0668e1dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00096.png using Guid(4015af95da4dec046b179a0668e1dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcf8f1e73c31f45fa3b25f36629b198') in 0.026652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00098.png
+  artifactKey: Guid(fae9776eef7d587439beb6359c0307af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00098.png using Guid(fae9776eef7d587439beb6359c0307af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9392147d2d4b2b61884b8120adc218a3') in 0.020638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00099.png
+  artifactKey: Guid(cb64579c41856c7449fdaaaf71b308e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite/fuego sprite_00099.png using Guid(cb64579c41856c7449fdaaaf71b308e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e92a5021c8e4dd3615933a221263618') in 0.099862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 83.453528 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00001.png
+  artifactKey: Guid(286619cb2197b944b847103259afcfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00001.png using Guid(286619cb2197b944b847103259afcfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d6a2e91a9af09adff40fa36b318f47') in 0.049465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00003.png
+  artifactKey: Guid(10b610a475d064e43a0a15c90017dd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00003.png using Guid(10b610a475d064e43a0a15c90017dd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f493edea73e87643967175604081ad') in 0.030666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00002.png
+  artifactKey: Guid(c6beb162abbd5fb4786f527679988549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00002.png using Guid(c6beb162abbd5fb4786f527679988549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63595a8c771a1bd9eb8e32327b9a50b6') in 0.038048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00006.png
+  artifactKey: Guid(985cb2fde135f6e43b507bf6f2057ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00006.png using Guid(985cb2fde135f6e43b507bf6f2057ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3e42248112c9f8e0aa377f8da4ee15') in 0.059284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00011.png
+  artifactKey: Guid(652f68cdd29714047abc6a7752511102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00011.png using Guid(652f68cdd29714047abc6a7752511102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dde518153a232d7a4c2e1d4aa6b96b8') in 0.030226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00010.png
+  artifactKey: Guid(0baff9e296196884d8f6032766f8f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00010.png using Guid(0baff9e296196884d8f6032766f8f194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef027c0a2c7605ae72bb6f379da2c29') in 0.037249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00015.png
+  artifactKey: Guid(f0bae77f5fd67f74e837429fa8ea1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00015.png using Guid(f0bae77f5fd67f74e837429fa8ea1f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f2c7e19fa33355abc70da902bd665a') in 0.030474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00016.png
+  artifactKey: Guid(2f09148fbf0e2e64eb82ba3577cf3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00016.png using Guid(2f09148fbf0e2e64eb82ba3577cf3d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2957b80bc2af24bc4b61e68c1d9fb2b') in 0.087426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00019.png
+  artifactKey: Guid(4af148c8ee8aaf44e8df7f4a6ab04fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00019.png using Guid(4af148c8ee8aaf44e8df7f4a6ab04fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f87259869f54583695d48c437696d6a') in 0.063566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00024.png
+  artifactKey: Guid(6e11d2a319671fb4b8c91c744b220048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00024.png using Guid(6e11d2a319671fb4b8c91c744b220048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2bddcd4223a7599c5294db96ebf4b9') in 0.039209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00022.png
+  artifactKey: Guid(fed7a0d4fa220d44bb69945845427ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00022.png using Guid(fed7a0d4fa220d44bb69945845427ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8534353bdfb9fc356813f35d985a06') in 0.031714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00004.png
+  artifactKey: Guid(785b8d65e9f07eb4bacd9e3a5cfe9ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00004.png using Guid(785b8d65e9f07eb4bacd9e3a5cfe9ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cce3580ddb92f90043f6ad0f51b36c') in 0.029909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00008.png
+  artifactKey: Guid(81bf6b8a71ac6694d94c7c2bc08d1aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00008.png using Guid(81bf6b8a71ac6694d94c7c2bc08d1aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78ab2d3d920aae7472ae573391eb43d') in 0.032655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00013.png
+  artifactKey: Guid(5726ac54bc7d02641a8800b04701917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 4/fuego sprite 4_00013.png using Guid(5726ac54bc7d02641a8800b04701917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b53bd960bef28a2dd2f2a40ca9a5c8') in 0.049057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.845719 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00026.png
+  artifactKey: Guid(81b03323a91c41e41aecec7e488b033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00026.png using Guid(81b03323a91c41e41aecec7e488b033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8764411048e5500555ce22e0ffba96') in 0.048033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.060169 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00030.png
+  artifactKey: Guid(3c07a968bd4957946932edb8933e02da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00030.png using Guid(3c07a968bd4957946932edb8933e02da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45de5343e05359b05ad30148e67fe9b') in 0.045246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005927 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00033.png
+  artifactKey: Guid(9bec624973121fb42a5032c1b70329ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00033.png using Guid(9bec624973121fb42a5032c1b70329ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f29933250dd6a7ab98083c02223d76f') in 0.038553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001787 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00035.png
+  artifactKey: Guid(2bfaceb0d95256745a2ef3cc11806974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00035.png using Guid(2bfaceb0d95256745a2ef3cc11806974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da8525fcc1b859d17040da687b2fbfd') in 0.038115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002709 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00037.png
+  artifactKey: Guid(3bd121372c36ca948b8f6fe62147e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00037.png using Guid(3bd121372c36ca948b8f6fe62147e896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7dfc9f6d2a4e9a317a8c2a53339198') in 0.083410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00042.png
+  artifactKey: Guid(e373bd9a5ad6a734faaa43da5a5c0101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00042.png using Guid(e373bd9a5ad6a734faaa43da5a5c0101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4dac0953650af444327d9951c294cc') in 0.032579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00044.png
+  artifactKey: Guid(a3a0f57ef7821b6459eca4580e6d8c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00044.png using Guid(a3a0f57ef7821b6459eca4580e6d8c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d768b616719391e00311a813e975942') in 0.051644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011692 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00048.png
+  artifactKey: Guid(b1c1ade53f6d2424c9f94112de5f1f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00048.png using Guid(b1c1ade53f6d2424c9f94112de5f1f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203910cb0770a2dab05b76ab15032e47') in 0.030604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00049.png
+  artifactKey: Guid(9010c15c02f7ee848a5469f6dfd9f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00049.png using Guid(9010c15c02f7ee848a5469f6dfd9f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c962415a0eb9eebea8d6546558af8') in 0.072379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010735 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00054.png
+  artifactKey: Guid(65e89dfc4dae5c046a00d215c8aa4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00054.png using Guid(65e89dfc4dae5c046a00d215c8aa4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b44c12515d40abeddfd04a8e7ed2efd') in 0.044828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00055.png
+  artifactKey: Guid(1344f14ed1bcf9c48b960b2fbe71af07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00055.png using Guid(1344f14ed1bcf9c48b960b2fbe71af07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe5dbaddfad69d627471a3e3463d26c') in 0.071998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00060.png
+  artifactKey: Guid(fa9ef7c8854640740890bbb0794760d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00060.png using Guid(fa9ef7c8854640740890bbb0794760d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a4a21b211042e7c3c3def3813eae51') in 0.039018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00062.png
+  artifactKey: Guid(94b88a36e5e488044b666c3faeebdda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00062.png using Guid(94b88a36e5e488044b666c3faeebdda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d01491018d144370dcef60034d1b6f') in 0.136341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023813 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00068.png
+  artifactKey: Guid(aad5753a736801b46a4ed049660e8d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00068.png using Guid(aad5753a736801b46a4ed049660e8d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f584419e4f3a9a36b3a846272132e423') in 0.034474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00071.png
+  artifactKey: Guid(78dd2b1eec37c4842bd467e10dd7b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00071.png using Guid(78dd2b1eec37c4842bd467e10dd7b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85274a5359b9cbacce56aac1580257b') in 0.025155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00073.png
+  artifactKey: Guid(47a369c4c85a7f54c85449a54cb9986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00073.png using Guid(47a369c4c85a7f54c85449a54cb9986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c25090f77ee266bd3aa3c2cf6c4954') in 0.078385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025387 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00078.png
+  artifactKey: Guid(9f5d7ef338e1ad54c8b3d994e3e559de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00078.png using Guid(9f5d7ef338e1ad54c8b3d994e3e559de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a52f0575ffdf6575b2cd396ef48efd3') in 0.053088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00080.png
+  artifactKey: Guid(9d45a2028067b8446a36da7ebc821a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00080.png using Guid(9d45a2028067b8446a36da7ebc821a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0091761590114141e179713f1b67da') in 0.033418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014277 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00082.png
+  artifactKey: Guid(92843a84fe3b44c41b022889da45db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00082.png using Guid(92843a84fe3b44c41b022889da45db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe17734f076e7d9ad65ed1784167df2') in 0.045516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006264 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00085.png
+  artifactKey: Guid(283f7716c5971cc489b85020aa5890f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00085.png using Guid(283f7716c5971cc489b85020aa5890f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbf5a75b59ed2a0af3f20f1673cbd24') in 0.104807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008798 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00091.png
+  artifactKey: Guid(f06f9f223263a3541a1527fad04b54d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00091.png using Guid(f06f9f223263a3541a1527fad04b54d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fab94d4fb5050a4c5f22c1ca9dbe17') in 0.055242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00094.png
+  artifactKey: Guid(0cc4025ba06f87b43a7ef29807981239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00094.png using Guid(0cc4025ba06f87b43a7ef29807981239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c4428950b3250151b2ed2c8c3a2dee') in 0.026568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009371 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00097.png
+  artifactKey: Guid(e7fda06e87ecee845a616eeb96863472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00097.png using Guid(e7fda06e87ecee845a616eeb96863472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92fdbd3bcf78dd7ffe4f597eaf38109') in 0.037062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00099.png
+  artifactKey: Guid(10be28f4c7d530c498bd13d9e9f37ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/fuegos/fuego sprite 2/fuego sprite 2_00099.png using Guid(10be28f4c7d530c498bd13d9e9f37ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861e6f58f3878af2e858d9f4fe1afaf8') in 0.034417 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.498 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -297,114 +1121,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.992 seconds
-Domain Reload Profiling: 1456ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  0.926 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (216ms)
-		LoadAssemblies (288ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (309ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (993ms)
+	FinalizeReload (927ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (551ms)
+		SetupLoadedEditorAssemblies (494ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (395ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4192 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4693.
-Memory consumption went from 152.2 MB to 152.1 MB.
-Total: 7.608400 ms (FindLiveObjects: 0.725500 ms CreateObjectMapping: 0.662600 ms MarkObjects: 6.141900 ms  DeleteObjects: 0.076700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.491 seconds
-Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.049 seconds
-Domain Reload Profiling: 1537ms
-	BeginReloadAssembly (182ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (224ms)
-		LoadAssemblies (301ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1049ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (597ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4709.
-Memory consumption went from 154.4 MB to 154.3 MB.
-Total: 5.084900 ms (FindLiveObjects: 0.428800 ms CreateObjectMapping: 0.424200 ms MarkObjects: 4.141800 ms  DeleteObjects: 0.088400 ms)
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.6 KB). Loaded Objects now: 4695.
+Memory consumption went from 152.3 MB to 152.2 MB.
+Total: 3.388100 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.288800 ms MarkObjects: 2.665600 ms  DeleteObjects: 0.079000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -422,17 +1178,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1305.282499 seconds.
-  path: Assets/Prefabs/gota pixel sin sombra_00000.prefab
-  artifactKey: Guid(0168c6e4994d05546b12e09ec460ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/gota pixel sin sombra_00000.prefab using Guid(0168c6e4994d05546b12e09ec460ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41ba3be799a0dac175a0a67aeae4991') in 0.205072 seconds
+  Time since last request: 322.878950 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(79a1105de65999b4a9fa09b94920ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(79a1105de65999b4a9fa09b94920ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9e060983ea755a2fd19046425fd590') in 0.001972 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 219
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.478 seconds
-Refreshing native plugins compatible for Editor in 14.51 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.499 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -441,46 +1197,222 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.076 seconds
-Domain Reload Profiling: 1552ms
+- Finished resetting the current domain, in  0.896 seconds
+Domain Reload Profiling: 1392ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (896ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4711.
+Memory consumption went from 154.2 MB to 154.1 MB.
+Total: 3.876600 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.524500 ms MarkObjects: 2.888400 ms  DeleteObjects: 0.090000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.138674 seconds.
+  path: Assets/Scripts/ControlIncendios.cs
+  artifactKey: Guid(79a1105de65999b4a9fa09b94920ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlIncendios.cs using Guid(79a1105de65999b4a9fa09b94920ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d6a6b21ef3fef799cf0d346f253a81') in 0.001995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.433262 seconds.
+  path: Assets/Prefabs/fuego sprite_00000.prefab
+  artifactKey: Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite_00000.prefab using Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c1099f97f4ec38ebd78c9104ccbc5d') in 0.236375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 216.897558 seconds.
+  path: Assets/Prefabs/fuego sprite 3_00000.prefab
+  artifactKey: Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite 3_00000.prefab using Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e06c54a2b8ac5d4174deb7c8403632') in 0.112765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/fuego sprite_00000.prefab
+  artifactKey: Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite_00000.prefab using Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a522835b130b5a29a90cd8a0842f0f4') in 0.106345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1386ms
 	BeginReloadAssembly (166ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (301ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1076ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (908ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (581ms)
+		SetupLoadedEditorAssemblies (469ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4192 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.4 KB). Loaded Objects now: 4729.
-Memory consumption went from 156.2 MB to 156.1 MB.
-Total: 4.002100 ms (FindLiveObjects: 0.446700 ms CreateObjectMapping: 0.348700 ms MarkObjects: 3.072500 ms  DeleteObjects: 0.132800 ms)
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.4 KB). Loaded Objects now: 4731.
+Memory consumption went from 156.3 MB to 156.2 MB.
+Total: 3.403900 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.344200 ms MarkObjects: 2.622700 ms  DeleteObjects: 0.074500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.193758 seconds.
+  path: Assets/Prefabs/fuego sprite 2_00000.prefab
+  artifactKey: Guid(e98ca045c965e924683c0b2605763062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite 2_00000.prefab using Guid(e98ca045c965e924683c0b2605763062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bff33654e8118064eda15c61849e851') in 0.162295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.458 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 1425ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (532ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4747.
+Memory consumption went from 158.4 MB to 158.3 MB.
+Total: 4.329300 ms (FindLiveObjects: 0.593600 ms CreateObjectMapping: 0.494800 ms MarkObjects: 3.154900 ms  DeleteObjects: 0.084800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -499,8 +1431,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.473 seconds
-Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -509,46 +1441,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.098 seconds
-Domain Reload Profiling: 1568ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  1.046 seconds
+Domain Reload Profiling: 1525ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (210ms)
-		LoadAssemblies (281ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (301ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (15ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1098ms)
+	FinalizeReload (1047ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (620ms)
+		SetupLoadedEditorAssemblies (583ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (437ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4745.
-Memory consumption went from 158.4 MB to 158.2 MB.
-Total: 5.966400 ms (FindLiveObjects: 0.452800 ms CreateObjectMapping: 0.466600 ms MarkObjects: 4.943900 ms  DeleteObjects: 0.101700 ms)
+Unloading 4195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4763.
+Memory consumption went from 160.6 MB to 160.5 MB.
+Total: 3.792500 ms (FindLiveObjects: 0.501400 ms CreateObjectMapping: 0.514600 ms MarkObjects: 2.670700 ms  DeleteObjects: 0.104800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -567,8 +1499,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.462 seconds
-Refreshing native plugins compatible for Editor in 3.76 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -577,46 +1509,114 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.121 seconds
-Domain Reload Profiling: 1581ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.931 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (211ms)
-		LoadAssemblies (283ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (322ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1122ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (932ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (620ms)
+		SetupLoadedEditorAssemblies (507ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (423ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4761.
-Memory consumption went from 160.3 MB to 160.2 MB.
-Total: 5.085000 ms (FindLiveObjects: 0.575200 ms CreateObjectMapping: 0.501600 ms MarkObjects: 3.809400 ms  DeleteObjects: 0.197700 ms)
+Unloading 4195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4779.
+Memory consumption went from 162.6 MB to 162.5 MB.
+Total: 3.716500 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.351900 ms MarkObjects: 2.764400 ms  DeleteObjects: 0.098900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.526 seconds
+Refreshing native plugins compatible for Editor in 5.18 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.900 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (901ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (107.0 KB). Loaded Objects now: 4794.
+Memory consumption went from 164.5 MB to 164.4 MB.
+Total: 3.558700 ms (FindLiveObjects: 0.355200 ms CreateObjectMapping: 0.380500 ms MarkObjects: 2.741100 ms  DeleteObjects: 0.081300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -636,7 +1636,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.475 seconds
-Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -645,46 +1645,114 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.016 seconds
-Domain Reload Profiling: 1488ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  1.044 seconds
+Domain Reload Profiling: 1517ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (41ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (219ms)
-		LoadAssemblies (298ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (295ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1016ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1045ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
+		SetupLoadedEditorAssemblies (578ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
+			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (396ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (405ms)
 			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.4 KB). Loaded Objects now: 4810.
+Memory consumption went from 166.4 MB to 166.3 MB.
+Total: 5.089800 ms (FindLiveObjects: 0.373800 ms CreateObjectMapping: 0.361400 ms MarkObjects: 4.266300 ms  DeleteObjects: 0.087300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.840 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4777.
-Memory consumption went from 162.2 MB to 162.1 MB.
-Total: 6.986400 ms (FindLiveObjects: 0.648000 ms CreateObjectMapping: 0.665400 ms MarkObjects: 5.573000 ms  DeleteObjects: 0.098700 ms)
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.4 KB). Loaded Objects now: 4826.
+Memory consumption went from 168.3 MB to 168.2 MB.
+Total: 4.074100 ms (FindLiveObjects: 0.779500 ms CreateObjectMapping: 0.565600 ms MarkObjects: 2.608500 ms  DeleteObjects: 0.120000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -704,7 +1772,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.488 seconds
-Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -713,46 +1781,114 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.084 seconds
-Domain Reload Profiling: 1570ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  1.022 seconds
+Domain Reload Profiling: 1508ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (293ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (308ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1085ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1023ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (602ms)
+		SetupLoadedEditorAssemblies (572ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 4.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4793.
-Memory consumption went from 164.2 MB to 164.1 MB.
-Total: 5.376700 ms (FindLiveObjects: 0.549700 ms CreateObjectMapping: 0.614900 ms MarkObjects: 3.982700 ms  DeleteObjects: 0.227900 ms)
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4842.
+Memory consumption went from 170.3 MB to 170.2 MB.
+Total: 4.216900 ms (FindLiveObjects: 0.355900 ms CreateObjectMapping: 0.358600 ms MarkObjects: 3.426900 ms  DeleteObjects: 0.074600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1365ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (892ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.5 KB). Loaded Objects now: 4858.
+Memory consumption went from 172.3 MB to 172.2 MB.
+Total: 3.273700 ms (FindLiveObjects: 0.345900 ms CreateObjectMapping: 0.320700 ms MarkObjects: 2.531400 ms  DeleteObjects: 0.075000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -770,54 +1906,729 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1643.821107 seconds.
-  path: Assets/Imagenes/botones/BotonHome_press.png
-  artifactKey: Guid(ca40bd5c6c6981a428a0cbdd3bc09fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/botones/BotonHome_press.png using Guid(ca40bd5c6c6981a428a0cbdd3bc09fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c651b926f58d76f4cbe06aac5fb2b429') in 0.068936 seconds
+  Time since last request: 1541.104621 seconds.
+  path: Assets/Prefabs/fuego sprite 3_00000.prefab
+  artifactKey: Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite 3_00000.prefab using Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639a1adae4b8409db50ec67e78119563') in 3.742712 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.080 seconds
+Domain Reload Profiling: 1557ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.6 KB). Loaded Objects now: 4874.
+Memory consumption went from 173.9 MB to 173.8 MB.
+Total: 4.603900 ms (FindLiveObjects: 0.573700 ms CreateObjectMapping: 0.517400 ms MarkObjects: 3.412600 ms  DeleteObjects: 0.098200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.464 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (959ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.6 KB). Loaded Objects now: 4890.
+Memory consumption went from 176.1 MB to 176.0 MB.
+Total: 6.230100 ms (FindLiveObjects: 0.608200 ms CreateObjectMapping: 0.618100 ms MarkObjects: 4.820700 ms  DeleteObjects: 0.181300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 1477ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1035ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.6 KB). Loaded Objects now: 4906.
+Memory consumption went from 178.1 MB to 178.0 MB.
+Total: 6.856200 ms (FindLiveObjects: 0.646000 ms CreateObjectMapping: 0.354400 ms MarkObjects: 5.759900 ms  DeleteObjects: 0.094200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.462 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.036 seconds
+Domain Reload Profiling: 1494ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1037ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.8 KB). Loaded Objects now: 4922.
+Memory consumption went from 180.0 MB to 179.9 MB.
+Total: 4.734400 ms (FindLiveObjects: 0.497000 ms CreateObjectMapping: 0.367700 ms MarkObjects: 3.754500 ms  DeleteObjects: 0.114100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.062 seconds
+Domain Reload Profiling: 1532ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1062ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.7 KB). Loaded Objects now: 4938.
+Memory consumption went from 181.9 MB to 181.8 MB.
+Total: 5.443300 ms (FindLiveObjects: 0.867200 ms CreateObjectMapping: 0.467400 ms MarkObjects: 3.968600 ms  DeleteObjects: 0.138400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.470 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.005 seconds
+Domain Reload Profiling: 1473ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.8 KB). Loaded Objects now: 4954.
+Memory consumption went from 183.9 MB to 183.8 MB.
+Total: 4.431600 ms (FindLiveObjects: 0.439700 ms CreateObjectMapping: 0.392300 ms MarkObjects: 3.517400 ms  DeleteObjects: 0.081500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Imagenes/botones/BotonPlay_icon.png
-  artifactKey: Guid(b568d33ed58c4bb47a4c9bec7458c911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/botones/BotonPlay_icon.png using Guid(b568d33ed58c4bb47a4c9bec7458c911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e653a931214b97d905861bbbbcef3d') in 0.026900 seconds
+  Time since last request: 1086.507888 seconds.
+  path: Assets/Prefabs/fuego sprite 3_00000.prefab
+  artifactKey: Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite 3_00000.prefab using Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d858f4bfe2d3a8ca850a136aa2ca61') in 0.158928 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 212
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imagenes/botones/BotonX_press.png
-  artifactKey: Guid(9c1c619b2a22bb945aa824a2cfedc699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/botones/BotonX_press.png using Guid(9c1c619b2a22bb945aa824a2cfedc699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b19a8ebd1bb0bd5554b73bc0fd824c3') in 0.021293 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/fuego sprite_00000.prefab
+  artifactKey: Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite_00000.prefab using Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bb573ac36dd62e86eda75df404e4d8') in 0.102498 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.468 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1351ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (437ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.7 KB). Loaded Objects now: 4970.
+Memory consumption went from 185.5 MB to 185.4 MB.
+Total: 3.542500 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.316100 ms MarkObjects: 2.720300 ms  DeleteObjects: 0.078700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.968 seconds
+Domain Reload Profiling: 1416ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (968ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.8 KB). Loaded Objects now: 4986.
+Memory consumption went from 187.7 MB to 187.6 MB.
+Total: 4.881200 ms (FindLiveObjects: 0.682000 ms CreateObjectMapping: 0.619700 ms MarkObjects: 3.437100 ms  DeleteObjects: 0.141200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Imagenes/botones/BotonPausa_icon.png
-  artifactKey: Guid(63c763294ff92bf42a311f9ca9402e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/botones/BotonPausa_icon.png using Guid(63c763294ff92bf42a311f9ca9402e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04718d9ff1fd36cc681d6243b123d31e') in 0.023704 seconds
+  Time since last request: 197.433688 seconds.
+  path: Assets/Prefabs/fuego sprite 3_00000.prefab
+  artifactKey: Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite 3_00000.prefab using Guid(5d65a4470fa1e40409627051a9d7ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b9c7558409d632313b25a81a77b945') in 0.169774 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 212
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Imagenes/botones/BotonPlay_press.png
-  artifactKey: Guid(820df1d0d67aecc428401730b5053da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/botones/BotonPlay_press.png using Guid(820df1d0d67aecc428401730b5053da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bbc7bc4161a35d7622c6a5e6a9b99a') in 0.020265 seconds
+  path: Assets/Prefabs/fuego sprite_00000.prefab
+  artifactKey: Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite_00000.prefab using Guid(093ec6a700ce87644a3b34da78884273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5671f888811801b78be9713dbffbe36') in 0.116971 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (922ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.7 KB). Loaded Objects now: 5002.
+Memory consumption went from 189.4 MB to 189.3 MB.
+Total: 4.122600 ms (FindLiveObjects: 0.425700 ms CreateObjectMapping: 0.345200 ms MarkObjects: 3.271100 ms  DeleteObjects: 0.079600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imagenes/botones/Botonok_press.png
-  artifactKey: Guid(673a3472a2887cd469e5e3bbc745c661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imagenes/botones/Botonok_press.png using Guid(673a3472a2887cd469e5e3bbc745c661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142948ae63600fbd9a59b8aa8be1bfbd') in 0.017640 seconds
+  Time since last request: 5.297843 seconds.
+  path: Assets/Prefabs/fuego sprite 2_00000.prefab
+  artifactKey: Guid(e98ca045c965e924683c0b2605763062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fuego sprite 2_00000.prefab using Guid(e98ca045c965e924683c0b2605763062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22ef376b27e98587c127f4d533a464d') in 0.167128 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.076 seconds
+Domain Reload Profiling: 1538ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1076ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (106.7 KB). Loaded Objects now: 5018.
+Memory consumption went from 191.3 MB to 191.2 MB.
+Total: 4.587000 ms (FindLiveObjects: 0.670900 ms CreateObjectMapping: 0.620600 ms MarkObjects: 3.197700 ms  DeleteObjects: 0.096600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
