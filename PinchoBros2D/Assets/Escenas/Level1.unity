@@ -7292,7 +7292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &847037240
 Animator:
   serializedVersion: 5
@@ -8975,6 +8975,10 @@ PrefabInstance:
     - target: {fileID: 666239081650297791, guid: 093ec6a700ce87644a3b34da78884273, type: 3}
       propertyPath: m_Name
       value: fuego sprite_00000
+      objectReference: {fileID: 0}
+    - target: {fileID: 666239081650297791, guid: 093ec6a700ce87644a3b34da78884273, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7331291536762441180, guid: 093ec6a700ce87644a3b34da78884273, type: 3}
       propertyPath: m_LocalPosition.x
