@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public MovimientoDelJugador _movimientoDelJugador;
     public ControlJugador _controlJugador;
     public GameObject pinchoObj;
+    public CheckPoint _checkPoint;
     [Header("Camaras")]
     public ControlCamara _controlCamara;
     [Header("Canvas")]
@@ -28,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
-  
+
 
     void Start()
     {
@@ -55,8 +56,15 @@ public class GameManager : MonoBehaviour
             ActivarPanelFinJuego();
             // Reinicia la posición del personaje a la posición inicial
             Respawn();
-            
+
         }
+
+        if (_checkPoint.nivelCompletado == true)
+        {
+            CalcularPuntajeFinal();
+            StartCoroutine(DelayAfterLevelCompleted());
+        }
+
     }
 
 
@@ -67,9 +75,9 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Fin del juego. Vidas agotadas.");
             _controlMenu.FinDelJuego();
-            Destroy(pinchoObj,0.1f);
+            Destroy(pinchoObj, 0.1f);
             StartCoroutine(DelayAntesDeRecargar());
-            
+
         }
     }
 
@@ -89,7 +97,7 @@ public class GameManager : MonoBehaviour
         {
             _hudManager.PanelVidas1[indice].GetComponent<Image>().enabled = false;
         }
-       
+
     }
 
     public void ReloadScene()
@@ -109,5 +117,31 @@ public class GameManager : MonoBehaviour
         ReloadScene();
     }
 
+    public void CalcularPuntajeFinal()
+    {
+        int i;
 
+        for (i = 0; i < _controlJugador.Gotas; i++)
+        {
+            _controlJugador.puntaje += 1000;
+            _controlJugador.Gotas -= 1;
+        }
+
+        for( i = 0; i< tiempo; i++)
+        {
+            _controlJugador.puntaje += 10;
+            tiempo -= 1;
+        }
+
+    }
+
+    private IEnumerator DelayAfterLevelCompleted()
+    {
+        Debug.Log("Iniciando cuenta regresiva de 3 segundos...");
+        yield return new WaitForSeconds(3f);
+
+        _controlMenu.nivelCompletado.SetActive(true);
+        inGame = false;
+
+    }
 }

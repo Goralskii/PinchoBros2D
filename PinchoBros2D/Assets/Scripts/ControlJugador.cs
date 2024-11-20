@@ -53,7 +53,10 @@ public class ControlJugador : MonoBehaviour
 
     void Update()
     {
-        
+        if (Gotas < 0)
+        {
+            Vidas -= 1;
+        }
     }
 
     public void RestarVida()

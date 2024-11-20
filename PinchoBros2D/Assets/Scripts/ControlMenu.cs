@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,6 +11,7 @@ public class ControlMenu : MonoBehaviour
     [Header("Referencias")]
     public MovimientoDelJugador _movimientoDelJugador;
     public GameManager _gameManager;
+    public CheckPoint _checkponit;
     [Header("Booleanos")]
     public bool enPausa = true;
     [Header("Paneles")]
@@ -17,13 +19,8 @@ public class ControlMenu : MonoBehaviour
     public GameObject HUD;
     public GameObject MenuPrincipal;
     public GameObject PanelPausa;
-
-
-
-    void Start()
-    {
-        
-    }
+    public GameObject nivelCompletado;
+    public GameObject ayuda;
 
     void Update()
     {
@@ -35,6 +32,7 @@ public class ControlMenu : MonoBehaviour
         {
             Time.timeScale = 1f;
         }
+        
     }
 
     public void BotonJugar()
@@ -64,5 +62,11 @@ public class ControlMenu : MonoBehaviour
             enPausa = true;
             PanelPausa.SetActive(true);
         }
+    }
+
+    public void botonAyudas()
+    {
+        MenuPrincipal.SetActive(false);
+        ayuda.SetActive(true);
     }
 }

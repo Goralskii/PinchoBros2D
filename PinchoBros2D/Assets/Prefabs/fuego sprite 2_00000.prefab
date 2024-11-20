@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 193262234538936668}
   - component: {fileID: 7247069681572078088}
   - component: {fileID: 7240656815556999358}
-  - component: {fileID: 5284257812575336656}
+  - component: {fileID: 2970673324873629188}
   m_Layer: 0
   m_Name: fuego sprite 2_00000
   m_TagString: Untagged
@@ -137,10 +137,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.028820038, y: -2.0750694}
+  m_Offset: {x: -0.109212875, y: -3.187183}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -151,9 +151,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.186058, y: 6.6498623}
+  m_Size: {x: 8.542908, y: 2.6033754}
   m_EdgeRadius: 0
---- !u!114 &5284257812575336656
+--- !u!114 &2970673324873629188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,6 +162,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3347250597361295499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79a1105de65999b4a9fa09b94920ae28, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3acb46536bc8041a20ae720e47b1c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _controlJugador: {fileID: 0}
