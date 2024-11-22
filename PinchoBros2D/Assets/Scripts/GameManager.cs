@@ -41,47 +41,46 @@ public class GameManager : MonoBehaviour
         //verifica si ya comenzo el juego y empieza a correr el tiempo
         if (inGame)
         {
-            tiempo -= Time.deltaTime;
-            if (tiempo <= 0)
+            while (tiempo != 0)
             {
-                ActivarPanelFinJuego();
+                tiempo -= Time.deltaTime;
+                _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
             }
-            _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
+            activarPanelFinJuego();
+
         }
 
         // Verifica si el personaje está fuera del mapa
         if (_controlJugador.FueraDeMapa)
         {
-            //Si se quedo sin vidas
-            ActivarPanelFinJuego();
             // Reinicia la posición del personaje a la posición inicial
             Respawn();
-
         }
+
+        //verificar vidas
+        controlarVidas();
 
         if (_checkPoint.nivelCompletado == true)
         {
+            tiempo = 0;
             CalcularPuntajeFinal();
             StartCoroutine(DelayAfterLevelCompleted());
         }
-
+    }
+    private void activarPanelFinJuego()
+    {
+        _controlMenu.FinDelJuego();
+        Destroy(pinchoObj, 0.1f);
+        StartCoroutine(DelayAntesDeRecargar());
     }
 
-
-    private void ActivarPanelFinJuego()
+    public void controlarVidas()
     {
-        // Comprobamos si se cumple la condición de vidas y si el jugador está fuera del mapa
         if (_controlJugador.Vidas == 0)
         {
-            Debug.Log("Fin del juego. Vidas agotadas.");
-            _controlMenu.FinDelJuego();
-            Destroy(pinchoObj, 0.1f);
-            StartCoroutine(DelayAntesDeRecargar());
-
+            activarPanelFinJuego();
         }
     }
-
-
 
     public void Respawn()
     {
@@ -125,12 +124,6 @@ public class GameManager : MonoBehaviour
         {
             _controlJugador.puntaje += 1000;
             _controlJugador.Gotas -= 1;
-        }
-
-        for( i = 0; i< tiempo; i++)
-        {
-            _controlJugador.puntaje += 10;
-            tiempo -= 1;
         }
 
     }
