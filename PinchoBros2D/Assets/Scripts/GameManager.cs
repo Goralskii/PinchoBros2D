@@ -22,10 +22,11 @@ public class GameManager : MonoBehaviour
     [Header("Canvas")]
     public ControlMenu _controlMenu;
     public HUDManager _hudManager;
-
-    [Header("Variables Publicas")]
+    [Header("Estados")]
+    public bool enPausa = true;
     public bool inGame = false;
-    public float tiempo = 100f; // El valor inicial de la cuenta regresiva (300 segundos o cualquier valor deseado)
+    [Header("Variables Publicas")]
+    public float tiempo = 90f; // El valor inicial de la cuenta regresiva (300 segundos o cualquier valor deseado)
 
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
@@ -41,13 +42,27 @@ public class GameManager : MonoBehaviour
         //verifica si ya comenzo el juego y empieza a correr el tiempo
         if (inGame)
         {
-            while (tiempo != 0)
+            if (tiempo <= 0.500f)
             {
+                Debug.LogWarning("TIEMPO CERO");
+                activarPanelFinJuego();
+            }
+            else
+            {
+                Debug.Log($"{tiempo}");
                 tiempo -= Time.deltaTime;
+                
                 _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
             }
-            activarPanelFinJuego();
+        }
 
+        if (enPausa == true)
+        {
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
         }
 
         // Verifica si el personaje está fuera del mapa
@@ -62,7 +77,7 @@ public class GameManager : MonoBehaviour
 
         if (_checkPoint.nivelCompletado == true)
         {
-            tiempo = 0;
+            tiempo = 0.9f;
             CalcularPuntajeFinal();
             StartCoroutine(DelayAfterLevelCompleted());
         }

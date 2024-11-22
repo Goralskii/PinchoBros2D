@@ -12,8 +12,6 @@ public class ControlMenu : MonoBehaviour
     public MovimientoDelJugador _movimientoDelJugador;
     public GameManager _gameManager;
     public CheckPoint _checkponit;
-    [Header("Booleanos")]
-    public bool enPausa = true;
     [Header("Paneles")]
     public GameObject juegoTerminado;
     public GameObject HUD;
@@ -24,22 +22,25 @@ public class ControlMenu : MonoBehaviour
 
     void Update()
     {
-        if (enPausa == true)
-        {
-            Time.timeScale = 0f;
-        }
-        else
-        {
-            Time.timeScale = 1f;
-        }
-        
+
+    }
+
+    public void BotonAlMenu()
+    {
+        _gameManager.ReloadScene();
+    }
+
+    public void volerAlMenu()
+    {
+        ayuda.SetActive(false);
+        MenuPrincipal.SetActive(true);
     }
 
     public void BotonJugar()
     {
         MenuPrincipal.SetActive(false);
         HUD.SetActive(true);
-        enPausa = false;
+        _gameManager.enPausa = false;
         _movimientoDelJugador.enabled = true;
         _gameManager.inGame = true;
         
@@ -52,14 +53,14 @@ public class ControlMenu : MonoBehaviour
 
     public void Pausa()
     {
-        if (enPausa == true)
+        if (_gameManager.enPausa == true)
         {
-            enPausa = false;
+            _gameManager.enPausa = false;
             PanelPausa.SetActive(false);
         }
-        else if (enPausa == false)
+        else if (_gameManager.enPausa == false)
         {
-            enPausa = true;
+            _gameManager.enPausa = true;
             PanelPausa.SetActive(true);
         }
     }

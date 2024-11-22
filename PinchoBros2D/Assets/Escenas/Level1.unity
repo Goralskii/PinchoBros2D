@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 10945594}
   - component: {fileID: 10945593}
   m_Layer: 5
-  m_Name: BotonHome (1)
+  m_Name: BotonVolverAlMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,9 +205,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 254951400}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ReloadScene
+      - m_Target: {fileID: 254951395}
+        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
+        m_MethodName: volerAlMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3730,9 +3730,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 254951400}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ReloadScene
+      - m_Target: {fileID: 254951395}
+        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
+        m_MethodName: BotonAlMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3793,7 +3793,6 @@ GameObject:
   - component: {fileID: 254951397}
   - component: {fileID: 254951396}
   - component: {fileID: 254951395}
-  - component: {fileID: 254951400}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3816,7 +3815,6 @@ MonoBehaviour:
   _movimientoDelJugador: {fileID: 804349735}
   _gameManager: {fileID: 453983638}
   _checkponit: {fileID: 59634390}
-  enPausa: 1
   juegoTerminado: {fileID: 1665636408}
   HUD: {fileID: 152999372}
   MenuPrincipal: {fileID: 495922503}
@@ -3911,27 +3909,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &254951400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254951394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b55a3f4f8c054d4a845b695bd1cd04f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _movimientoDelJugador: {fileID: 804349735}
-  _controlJugador: {fileID: 804349737}
-  pinchoObj: {fileID: 804349729}
-  _checkPoint: {fileID: 59634390}
-  _controlCamara: {fileID: 963194231}
-  _controlMenu: {fileID: 254951395}
-  _hudManager: {fileID: 152999376}
-  inGame: 0
-  tiempo: 100
 --- !u!1001 &260492580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4742,8 +4719,9 @@ MonoBehaviour:
   _controlCamara: {fileID: 963194231}
   _controlMenu: {fileID: 254951395}
   _hudManager: {fileID: 152999376}
+  enPausa: 1
   inGame: 0
-  tiempo: 100
+  tiempo: 90
 --- !u!4 &453983639
 Transform:
   m_ObjectHideFlags: 0
@@ -6908,7 +6886,7 @@ Transform:
   m_GameObject: {fileID: 633027089}
   serializedVersion: 2
   m_LocalRotation: {x: -2.1175824e-22, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7866669, y: -0.9450002, z: -5}
+  m_LocalPosition: {x: -4.1422224, y: -0.9450002, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8703,7 +8681,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -2.1175824e-22, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5088825, y: -0.9325619, z: -5}
+  m_LocalPosition: {x: -2.3977547, y: -0.9354749, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16276,9 +16254,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 254951400}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ReloadScene
+      - m_Target: {fileID: 254951395}
+        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
+        m_MethodName: BotonAlMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
