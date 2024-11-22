@@ -70,4 +70,13 @@ public class ControlMenu : MonoBehaviour
         MenuPrincipal.SetActive(false);
         ayuda.SetActive(true);
     }
+
+    public void Salir()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+    }
 }

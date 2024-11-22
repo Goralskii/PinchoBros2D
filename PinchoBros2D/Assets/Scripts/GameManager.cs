@@ -49,7 +49,6 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                Debug.Log($"{tiempo}");
                 tiempo -= Time.deltaTime;
                 
                 _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
