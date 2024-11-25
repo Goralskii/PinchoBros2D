@@ -12,6 +12,7 @@ public class ControlJugador : MonoBehaviour
     public int puntaje;
     public int Vidas;
     public int Gotas;
+    public int incendiosApagados;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,6 +29,12 @@ public class ControlJugador : MonoBehaviour
             Gotas += 1;
             puntaje += 100;
         }
+
+        if (collision.CompareTag("Fuego"))
+        {
+            incendiosApagados += 1;
+            puntaje += 500;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -37,13 +44,6 @@ public class ControlJugador : MonoBehaviour
             enSuelo = true;
         }
 
-        if (collision.transform.tag == "Enemigo")
-        {
-            Debug.Log("Dañado por enemigo");
-            FueraDeMapa = true;
-            RestarVida();
-            Debug.Log("vidas restantes: " + Vidas);
-        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -66,4 +66,5 @@ public class ControlJugador : MonoBehaviour
             Vidas -= 1;
         } 
     }
+
 }

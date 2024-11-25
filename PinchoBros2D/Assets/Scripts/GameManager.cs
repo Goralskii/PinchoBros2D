@@ -25,8 +25,10 @@ public class GameManager : MonoBehaviour
     [Header("Estados")]
     public bool enPausa = true;
     public bool inGame = false;
-    [Header("Variables Publicas")]
+    [Header("Variables GLOBALES")]
     public float tiempo = 90f; // El valor inicial de la cuenta regresiva (300 segundos o cualquier valor deseado)
+    public int puntajeGlobal;
+
 
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
@@ -77,8 +79,7 @@ public class GameManager : MonoBehaviour
         if (_checkPoint.nivelCompletado == true)
         {
             tiempo = 0.9f;
-            CalcularPuntajeFinal();
-            StartCoroutine(DelayAfterLevelCompleted());
+            StartCoroutine(DelayAfterLevelCompleted());  
         }
     }
     private void activarPanelFinJuego()
@@ -100,10 +101,10 @@ public class GameManager : MonoBehaviour
     {
         pinchoObj.transform.position = posicionInicial;
         _controlJugador.FueraDeMapa = false;
-        ControlarVidas();
+        ControlarVidasUI();
     }
 
-    private void ControlarVidas()
+    private void ControlarVidasUI()
     {
         int indice = _controlJugador.Vidas;
         if (indice >= 0)
@@ -132,22 +133,22 @@ public class GameManager : MonoBehaviour
 
     public void CalcularPuntajeFinal()
     {
-        int i;
-
-        for (i = 0; i < _controlJugador.Gotas; i++)
-        {
-            _controlJugador.puntaje += 1000;
-            _controlJugador.Gotas -= 1;
-        }
-
+        _controlJugador.puntaje += _controlJugador.Gotas * 1000;
     }
 
     private IEnumerator DelayAfterLevelCompleted()
     {
-        Debug.Log("Iniciando cuenta regresiva de 3 segundos...");
-        yield return new WaitForSeconds(3f);
+        Debug.Log("Iniciando cuenta regresiva de 1 segundos...");
+        yield return new WaitForSeconds(1f);
 
-        _controlMenu.nivelCompletado.SetActive(true);
+        if (_checkPoint.nivelCompletado == true)
+        {
+            CalcularPuntajeFinal();
+            _controlMenu.pasarEstadisticasDeNivel();
+            _controlMenu.nivelCompletado.SetActive(true);
+        }
+
+        _checkPoint.nivelCompletado = false;
         inGame = false;
 
     }

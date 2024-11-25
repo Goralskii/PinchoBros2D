@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class ControlMenu : MonoBehaviour
 {
     public static ControlMenu instance;
     [Header("Referencias")]
+    public ControlJugador _controlJugador;
     public MovimientoDelJugador _movimientoDelJugador;
     public GameManager _gameManager;
-    public CheckPoint _checkponit;
+    public CheckPoint _checkpoint;
     [Header("Paneles")]
     public GameObject juegoTerminado;
     public GameObject HUD;
@@ -19,6 +21,10 @@ public class ControlMenu : MonoBehaviour
     public GameObject PanelPausa;
     public GameObject nivelCompletado;
     public GameObject ayuda;
+    [Header("Variables Texto Score")]
+    public Text puntajeDeNivel;
+    public Text gotasExtras;
+    public Text focosIncendiosApagados;
 
     void Update()
     {
@@ -78,5 +84,12 @@ public class ControlMenu : MonoBehaviour
 #else
             Application.Quit();
 #endif
+    }
+
+    public void pasarEstadisticasDeNivel()
+    {
+        puntajeDeNivel.text = _controlJugador.puntaje.ToString();
+        gotasExtras.text = _controlJugador.Gotas.ToString();
+        focosIncendiosApagados.text = _controlJugador.incendiosApagados.ToString();
     }
 }
