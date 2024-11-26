@@ -101,10 +101,10 @@ public class GameManager : MonoBehaviour
     {
         pinchoObj.transform.position = posicionInicial;
         _controlJugador.FueraDeMapa = false;
-        ControlarVidasUI();
+        controlarVidasUI();
     }
 
-    private void ControlarVidasUI()
+    public void controlarVidasUI()
     {
         int indice = _controlJugador.Vidas;
         if (indice >= 0)

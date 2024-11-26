@@ -1,0 +1,355 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16164 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/GitHub/PinchoBros2D/PinchoBros2D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51211
+Successfully changed project path to: D:/GitHub/PinchoBros2D/PinchoBros2D
+D:/GitHub/PinchoBros2D/PinchoBros2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17460] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 1265346212 [EditorId] 1265346212 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17460] Host "[IP] 172.17.17.165 [Port] 0 [Flags] 2 [Guid] 1265346212 [EditorId] 1265346212 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CD42DPL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/PinchoBros2D/PinchoBros2D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.014381 seconds.
+- Loaded All Assemblies, in  0.445 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 197 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (170ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (323ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.637 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.657 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (135.5 KB). Loaded Objects now: 4673.
+Memory consumption went from 154.2 MB to 154.1 MB.
+Total: 3.387500 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.276000 ms MarkObjects: 2.655500 ms  DeleteObjects: 0.138600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13802.076200 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2
+  artifactKey: Guid(b830f856ff63f23458ca421b2b3e68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2 using Guid(b830f856ff63f23458ca421b2b3e68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fdceda02292bf4d0226cd8cc9663ed') in 0.002041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 126.528959 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png
+  artifactKey: Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png using Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89da403677bfadfba805395e52f41fa') in 0.074676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.698597 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png
+  artifactKey: Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png using Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a13685a1daec2bb153ec4d9c058a137') in 0.017151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 120.772044 seconds.
+  path: Assets/Escenas/Level2.unity
+  artifactKey: Guid(3c8a6ddccef712746af0d21e6fb6f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Escenas/Level2.unity using Guid(3c8a6ddccef712746af0d21e6fb6f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2da4acf875885c542d68bc27d2b7d7') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 117.950392 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png
+  artifactKey: Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png using Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380de70169d2f33a60ca468afbbc5deb') in 0.014484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.140308 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png
+  artifactKey: Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png using Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa46e75f288082dc7c5aa5ceaf0b9e44') in 0.024138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 30.126980 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo abajo_fondo2_2.png
+  artifactKey: Guid(3fe268d0ead91ad40a4869f91af32c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo abajo_fondo2_2.png using Guid(3fe268d0ead91ad40a4869f91af32c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3895cff97e652cbe793646ae7434a7') in 0.016876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.031806 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo abajo_fondo2_2.png
+  artifactKey: Guid(3fe268d0ead91ad40a4869f91af32c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo abajo_fondo2_2.png using Guid(3fe268d0ead91ad40a4869f91af32c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2e6655040fa6b76c0464a78ed4834a') in 0.014359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.913768 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo abajo_fondo2_2.png
+  artifactKey: Guid(3fe268d0ead91ad40a4869f91af32c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo abajo_fondo2_2.png using Guid(3fe268d0ead91ad40a4869f91af32c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c57c0ebb1888e879e2820623186c36c') in 0.020909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 32.344217 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/plataforma_2.png
+  artifactKey: Guid(dd03cf1de51f4044b90039702dc869ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/plataforma_2.png using Guid(dd03cf1de51f4044b90039702dc869ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dce40089e0c2598e9e25ece6789a696') in 0.013104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.873815 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/plataforma_2.png
+  artifactKey: Guid(dd03cf1de51f4044b90039702dc869ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/plataforma_2.png using Guid(dd03cf1de51f4044b90039702dc869ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd46957c35f3e4f8c52498d91785e241') in 0.018926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 23.750654 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/agua arriba_fondo2_2.png
+  artifactKey: Guid(b9e24a5162d9be64ea0c349b254b246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/agua arriba_fondo2_2.png using Guid(b9e24a5162d9be64ea0c349b254b246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c8d205b3ab87a1c9fb9a5695201e59') in 0.015370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.790840 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png
+  artifactKey: Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/suelo arriba_fondo2_2.png using Guid(6dce453bcc9cae244ae46f56315c3932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385265e0edd43412c82f33d88ca57d82') in 0.021232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 11.769286 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/agua arriba_fondo2_2.png
+  artifactKey: Guid(b9e24a5162d9be64ea0c349b254b246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/agua arriba_fondo2_2.png using Guid(b9e24a5162d9be64ea0c349b254b246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a788befafb7e2a54dea2d320687e9e') in 0.019010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 16.419682 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/agua abajo_fondo2_2.png
+  artifactKey: Guid(c2ed38840df516a49945bb4e792a4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/agua abajo_fondo2_2.png using Guid(c2ed38840df516a49945bb4e792a4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245434e18fe5f9e5786a5d826a5c2aca') in 0.014885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.404795 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/agua abajo_fondo2_2.png
+  artifactKey: Guid(c2ed38840df516a49945bb4e792a4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/agua abajo_fondo2_2.png using Guid(c2ed38840df516a49945bb4e792a4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d167ff1efa91c03ac1d5f27bb92ad0') in 0.023380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.448191 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/plantas
+  artifactKey: Guid(0686fc6026fc615478e4c3ee280f5aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/plantas using Guid(0686fc6026fc615478e4c3ee280f5aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bcec5b7551d467a509548f3509ad13') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073434 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/plantas/planta1_2.png
+  artifactKey: Guid(c93afa43cb64d744aa96c3d57cbe8e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/plantas/planta1_2.png using Guid(c93afa43cb64d744aa96c3d57cbe8e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a404ab57f3000d512c02b2d410294685') in 0.019046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/plantas/planta3_2.png
+  artifactKey: Guid(2cb8b5c962c8fab4d801416fb0948062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/plantas/planta3_2.png using Guid(2cb8b5c962c8fab4d801416fb0948062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a60244a7b59627f4e03185fc269fe46') in 0.016776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Imagenes/Fondos/fondo 2/plantas/planta6_2.png
+  artifactKey: Guid(90832aa9c9469dc4c8bb22b136eb9ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imagenes/Fondos/fondo 2/plantas/planta6_2.png using Guid(90832aa9c9469dc4c8bb22b136eb9ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26c15785a5ed0bd75cd9f657d1637cd') in 0.029638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

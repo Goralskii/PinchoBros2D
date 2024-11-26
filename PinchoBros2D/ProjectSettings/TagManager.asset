@@ -8,6 +8,7 @@ TagManager:
   - Suelo
   - Gota
   - Fuego
+  - Enemigo
   layers:
   - Default
   - TransparentFX
