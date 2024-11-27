@@ -6,6 +6,7 @@ public class ControlFuego : MonoBehaviour
 {
     public ControlJugador _controlJugador;
     public GameManager _gameManager;
+    public bool puedePasarDeNivel;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

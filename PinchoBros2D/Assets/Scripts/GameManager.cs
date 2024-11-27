@@ -4,12 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
-
-
-
-
-
 public class GameManager : MonoBehaviour
 {
     [Header("Jugador")]
@@ -32,12 +26,6 @@ public class GameManager : MonoBehaviour
 
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
-
-
-    void Start()
-    {
-
-    }
 
     void Update()
     {
@@ -151,5 +139,10 @@ public class GameManager : MonoBehaviour
         _checkPoint.nivelCompletado = false;
         inGame = false;
 
+    }
+
+    public void siguienteNivel()
+    {
+       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }
