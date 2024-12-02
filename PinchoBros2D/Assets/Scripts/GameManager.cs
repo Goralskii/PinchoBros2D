@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.HID;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -26,10 +27,20 @@ public class GameManager : MonoBehaviour
 
     private Vector3 posicionInicial = new Vector3(-11.7299995f, -4.51000023f, 0);
 
-
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().buildIndex > 0)
+        {
+            _controlMenu.HUD.SetActive(true);
+            _controlMenu._gameManager.enPausa = false;
+            _movimientoDelJugador.enabled = true;
+            inGame = true;
+        }
+    }
     void Update()
     {
         //verifica si ya comenzo el juego y empieza a correr el tiempo
+
         if (inGame)
         {
             if (tiempo <= 0.500f)

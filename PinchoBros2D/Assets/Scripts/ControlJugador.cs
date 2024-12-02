@@ -14,6 +14,10 @@ public class ControlJugador : MonoBehaviour
     public int Gotas;
     public int incendiosApagados;
 
+    private void Start()
+    {
+       
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Limite") && !FueraDeMapa) // Solo se ejecuta si aún no está fuera del mapa
@@ -49,11 +53,6 @@ public class ControlJugador : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         enSuelo = false;
-    }
-
-    void Update()
-    {
-
     }
 
     public void RestarVida()

@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.IMGUI.Controls;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -33,7 +31,15 @@ public class ControlMenu : MonoBehaviour
 
     public void BotonAlMenu()
     {
-        _gameManager.ReloadScene();
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            _gameManager.ReloadScene();
+        }
+        
     }
 
     public void volerAlMenu()
@@ -45,11 +51,16 @@ public class ControlMenu : MonoBehaviour
     public void BotonJugar()
     {
         MenuPrincipal.SetActive(false);
+        ayuda.SetActive(true);
+    }
+
+    public void EmpezarNivel()
+    {
+        ayuda.SetActive(false);
         HUD.SetActive(true);
         _gameManager.enPausa = false;
         _movimientoDelJugador.enabled = true;
         _gameManager.inGame = true;
-        
     }
 
     public void FinDelJuego()

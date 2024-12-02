@@ -1,6 +1,7 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MovimientoDelJugador : MonoBehaviour
 {
@@ -23,68 +24,129 @@ public class MovimientoDelJugador : MonoBehaviour
     public float acceleration = 0.1f;
     public float deceleration = 0.1f;
     private float currentSpeed = 0f;
+    private float gamePadAxis;
+
+    Gamepad gp = null;
+
+
+
+
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        gp = InputSystem.GetDevice<Gamepad>();
+
     }
 
-  
-    void Update()
+    private void movALaDerecha()
     {
-        if (Input.GetKey("d") || Input.GetKey("right"))
+        currentSpeed = Mathf.Min(currentSpeed + acceleration, runSpeed);
+        rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
+        animator.SetFloat("movimiento", rb2D.velocity.x);
+        animator.SetBool("reposo", false);
+        pinchoSprite.flipX = true;
+    }
+
+    private void movALaIzquierda()
+    {
+        currentSpeed = Mathf.Max(currentSpeed - acceleration, -runSpeed);
+        rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
+        animator.SetFloat("movimiento", -rb2D.velocity.x);
+        animator.SetBool("reposo", false);
+        pinchoSprite.flipX = false;
+    }
+
+    private void quedarseQuieto()
+    {
+        currentSpeed = Mathf.MoveTowards(currentSpeed, 0, deceleration);
+        rb2D.velocity = new Vector2(0, rb2D.velocity.y);
+
+        if (rb2D.velocity.x == 0)
         {
-            currentSpeed = Mathf.Min(currentSpeed + acceleration, runSpeed);
-            rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
-            animator.SetFloat("movimiento", rb2D.velocity.x);
-            animator.SetBool("reposo", false);
-            pinchoSprite.flipX = true;
+            jumpTimeCounter = 0;
+            animator.SetFloat("movimiento", 0);
+            animator.SetBool("reposo", true);
         }
-        else if (Input.GetKey("a") || Input.GetKey("left"))
+    }
+
+    private void saltar()
+    {
+        rb2D.velocity = new Vector2(rb2D.velocity.x, JumpSpeed);
+        jumpTimeCounter = maxJumpTime;
+        animator.SetBool("enSuelo", false);
+
+        if (jumpTimeCounter > 0)
         {
-            currentSpeed = Mathf.Max(currentSpeed - acceleration, -runSpeed);
-            rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
-            animator.SetFloat("movimiento", -rb2D.velocity.x);
-            animator.SetBool("reposo", false);
-            pinchoSprite.flipX = false;
+            rb2D.velocity = new Vector2(rb2D.velocity.x, JumpSpeed);
+            jumpTimeCounter -= Time.deltaTime;
+        }
+    }
+    //private void movGamepad()
+    //{
+    //    if (gp.leftStick.ReadValue().x > 0)
+    //    {
+    //        movALaDerecha();
+    //    }
+    //    else if (gp.leftStick.ReadValue().x < 0)
+    //    {
+    //        movALaIzquierda();
+    //    }
+    //    else
+    //    {
+    //        quedarseQuieto();
+    //    }
+    //}
+
+    private void saltoGP()
+    {
+        if (gp.buttonSouth.ReadValue() > 0)
+        {
+            saltar();
+        }
+    }
+
+    private void movTeclado()
+    {
+        if (gamePadAxis > 0 || Input.GetKey("d") || Input.GetKey("right"))
+        {
+            movALaDerecha();
+        }
+        else if (gamePadAxis < 0 || Input.GetKey("a") || Input.GetKey("left"))
+        {
+            movALaIzquierda();
         }
         else
         {
-            currentSpeed = Mathf.MoveTowards(currentSpeed, 0, deceleration);
-            rb2D.velocity = new Vector2(0, rb2D.velocity.y);
+            quedarseQuieto();
         }
+    }
+
+    private void SaltoTeclado()
+    {
+        if (Input.GetKey("w") || Input.GetKey("up"))
+        {
+            saltar();
+        }
+    }
+    void Update()
+    {
+        gamePadAxis = Input.GetAxis("Horizontal");
+        //movGamepad();
+        movTeclado();
 
         if (_controlJugador.enSuelo)
         {
             animator.SetBool("enSuelo", true);
             // Movimiento cuando está en el suelo
             rb2D.velocity = new Vector2(Input.GetAxis("Horizontal") * runSpeed, rb2D.velocity.y);
-
-            if (Input.GetKey("w") || Input.GetKey("up"))
-            {
-                rb2D.velocity = new Vector2(rb2D.velocity.x, JumpSpeed);
-                jumpTimeCounter = maxJumpTime;
-                animator.SetBool("enSuelo", false) ;
-            }
-
-            if ((Input.GetKey("w") || Input.GetKey("up")) && jumpTimeCounter > 0)
-            {
-                rb2D.velocity = new Vector2(rb2D.velocity.x, JumpSpeed);
-                jumpTimeCounter -= Time.deltaTime;
-            }
-
-            if (rb2D.velocity.x == 0)
-            {
-                jumpTimeCounter = 0;
-                animator.SetBool("reposo", true);
-            }
+            saltoGP();
+            SaltoTeclado();
         }
         else
         {
-            // Movimiento limitado en el aire
+            //Movimiento limitado en el aire
             rb2D.velocity = new Vector2(Input.GetAxis("Horizontal") * runSpeed * 0.8f, rb2D.velocity.y);
-        }
-
-
+        }    
     }
 }
