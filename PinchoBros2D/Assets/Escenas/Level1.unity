@@ -6723,7 +6723,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 804349734}
   m_Follow: {fileID: 804349734}
   m_Lens:
     FieldOfView: 60
@@ -7968,7 +7968,6 @@ GameObject:
   - component: {fileID: 888987305}
   - component: {fileID: 888987308}
   - component: {fileID: 888987307}
-  - component: {fileID: 888987306}
   - component: {fileID: 888987309}
   m_Layer: 5
   m_Name: Image
@@ -7996,27 +7995,6 @@ RectTransform:
   m_AnchoredPosition: {x: -111.3, y: 84.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &888987306
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888987304}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bb1413ff714a636458093c8da55c8c57, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &888987307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8055,21 +8033,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888987304}
   m_CullTransparentMesh: 1
---- !u!111 &888987309
-Animation:
+--- !u!95 &888987309
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888987304}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 2367a011d5f5cb84e9c34b22d9b52bc2, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb1413ff714a636458093c8da55c8c57, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &914996998 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2519713890577506882, guid: fe39d77f8dfe4f241987f3f8af8cf97e, type: 3}

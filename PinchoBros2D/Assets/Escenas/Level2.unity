@@ -1102,7 +1102,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 2
 --- !u!222 &201755996
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2847,7 +2847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc60908629537b045ad26684fdb325a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controlJugador: {fileID: 0}
+  _controlJugador: {fileID: 764521764}
   gameManager: {fileID: 1558033367}
   PanelVidas0:
   - {fileID: 1515239750}
@@ -12258,7 +12258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _movimientoDelJugador: {fileID: 764521760}
   _controlJugador: {fileID: 764521764}
-  pinchoObj: {fileID: 0}
+  pinchoObj: {fileID: 764521759}
   _checkPoint: {fileID: 4536280170790284075}
   _controlCamara: {fileID: 1856605386}
   _controlMenu: {fileID: 1837997655}
@@ -14511,8 +14511,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_LookAt: {fileID: 764521766}
+  m_Follow: {fileID: 764521766}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 7
