@@ -55,9 +55,9 @@ public class ControlMenu : MonoBehaviour
     {
         ayuda.SetActive(false);
         HUD.SetActive(true);
-        _gameManager.enPausa = false;
-        _movimientoDelJugador.enabled = true;
+        _gameManager.CambiarPausa(false);
         _gameManager.inGame = true;
+        _movimientoDelJugador.enabled = true;
     }
 
     public void FinDelJuego()
@@ -69,12 +69,12 @@ public class ControlMenu : MonoBehaviour
     {
         if (_gameManager.enPausa == true)
         {
-            _gameManager.enPausa = false;
+            _gameManager.CambiarPausa(false);
             PanelPausa.SetActive(false);
         }
         else if (_gameManager.enPausa == false)
         {
-            _gameManager.enPausa = true;
+            _gameManager.CambiarPausa(true);
             PanelPausa.SetActive(true);
         }
     }

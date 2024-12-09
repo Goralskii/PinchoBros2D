@@ -28,15 +28,10 @@ public class MovimientoDelJugador : MonoBehaviour
 
     Gamepad gp = null;
 
-
-
-
-
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         gp = InputSystem.GetDevice<Gamepad>();
-
     }
 
     private void movALaDerecha()

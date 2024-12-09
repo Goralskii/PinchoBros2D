@@ -6,30 +6,27 @@ using UnityEngine.UI;
 
 public class GamePadUIControler : MonoBehaviour
 {
-    public class GamepadMenuController : MonoBehaviour
-    {
-        [Header("UI Buttons")]
-        [SerializeField] private Button pauseButton; // Asigna el botón de pausa
-        [SerializeField] private Button exitButton;  // Asigna el botón de salir
-        [SerializeField] private Button menuButton;  // Asigna el botón de menu
-        [SerializeField] private Button EmpezarNivel; // Asigna el botón de Empezar NIvel
+    [Header("UI Buttons")]
+    public Button pauseButton; // Asigna el botón de pausa HUD
+    public Button exitButton;  // Asigna el botón de salir HUD
+    public Button menuButton;  // Asigna el botón de menu HUD
+    public Button EmpezarNivel; // Asigna el botón de Empezar NIvel
 
+    [Header("Input Action Asset")]
+    [SerializeField] private InputActionAsset inputActions; // Asigna el archivo de acciones
 
-        [Header("Input Action Asset")]
-        [SerializeField] private InputActionAsset inputActions; // Asigna el archivo de acciones
-
-        private InputAction pauseAction;
-        private InputAction exitAction;
-        private InputAction menuAction;
-        private InputAction EmpezarAction;
+    private InputAction pauseAction;
+    private InputAction exitAction;
+    private InputAction menuAction;
+    private InputAction EmpezarAction;
 
         private void OnEnable()
         {
             // Obtener las acciones desde el archivo de acciones
             pauseAction = inputActions.FindAction("Pausa");
             exitAction = inputActions.FindAction("Salir");
-            menuAction = inputActions.FindAction("Menu");
-            EmpezarAction = inputActions.FindAction("EmpezarNivel");
+            menuAction = inputActions.FindAction("VolverAlMenu");
+            EmpezarAction = inputActions.FindAction("MenuAyuda");
 
             // Vincular los callbacks
             pauseAction.performed += OnPausePressed;
@@ -56,6 +53,7 @@ public class GamePadUIControler : MonoBehaviour
             exitAction.Disable();
             menuAction.Disable();
             EmpezarAction.Disable();
+
         }
 
         private void OnPausePressed(InputAction.CallbackContext context)
@@ -80,7 +78,6 @@ public class GamePadUIControler : MonoBehaviour
             SimulateButtonClick(EmpezarNivel);
         }
 
-
     private void SimulateButtonClick(Button button)
     {
         if (button != null)
@@ -92,6 +89,4 @@ public class GamePadUIControler : MonoBehaviour
             Debug.LogWarning("No se asignó un botón para esta acción.");
         }
     }
-}
-
 }

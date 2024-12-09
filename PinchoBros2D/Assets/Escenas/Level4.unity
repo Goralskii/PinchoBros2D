@@ -16288,6 +16288,7 @@ GameObject:
   - component: {fileID: 2078904556}
   - component: {fileID: 2078904555}
   - component: {fileID: 2078904554}
+  - component: {fileID: 2078904558}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -16408,6 +16409,23 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &2078904558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078904552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a52e60faa8b08d49b4709f2bfc0b6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseButton: {fileID: 637540465}
+  exitButton: {fileID: 1647123255}
+  menuButton: {fileID: 1228295634}
+  EmpezarNivel: {fileID: 1974545563}
+  inputActions: {fileID: -944628639613478452, guid: 6f926b20d9b1a754ead49011d7402698, type: 3}
 --- !u!1 &2106668765
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public ControlMenu _controlMenu;
     public HUDManager _hudManager;
     [Header("Estados")]
-    public bool enPausa = true;
+    public bool enPausa = false;
     public bool inGame = false;
     [Header("Variables GLOBALES")]
     public float tiempo = 90f; // El valor inicial de la cuenta regresiva (300 segundos o cualquier valor deseado)
@@ -29,41 +29,32 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        CambiarPausa(true);
+
         if (SceneManager.GetActiveScene().buildIndex > 0)
         {
             _controlMenu.HUD.SetActive(true);
-            _controlMenu._gameManager.enPausa = false;
             _movimientoDelJugador.enabled = true;
             inGame = true;
+            CambiarPausa(false);
         }
     }
-    void Update()
+    void FixedUpdate()
     {
         //verifica si ya comenzo el juego y empieza a correr el tiempo
 
-        if (inGame)
+        if (tiempo <= 0.500f)
         {
-            if (tiempo <= 0.500f)
-            {
-                Debug.LogWarning("TIEMPO CERO");
-                activarPanelFinJuego();
-            }
-            else
-            {
-                tiempo -= Time.deltaTime;
-                
-                _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
-            }
-        }
-
-        if (enPausa == true)
-        {
-            Time.timeScale = 0f;
+            Debug.LogWarning("TIEMPO CERO");
+            activarPanelFinJuego();
         }
         else
         {
-            Time.timeScale = 1f;
+            tiempo -= Time.deltaTime;
+
+            _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
         }
+
 
         // Verifica si el personaje está fuera del mapa
         if (_controlJugador.FueraDeMapa)
@@ -81,6 +72,13 @@ public class GameManager : MonoBehaviour
             StartCoroutine(DelayAfterLevelCompleted());  
         }
     }
+
+    public void CambiarPausa(bool estado)
+    {
+        enPausa = estado;
+        Time.timeScale = enPausa ? 0f : 1f;
+    }
+
     private void activarPanelFinJuego()
     {
         _controlMenu.FinDelJuego();
@@ -127,7 +125,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Iniciando cuenta regresiva de 5 segundos...");
         yield return new WaitForSeconds(5f);
 
-        ReloadScene();
+        SceneManager.LoadScene("level1");
     }
 
     public void CalcularPuntajeFinal()
@@ -145,13 +143,13 @@ public class GameManager : MonoBehaviour
             CalcularPuntajeFinal();
             _controlMenu.pasarEstadisticasDeNivel();
             _controlMenu.nivelCompletado.SetActive(true);
+            _movimientoDelJugador.enabled = false;
         }
 
         _checkPoint.nivelCompletado = false;
         inGame = false;
 
     }
-
     public void siguienteNivel()
     {
        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
