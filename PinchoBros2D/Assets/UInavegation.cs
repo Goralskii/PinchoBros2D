@@ -28,24 +28,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
             ""id"": ""894c5e0c-3216-4504-bdf3-45b443b65d58"",
             ""actions"": [
                 {
-                    ""name"": ""MenuPrincipal"",
-                    ""type"": ""Button"",
-                    ""id"": ""9c68bb84-bb0e-4f15-8d44-5917bc0ee736"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""MenuAyuda"",
-                    ""type"": ""Button"",
-                    ""id"": ""01d97b8b-7ea3-46f9-802a-2fc972cd32f4"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""Pausa"",
                     ""type"": ""Button"",
                     ""id"": ""fba4f197-c355-472d-b797-254fabb025d6"",
@@ -76,28 +58,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""578f1bad-c31c-44d2-9d40-e48c1838f013"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MenuPrincipal"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""99d52d0d-920c-4054-aaec-740147e2c86f"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MenuAyuda"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""fb67f3b5-f150-455d-8d1d-d1d991b61122"",
                     ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
@@ -110,7 +70,7 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a7b3611f-ff86-46c9-a946-b94cf086c9be"",
-                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""path"": ""<Gamepad>/select"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -121,7 +81,7 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""fa71607f-3e66-4231-aaa9-144691cbf596"",
-                    ""path"": ""<Gamepad>/select"",
+                    ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -136,8 +96,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
 }");
         // MenuNavegation
         m_MenuNavegation = asset.FindActionMap("MenuNavegation", throwIfNotFound: true);
-        m_MenuNavegation_MenuPrincipal = m_MenuNavegation.FindAction("MenuPrincipal", throwIfNotFound: true);
-        m_MenuNavegation_MenuAyuda = m_MenuNavegation.FindAction("MenuAyuda", throwIfNotFound: true);
         m_MenuNavegation_Pausa = m_MenuNavegation.FindAction("Pausa", throwIfNotFound: true);
         m_MenuNavegation_Salir = m_MenuNavegation.FindAction("Salir", throwIfNotFound: true);
         m_MenuNavegation_VolverAlMenu = m_MenuNavegation.FindAction("VolverAlMenu", throwIfNotFound: true);
@@ -202,8 +160,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
     // MenuNavegation
     private readonly InputActionMap m_MenuNavegation;
     private List<IMenuNavegationActions> m_MenuNavegationActionsCallbackInterfaces = new List<IMenuNavegationActions>();
-    private readonly InputAction m_MenuNavegation_MenuPrincipal;
-    private readonly InputAction m_MenuNavegation_MenuAyuda;
     private readonly InputAction m_MenuNavegation_Pausa;
     private readonly InputAction m_MenuNavegation_Salir;
     private readonly InputAction m_MenuNavegation_VolverAlMenu;
@@ -211,8 +167,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
     {
         private @UInavegation m_Wrapper;
         public MenuNavegationActions(@UInavegation wrapper) { m_Wrapper = wrapper; }
-        public InputAction @MenuPrincipal => m_Wrapper.m_MenuNavegation_MenuPrincipal;
-        public InputAction @MenuAyuda => m_Wrapper.m_MenuNavegation_MenuAyuda;
         public InputAction @Pausa => m_Wrapper.m_MenuNavegation_Pausa;
         public InputAction @Salir => m_Wrapper.m_MenuNavegation_Salir;
         public InputAction @VolverAlMenu => m_Wrapper.m_MenuNavegation_VolverAlMenu;
@@ -225,12 +179,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_MenuNavegationActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_MenuNavegationActionsCallbackInterfaces.Add(instance);
-            @MenuPrincipal.started += instance.OnMenuPrincipal;
-            @MenuPrincipal.performed += instance.OnMenuPrincipal;
-            @MenuPrincipal.canceled += instance.OnMenuPrincipal;
-            @MenuAyuda.started += instance.OnMenuAyuda;
-            @MenuAyuda.performed += instance.OnMenuAyuda;
-            @MenuAyuda.canceled += instance.OnMenuAyuda;
             @Pausa.started += instance.OnPausa;
             @Pausa.performed += instance.OnPausa;
             @Pausa.canceled += instance.OnPausa;
@@ -244,12 +192,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
 
         private void UnregisterCallbacks(IMenuNavegationActions instance)
         {
-            @MenuPrincipal.started -= instance.OnMenuPrincipal;
-            @MenuPrincipal.performed -= instance.OnMenuPrincipal;
-            @MenuPrincipal.canceled -= instance.OnMenuPrincipal;
-            @MenuAyuda.started -= instance.OnMenuAyuda;
-            @MenuAyuda.performed -= instance.OnMenuAyuda;
-            @MenuAyuda.canceled -= instance.OnMenuAyuda;
             @Pausa.started -= instance.OnPausa;
             @Pausa.performed -= instance.OnPausa;
             @Pausa.canceled -= instance.OnPausa;
@@ -278,8 +220,6 @@ public partial class @UInavegation: IInputActionCollection2, IDisposable
     public MenuNavegationActions @MenuNavegation => new MenuNavegationActions(this);
     public interface IMenuNavegationActions
     {
-        void OnMenuPrincipal(InputAction.CallbackContext context);
-        void OnMenuAyuda(InputAction.CallbackContext context);
         void OnPausa(InputAction.CallbackContext context);
         void OnSalir(InputAction.CallbackContext context);
         void OnVolverAlMenu(InputAction.CallbackContext context);

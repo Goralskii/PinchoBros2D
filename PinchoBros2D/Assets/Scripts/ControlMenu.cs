@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
 
 
 public class ControlMenu : MonoBehaviour
@@ -20,6 +22,9 @@ public class ControlMenu : MonoBehaviour
     public GameObject PanelPausa;
     public GameObject nivelCompletado;
     public GameObject ayuda;
+    [Header("BOTONES")]
+    public GameObject botonIniciarNivel;
+   
     [Header("Variables Texto Score")]
     public Text puntajeDeNivel;
     public Text gotasExtras;
@@ -49,6 +54,8 @@ public class ControlMenu : MonoBehaviour
     {
         MenuPrincipal.SetActive(false);
         ayuda.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(botonIniciarNivel);
     }
 
     public void EmpezarNivel()

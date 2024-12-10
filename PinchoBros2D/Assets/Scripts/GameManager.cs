@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.HID;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
     [Header("Canvas")]
     public ControlMenu _controlMenu;
     public HUDManager _hudManager;
+    public GameObject botonSiguienteNievel;
     [Header("Estados")]
     public bool enPausa = false;
     public bool inGame = false;
@@ -39,20 +41,28 @@ public class GameManager : MonoBehaviour
             CambiarPausa(false);
         }
     }
+
+    public void CambiarInGame(bool estado)
+    {
+        inGame = estado;
+    }
     void FixedUpdate()
     {
         //verifica si ya comenzo el juego y empieza a correr el tiempo
 
-        if (tiempo <= 0.500f)
+        if (inGame)
         {
-            Debug.LogWarning("TIEMPO CERO");
-            activarPanelFinJuego();
-        }
-        else
-        {
-            tiempo -= Time.deltaTime;
+            if (tiempo <= 0.500f)
+            {
+                Debug.LogWarning("TIEMPO CERO");
+                activarPanelFinJuego();
+            }
+            else
+            {
+                tiempo -= Time.deltaTime;
 
-            _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
+                _hudManager.Tiempo.text = Mathf.FloorToInt(tiempo).ToString();
+            }
         }
 
 
@@ -142,6 +152,7 @@ public class GameManager : MonoBehaviour
         {
             CalcularPuntajeFinal();
             _controlMenu.pasarEstadisticasDeNivel();
+            SetearBotonSigNivel();
             _controlMenu.nivelCompletado.SetActive(true);
             _movimientoDelJugador.enabled = false;
         }
@@ -152,6 +163,12 @@ public class GameManager : MonoBehaviour
     }
     public void siguienteNivel()
     {
-       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+    }
+
+    public void SetearBotonSigNivel()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(botonSiguienteNievel);
     }
 }

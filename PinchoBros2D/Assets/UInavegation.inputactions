@@ -6,24 +6,6 @@
             "id": "894c5e0c-3216-4504-bdf3-45b443b65d58",
             "actions": [
                 {
-                    "name": "MenuPrincipal",
-                    "type": "Button",
-                    "id": "9c68bb84-bb0e-4f15-8d44-5917bc0ee736",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "MenuAyuda",
-                    "type": "Button",
-                    "id": "01d97b8b-7ea3-46f9-802a-2fc972cd32f4",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Pausa",
                     "type": "Button",
                     "id": "fba4f197-c355-472d-b797-254fabb025d6",
@@ -54,28 +36,6 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "578f1bad-c31c-44d2-9d40-e48c1838f013",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MenuPrincipal",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "99d52d0d-920c-4054-aaec-740147e2c86f",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MenuAyuda",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "fb67f3b5-f150-455d-8d1d-d1d991b61122",
                     "path": "<Gamepad>/start",
                     "interactions": "",
@@ -88,7 +48,7 @@
                 {
                     "name": "",
                     "id": "a7b3611f-ff86-46c9-a946-b94cf086c9be",
-                    "path": "<Gamepad>/buttonNorth",
+                    "path": "<Gamepad>/select",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -99,7 +59,7 @@
                 {
                     "name": "",
                     "id": "fa71607f-3e66-4231-aaa9-144691cbf596",
-                    "path": "<Gamepad>/select",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

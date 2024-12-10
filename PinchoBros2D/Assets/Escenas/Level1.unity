@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.00000047683716, y: 25.351929}
+  m_AnchoredPosition: {x: -0, y: 25.351929}
   m_SizeDelta: {x: 43.8322, y: 50.7038}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &10945593
@@ -205,10 +205,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 254951395}
-        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
-        m_MethodName: EmpezarNivel
-        m_Mode: 1
+      - m_Target: {fileID: 1701584110}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -216,6 +216,54 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 152999372}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 453983638}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: CambiarPausa
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 453983638}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: CambiarInGame
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 804349735}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &10945594
 MonoBehaviour:
@@ -3487,6 +3535,7 @@ MonoBehaviour:
   PanelPausa: {fileID: 879287351}
   nivelCompletado: {fileID: 651966368}
   ayuda: {fileID: 1701584110}
+  botonIniciarNivel: {fileID: 10945591}
   puntajeDeNivel: {fileID: 316682686}
   gotasExtras: {fileID: 1825266791}
   focosIncendiosApagados: {fileID: 1879324118}
@@ -3547,7 +3596,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3593,7 +3642,8 @@ MonoBehaviour:
   pauseButton: {fileID: 1597708955}
   exitButton: {fileID: 89153200}
   menuButton: {fileID: 249847183}
-  EmpezarNivel: {fileID: 10945593}
+  salirDelJuego: {fileID: 1719193783}
+  recargarEscena: {fileID: 2027276955}
   inputActions: {fileID: -944628639613478452, guid: 6f926b20d9b1a754ead49011d7402698, type: 3}
 --- !u!1001 &260492580
 PrefabInstance:
@@ -4201,7 +4251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: -1
+    m_Mode: 3
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 10945593}
     m_SelectOnDown: {fileID: 10945593}
@@ -4582,6 +4632,7 @@ MonoBehaviour:
   _controlCamara: {fileID: 963194231}
   _controlMenu: {fileID: 254951395}
   _hudManager: {fileID: 152999376}
+  botonSiguienteNievel: {fileID: 1313285599}
   enPausa: 1
   inGame: 0
   tiempo: 90
@@ -11663,7 +11714,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 10945592}
   - {fileID: 644493656}
   - {fileID: 1495938058}
   - {fileID: 1360191568}
@@ -11679,6 +11729,7 @@ RectTransform:
   - {fileID: 749161116}
   - {fileID: 888987305}
   - {fileID: 1731889935}
+  - {fileID: 10945592}
   m_Father: {fileID: 254951399}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

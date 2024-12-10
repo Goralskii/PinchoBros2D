@@ -6,11 +6,15 @@ using UnityEngine.UI;
 
 public class GamePadUIControler : MonoBehaviour
 {
-    [Header("UI Buttons")]
+    [Header("Botones HUD")]
     public Button pauseButton; // Asigna el botón de pausa HUD
     public Button exitButton;  // Asigna el botón de salir HUD
     public Button menuButton;  // Asigna el botón de menu HUD
-    public Button EmpezarNivel; // Asigna el botón de Empezar NIvel
+    [Header("Botones Panel Nivel Completado")]
+    public Button salirDelJuego;
+    public Button recargarEscena;
+
+
 
     [Header("Input Action Asset")]
     [SerializeField] private InputActionAsset inputActions; // Asigna el archivo de acciones
@@ -18,7 +22,6 @@ public class GamePadUIControler : MonoBehaviour
     private InputAction pauseAction;
     private InputAction exitAction;
     private InputAction menuAction;
-    private InputAction EmpezarAction;
 
         private void OnEnable()
         {
@@ -26,19 +29,19 @@ public class GamePadUIControler : MonoBehaviour
             pauseAction = inputActions.FindAction("Pausa");
             exitAction = inputActions.FindAction("Salir");
             menuAction = inputActions.FindAction("VolverAlMenu");
-            EmpezarAction = inputActions.FindAction("MenuAyuda");
 
             // Vincular los callbacks
             pauseAction.performed += OnPausePressed;
             exitAction.performed += OnExitPressed;
+            exitAction.performed += SalirDelJuegoPressed;
             menuAction.performed += OnMenuPressed;
-            EmpezarAction.performed += OnEmpNivel;
+            menuAction.performed += RecargarEscenaPressed;
+            
 
             // Activar las acciones
             pauseAction.Enable();
             exitAction.Enable();
             menuAction.Enable();
-            EmpezarAction.Enable();
         }
 
         private void OnDisable()
@@ -46,13 +49,14 @@ public class GamePadUIControler : MonoBehaviour
             // Desvincular los callbacks y desactivar las acciones
             pauseAction.performed -= OnPausePressed;
             exitAction.performed -= OnExitPressed;
+            exitAction.performed -= SalirDelJuegoPressed;
             menuAction.performed -= OnMenuPressed;
-            EmpezarAction.performed -= OnEmpNivel;
+            menuAction.performed -= RecargarEscenaPressed;
+
 
             pauseAction.Disable();
             exitAction.Disable();
             menuAction.Disable();
-            EmpezarAction.Disable();
 
         }
 
@@ -72,11 +76,16 @@ public class GamePadUIControler : MonoBehaviour
         {
             SimulateButtonClick(menuButton);
         }
-
-        private void OnEmpNivel(InputAction.CallbackContext context)
+        private void SalirDelJuegoPressed(InputAction.CallbackContext context)
         {
-            SimulateButtonClick(EmpezarNivel);
+            SimulateButtonClick(salirDelJuego);
         }
+
+        private void RecargarEscenaPressed(InputAction.CallbackContext context)
+        {
+            SimulateButtonClick(recargarEscena);
+        }
+
 
     private void SimulateButtonClick(Button button)
     {
