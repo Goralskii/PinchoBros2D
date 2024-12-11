@@ -99,6 +99,10 @@ public class MovimientoDelJugador : MonoBehaviour
         {
             saltar();
         }
+        else
+        {
+            SaltoTeclado();
+        }
     }
 
     private void movTeclado()
@@ -135,8 +139,9 @@ public class MovimientoDelJugador : MonoBehaviour
             animator.SetBool("enSuelo", true);
             // Movimiento cuando está en el suelo
             rb2D.velocity = new Vector2(Input.GetAxis("Horizontal") * runSpeed, rb2D.velocity.y);
-            saltoGP();
             SaltoTeclado();
+            saltoGP();
+            
         }
         else
         {
