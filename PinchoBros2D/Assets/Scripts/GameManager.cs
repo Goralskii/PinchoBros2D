@@ -33,13 +33,6 @@ public class GameManager : MonoBehaviour
     {
         CambiarPausa(true);
 
-        if (SceneManager.GetActiveScene().buildIndex > 0)
-        {
-            _controlMenu.HUD.SetActive(true);
-            _movimientoDelJugador.enabled = true;
-            inGame = true;
-            CambiarPausa(false);
-        }
     }
 
     public void CambiarInGame(bool estado)

@@ -26,12 +26,12 @@ public class MovimientoDelJugador : MonoBehaviour
     private float currentSpeed = 0f;
     private float gamePadAxis;
 
-    Gamepad gp = null;
+    public Gamepad gp = null;
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        gp = InputSystem.GetDevice<Gamepad>();
+        gp = InputSystem.GetDevice<Gamepad>(); //Averiguar como detectar cuando se desconecta y conecta un gamepad, y actualizar el estado de la variable
     }
 
     private void movALaDerecha()
@@ -95,13 +95,10 @@ public class MovimientoDelJugador : MonoBehaviour
 
     private void saltoGP()
     {
-        if (gp.buttonSouth.ReadValue() > 0)
+        if (gp.buttonSouth.isPressed)
         {
+            Debug.Log("X apretada");
             saltar();
-        }
-        else
-        {
-            SaltoTeclado();
         }
     }
 
@@ -139,9 +136,15 @@ public class MovimientoDelJugador : MonoBehaviour
             animator.SetBool("enSuelo", true);
             // Movimiento cuando está en el suelo
             rb2D.velocity = new Vector2(Input.GetAxis("Horizontal") * runSpeed, rb2D.velocity.y);
-            SaltoTeclado();
-            saltoGP();
             
+            if (gp != null)
+            {
+                saltoGP();
+
+            } else
+            {
+                SaltoTeclado();
+            }
         }
         else
         {
